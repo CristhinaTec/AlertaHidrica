@@ -1,0 +1,5 @@
+nriesgo_in,distritos,poblacion,pobreza_media,eess_expuestos,origen
+Alto,21,333465,30.738095238095237,136,real_cenepred
+Bajo,6,35406,51.21666666666667,0,real_cenepred
+Medio,11,130356,48.190909090909095,11,real_cenepred
+Muy alto,27,1357582,28.692592592592593,812,real_cenepred

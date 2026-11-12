@@ -1,0 +1,7 @@
+id_lugar,nombre,amenity=school,waterway=canal,amenity=clinic,man_made=water_tower,waterway=stream,amenity=hospital,amenity=doctors,man_made=storage_tank,man_made=wastewater_plant,man_made=water_works,waterway=river,man_made=reservoir_covered,origen
+GRAU-01,Piura,341,57.0,49,37,29.0,13,5.0,5,2.0,1.0,1.0,0.0,real_osm (completitud OSM desconocida)
+GRAU-02,Castilla,324,42.0,47,34,14.0,12,5.0,4,2.0,1.0,1.0,0.0,real_osm (completitud OSM desconocida)
+GRAU-05,Veintiséis de Octubre,315,70.0,47,31,25.0,12,5.0,5,1.0,1.0,0.0,0.0,real_osm (completitud OSM desconocida)
+GRAU-06,Sullana,122,29.0,12,9,1.0,6,4.0,3,0.0,2.0,2.0,0.0,real_osm (completitud OSM desconocida)
+GRAU-27,Paita,31,0.0,3,1,0.0,3,0.0,8,2.0,0.0,0.0,1.0,real_osm (completitud OSM desconocida)
+GRAU-03,Talara,74,0.0,4,1,17.0,2,1.0,110,0.0,0.0,2.0,0.0,real_osm (completitud OSM desconocida)

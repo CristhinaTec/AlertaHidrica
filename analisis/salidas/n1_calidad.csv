@@ -1,0 +1,5 @@
+dataset,pandera,detalle
+lluvia ERA5,OK,
+caudal GloFAS>=1997,OK,
+nino12 anom,OK,
+CENEPRED,OK,

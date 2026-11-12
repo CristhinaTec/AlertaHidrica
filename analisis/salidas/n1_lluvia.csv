@@ -1,0 +1,7 @@
+id_lugar,n,nulos,media_diaria,p95,max,dias_ge20mm,anual_mediana_mm,anual_2017_mm,anual_2023_mm,nombre,origen
+GRAU-01,9497,0,0.68,3.4,130.6,48,177.8,1197.9,787.8,Piura,real_era5
+GRAU-02,9497,0,0.76,3.82,130.6,62,220.9,1197.9,787.8,Castilla,real_era5
+GRAU-03,9497,0,0.36,1.6,70.9,24,103.9,630.3,526.9,Talara,real_era5
+GRAU-05,9497,0,0.68,3.4,130.6,48,177.8,1197.9,787.8,Veintiséis de Octubre,real_era5
+GRAU-06,9497,0,0.78,3.5,105.3,71,201.25,1311.9,968.5,Sullana,real_era5
+GRAU-27,9497,0,0.37,1.7,70.1,20,101.7,666.6,462.3,Paita,real_era5

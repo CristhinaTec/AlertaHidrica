@@ -1,0 +1,2 @@
+count,mean,std,min,25%,50%,75%,max,semanas_gt1,semanas_gt2,ultima_fecha,ultima_anom,semanas_negativas,origen
+2358.0,0.0346055979643766,1.1870457947348407,-2.5,-0.8,-0.2,0.6,5.6,339,167,2026-11-04 00:00:00,5.6,1312,real_noaa

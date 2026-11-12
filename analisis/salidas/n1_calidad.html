@@ -1,0 +1,361 @@
+<html><meta charset='utf-8'><title>Calidad N1</title><body style='font-family:sans-serif;max-width:1000px;margin:auto'>
+<h1>Nivel 1 — Calidad de datos REALES</h1>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>dataset</th>
+      <th>pandera</th>
+      <th>detalle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>lluvia ERA5</td>
+      <td>OK</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>caudal GloFAS&gt;=1997</td>
+      <td>OK</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>nino12 anom</td>
+      <td>OK</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CENEPRED</td>
+      <td>OK</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+<h2>Notas</h2><ul>
+<li>Huecos de fecha en lluvia ERA5 por localidad: {'GRAU-01': 0, 'GRAU-02': 0, 'GRAU-03': 0, 'GRAU-05': 0, 'GRAU-06': 0, 'GRAU-27': 0}</li>
+<li>Series ERA5 idénticas (misma celda ~25 km): [('GRAU-01', 'GRAU-05')]</li>
+<li>Niño 1+2: 2358 semanas, 1312 anomalías negativas (bug conocido del recolector: sesgo cálido)</li>
+<li>GloFAS 1984-1996 nulo: se usa desde 1997. Talara (GRAU-03) sin ubigeo CENEPRED.</li>
+<li>ydata-profiling no instalado: informe propio (pip install ydata-profiling para el perfil completo).</li>
+</ul><h2>Lluvia ERA5</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>id_lugar</th>
+      <th>n</th>
+      <th>nulos</th>
+      <th>media_diaria</th>
+      <th>p95</th>
+      <th>max</th>
+      <th>dias_ge20mm</th>
+      <th>anual_mediana_mm</th>
+      <th>anual_2017_mm</th>
+      <th>anual_2023_mm</th>
+      <th>nombre</th>
+      <th>origen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GRAU-01</td>
+      <td>9497</td>
+      <td>0</td>
+      <td>0.7</td>
+      <td>3.4</td>
+      <td>130.6</td>
+      <td>48</td>
+      <td>177.8</td>
+      <td>1197.9</td>
+      <td>787.8</td>
+      <td>Piura</td>
+      <td>real_era5</td>
+    </tr>
+    <tr>
+      <td>GRAU-02</td>
+      <td>9497</td>
+      <td>0</td>
+      <td>0.8</td>
+      <td>3.8</td>
+      <td>130.6</td>
+      <td>62</td>
+      <td>220.9</td>
+      <td>1197.9</td>
+      <td>787.8</td>
+      <td>Castilla</td>
+      <td>real_era5</td>
+    </tr>
+    <tr>
+      <td>GRAU-03</td>
+      <td>9497</td>
+      <td>0</td>
+      <td>0.4</td>
+      <td>1.6</td>
+      <td>70.9</td>
+      <td>24</td>
+      <td>103.9</td>
+      <td>630.3</td>
+      <td>526.9</td>
+      <td>Talara</td>
+      <td>real_era5</td>
+    </tr>
+    <tr>
+      <td>GRAU-05</td>
+      <td>9497</td>
+      <td>0</td>
+      <td>0.7</td>
+      <td>3.4</td>
+      <td>130.6</td>
+      <td>48</td>
+      <td>177.8</td>
+      <td>1197.9</td>
+      <td>787.8</td>
+      <td>Veintiséis de Octubre</td>
+      <td>real_era5</td>
+    </tr>
+    <tr>
+      <td>GRAU-06</td>
+      <td>9497</td>
+      <td>0</td>
+      <td>0.8</td>
+      <td>3.5</td>
+      <td>105.3</td>
+      <td>71</td>
+      <td>201.2</td>
+      <td>1311.9</td>
+      <td>968.5</td>
+      <td>Sullana</td>
+      <td>real_era5</td>
+    </tr>
+    <tr>
+      <td>GRAU-27</td>
+      <td>9497</td>
+      <td>0</td>
+      <td>0.4</td>
+      <td>1.7</td>
+      <td>70.1</td>
+      <td>20</td>
+      <td>101.7</td>
+      <td>666.6</td>
+      <td>462.3</td>
+      <td>Paita</td>
+      <td>real_era5</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Caudal GloFAS (1997-2025)</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>id_lugar</th>
+      <th>count</th>
+      <th>mean</th>
+      <th>std</th>
+      <th>min</th>
+      <th>50%</th>
+      <th>90%</th>
+      <th>99%</th>
+      <th>max</th>
+      <th>origen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>rio_chira</td>
+      <td>10592.0</td>
+      <td>377.5</td>
+      <td>515.2</td>
+      <td>37.5</td>
+      <td>143.0</td>
+      <td>902.6</td>
+      <td>2525.1</td>
+      <td>5199.0</td>
+      <td>real_glofas (crudo, sin factor 1.35)</td>
+    </tr>
+    <tr>
+      <td>rio_piura</td>
+      <td>10592.0</td>
+      <td>102.3</td>
+      <td>239.9</td>
+      <td>0.0</td>
+      <td>35.4</td>
+      <td>228.0</td>
+      <td>1155.6</td>
+      <td>4569.9</td>
+      <td>real_glofas (crudo, sin factor 1.35)</td>
+    </tr>
+  </tbody>
+</table>
+<h2>CENEPRED: población por nivel de riesgo (inundación)</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>nriesgo_in</th>
+      <th>distritos</th>
+      <th>poblacion</th>
+      <th>pobreza_media</th>
+      <th>eess_expuestos</th>
+      <th>origen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Alto</td>
+      <td>21</td>
+      <td>333465</td>
+      <td>30.74</td>
+      <td>136</td>
+      <td>real_cenepred</td>
+    </tr>
+    <tr>
+      <td>Bajo</td>
+      <td>6</td>
+      <td>35406</td>
+      <td>51.22</td>
+      <td>0</td>
+      <td>real_cenepred</td>
+    </tr>
+    <tr>
+      <td>Medio</td>
+      <td>11</td>
+      <td>130356</td>
+      <td>48.19</td>
+      <td>11</td>
+      <td>real_cenepred</td>
+    </tr>
+    <tr>
+      <td>Muy alto</td>
+      <td>27</td>
+      <td>1357582</td>
+      <td>28.69</td>
+      <td>812</td>
+      <td>real_cenepred</td>
+    </tr>
+  </tbody>
+</table>
+<h2>OSM a 8 km de cada localidad</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>id_lugar</th>
+      <th>nombre</th>
+      <th>amenity=school</th>
+      <th>waterway=canal</th>
+      <th>amenity=clinic</th>
+      <th>man_made=water_tower</th>
+      <th>waterway=stream</th>
+      <th>amenity=hospital</th>
+      <th>amenity=doctors</th>
+      <th>man_made=storage_tank</th>
+      <th>man_made=wastewater_plant</th>
+      <th>man_made=water_works</th>
+      <th>waterway=river</th>
+      <th>man_made=reservoir_covered</th>
+      <th>origen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GRAU-01</td>
+      <td>Piura</td>
+      <td>341</td>
+      <td>57.0</td>
+      <td>49</td>
+      <td>37</td>
+      <td>29.0</td>
+      <td>13</td>
+      <td>5.0</td>
+      <td>5</td>
+      <td>2.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>real_osm (completitud OSM desconocida)</td>
+    </tr>
+    <tr>
+      <td>GRAU-02</td>
+      <td>Castilla</td>
+      <td>324</td>
+      <td>42.0</td>
+      <td>47</td>
+      <td>34</td>
+      <td>14.0</td>
+      <td>12</td>
+      <td>5.0</td>
+      <td>4</td>
+      <td>2.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>real_osm (completitud OSM desconocida)</td>
+    </tr>
+    <tr>
+      <td>GRAU-05</td>
+      <td>Veintiséis de Octubre</td>
+      <td>315</td>
+      <td>70.0</td>
+      <td>47</td>
+      <td>31</td>
+      <td>25.0</td>
+      <td>12</td>
+      <td>5.0</td>
+      <td>5</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>real_osm (completitud OSM desconocida)</td>
+    </tr>
+    <tr>
+      <td>GRAU-06</td>
+      <td>Sullana</td>
+      <td>122</td>
+      <td>29.0</td>
+      <td>12</td>
+      <td>9</td>
+      <td>1.0</td>
+      <td>6</td>
+      <td>4.0</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>2.0</td>
+      <td>2.0</td>
+      <td>0.0</td>
+      <td>real_osm (completitud OSM desconocida)</td>
+    </tr>
+    <tr>
+      <td>GRAU-27</td>
+      <td>Paita</td>
+      <td>31</td>
+      <td>0.0</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>8</td>
+      <td>2.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>real_osm (completitud OSM desconocida)</td>
+    </tr>
+    <tr>
+      <td>GRAU-03</td>
+      <td>Talara</td>
+      <td>74</td>
+      <td>0.0</td>
+      <td>4</td>
+      <td>1</td>
+      <td>17.0</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>110</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>2.0</td>
+      <td>0.0</td>
+      <td>real_osm (completitud OSM desconocida)</td>
+    </tr>
+  </tbody>
+</table>
+</body></html>
