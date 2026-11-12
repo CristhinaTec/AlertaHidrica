@@ -1,45 +1,46 @@
-import { CalendarClock, Clock, MapPin, Thermometer, Users } from 'lucide-react'
 import type { ReactNode } from 'react'
-import { Card, CardContent } from '@/components/ui/card'
+import { InfoTip } from '@/components/InfoTip'
 import { useDatos } from '@/hooks/useDatos'
 import type { Pronostico, RiesgoGeo } from '@/lib/datos'
 import type { Nivel } from '@/lib/semaforo'
 
-function Kpi({ icon, label, value, detalle, origen }: { icon: ReactNode; label: string; value: string; detalle?: string; origen: string }) {
+function Kpi({ label, value, info }: { label: string; value: string; info: ReactNode }) {
   return (
-    <Card size="sm"><CardContent>
-      <div className="flex items-center gap-1.5 text-xs text-muted-foreground">{icon}{label}</div>
-      <div className="mt-1 text-2xl font-semibold tabular-nums text-brand-ink">{value}</div>
-      {detalle && <div className="text-xs text-muted-foreground">{detalle}</div>}
-      <div className="mt-1 text-[10px] font-semibold uppercase tracking-wide text-muted-foreground">{origen}</div>
-    </CardContent></Card>
+    <div className="rounded-xl border bg-card px-4 py-3">
+      <div className="text-3xl font-extrabold tabular-nums text-ink-navy">{value}</div>
+      <div className="flex items-center gap-1 text-sm text-ink-gris">{label}<InfoTip label={`Fuente de: ${label}`}>{info}</InfoTip></div>
+    </div>
   )
 }
 
-/** Indicadores clave de portada. `enRiesgo` viene del semáforo (simulado o demo). */
+/** 4 indicadores: número grande + etiqueta; fuente, fecha y origen en el tooltip. */
 export function KpiPortada({ enRiesgo, total, origenRiesgo }: { enRiesgo: number; total: number; origenRiesgo: string }) {
   const { datos: p } = useDatos<Pronostico>('pronostico.json')
   const { datos: g } = useDatos<RiesgoGeo>('riesgo_distritos.geojson')
   const nino = p?.nino.ultimas.at(-1)
-  let dias: string = '–', diasDet = ''
+  let dias = '–', diasDet = ''
   if (p) {
     const hoy = new Date(p.generado.slice(0, 10) + 'T12:00:00')
     const prox = p.localidades.flatMap((l) => l.dias.filter((d) => d.nivel !== ('verde' as Nivel)).map((d) => ({ d, l })))
       .sort((a, b) => a.d.fecha.localeCompare(b.d.fecha))[0]
     if (prox) {
-      const n = Math.round((new Date(prox.d.fecha + 'T12:00:00').getTime() - hoy.getTime()) / 864e5)
-      dias = `${n} días`; diasDet = `${prox.l.nombre}, ${prox.d.fecha}`
-    } else { dias = '> 15 días'; diasDet = 'Ningún río supera umbral en el pronóstico' }
+      dias = `${Math.round((new Date(prox.d.fecha + 'T12:00:00').getTime() - hoy.getTime()) / 864e5)} d`
+      diasDet = `${prox.l.nombre}, ${prox.d.fecha}.`
+    } else { dias = '> 15 d'; diasDet = 'Ningún río supera umbral en el pronóstico.' }
   }
-  const pobMA = g?.features.filter((f) => f.properties.nivel === 'Muy alto').reduce((a, f) => a + (f.properties.poblacion ?? 0), 0)
-  const nMA = g?.features.filter((f) => f.properties.nivel === 'Muy alto').length
+  const ma = g?.features.filter((f) => f.properties.nivel === 'Muy alto')
+  const pobMA = ma?.reduce((a, f) => a + (f.properties.poblacion ?? 0), 0)
+  const act = p ? new Date(p.generado).toLocaleString('es-PE', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }) : ''
   return (
-    <div className="grid grid-cols-2 gap-3 lg:grid-cols-5">
-      <Kpi icon={<Thermometer className="size-4" />} label="Mar frente a Piura (Niño 1+2)" value={nino ? `+${nino.nino12_anom} °C` : '–'} detalle={nino ? `Semana ${nino.semana}` : ''} origen="Real · NOAA" />
-      <Kpi icon={<CalendarClock className="size-4" />} label="Días al próximo umbral" value={dias} detalle={diasDet} origen="Real · GloFAS/ECMWF" />
-      <Kpi icon={<MapPin className="size-4" />} label="Localidades en riesgo" value={`${enRiesgo} de ${total}`} detalle="Atención o más" origen={origenRiesgo} />
-      <Kpi icon={<Users className="size-4" />} label="Personas en distritos de riesgo Muy alto" value={pobMA ? pobMA.toLocaleString('es-PE') : '–'} detalle={nMA ? `${nMA} distritos · censo 2017` : ''} origen="Real · CENEPRED" />
-      <Kpi icon={<Clock className="size-4" />} label="Última actualización" value={p ? new Date(p.generado).toLocaleDateString('es-PE', { day: 'numeric', month: 'short' }) : '–'} detalle={p ? new Date(p.generado).toLocaleTimeString('es-PE', { hour: '2-digit', minute: '2-digit' }) : ''} origen="Pronóstico" />
+    <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+      <Kpi label="Localidades en riesgo" value={`${enRiesgo}/${total}`}
+        info={<><strong>{origenRiesgo}.</strong> Nivel Atención o más, según horas de agua.</>} />
+      <Kpi label="Días al próximo umbral" value={dias}
+        info={<><strong>Real · GloFAS/ECMWF.</strong> {diasDet} Actualizado {act}.</>} />
+      <Kpi label="Mar frente a Piura" value={nino ? `+${nino.nino12_anom.toFixed(1).replace(".", ",")} °C` : '–'}
+        info={<><strong>Real · NOAA.</strong> Anomalía Niño 1+2, semana {nino?.semana}.</>} />
+      <Kpi label="Personas en riesgo muy alto" value={pobMA ? `${Math.round(pobMA / 1000).toLocaleString('es-PE')} mil` : '–'}
+        info={<><strong>Real · CENEPRED, censo 2017.</strong> {ma?.length ?? '–'} distritos con riesgo Muy alto.</>} />
     </div>
   )
 }
