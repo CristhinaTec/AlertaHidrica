@@ -1,0 +1,9 @@
+fecha_emision,id_lugar,variable,fuente,miembros,desde,hasta,max_valor,media_valor,registrado_en,origen
+2026-11-07,GRAU-01,lluvia,open_meteo_ensemble,51,2026-11-07,2026-11-21,47.0,2.77,2026-11-12T19:56:41+00:00,real_pronostico
+2026-11-07,GRAU-02,lluvia,open_meteo_ensemble,51,2026-11-07,2026-11-21,103.8,5.38,2026-11-12T19:56:41+00:00,real_pronostico
+2026-11-07,GRAU-03,lluvia,open_meteo_ensemble,51,2026-11-07,2026-11-21,118.4,5.43,2026-11-12T19:56:41+00:00,real_pronostico
+2026-11-07,GRAU-05,lluvia,open_meteo_ensemble,51,2026-11-07,2026-11-21,47.0,2.77,2026-11-12T19:56:41+00:00,real_pronostico
+2026-11-07,GRAU-06,lluvia,open_meteo_ensemble,51,2026-11-07,2026-11-21,100.2,4.99,2026-11-12T19:56:41+00:00,real_pronostico
+2026-11-07,GRAU-27,lluvia,open_meteo_ensemble,51,2026-11-07,2026-11-21,67.4,3.46,2026-11-12T19:56:41+00:00,real_pronostico
+2026-11-07,rio_chira,caudal,glofas_pronostico,51,2026-11-08,2026-11-22,2337.8,657.98,2026-11-12T19:56:41+00:00,real_pronostico
+2026-11-07,rio_piura,caudal,glofas_pronostico,51,2026-11-08,2026-11-22,538.5,183.45,2026-11-12T19:56:41+00:00,real_pronostico

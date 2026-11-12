@@ -1,0 +1,7 @@
+id_lugar,media_ref,media_2024_25,p95_ref,p95_2024_25,frac_dias_lluvia_ref,frac_dias_lluvia_2024_25,ks_stat,ks_p,deriva,origen,temporada
+GRAU-01,1.431,1.257,7.1,7.43,0.219,0.182,0.041,0.714,no,real_era5,ene-may
+GRAU-02,1.637,1.257,8.7,7.43,0.236,0.182,0.059,0.272,no,real_era5,ene-may
+GRAU-03,0.783,0.497,3.6,3.17,0.146,0.086,0.092,0.017,no,real_era5,ene-may
+GRAU-05,1.431,1.257,7.1,7.43,0.219,0.182,0.041,0.714,no,real_era5,ene-may
+GRAU-06,1.655,1.826,8.955,11.69,0.229,0.254,0.042,0.676,no,real_era5,ene-may
+GRAU-27,0.781,0.54,3.7,3.09,0.147,0.106,0.065,0.179,no,real_era5,ene-may

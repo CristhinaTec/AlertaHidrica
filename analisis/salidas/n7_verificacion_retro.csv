@@ -1,0 +1,7 @@
+rio,anio,fecha_pico,caudal_pico,umbral_tipo,primer_amarillo,anticipacion_dias_amarillo,dias_sobre_amarillo,primer_naranja,anticipacion_dias_naranja,dias_sobre_naranja,primer_rojo,anticipacion_dias_rojo,dias_sobre_rojo,origen
+piura,1998,1998-03-15,6169,SENAMHI (m³/s observados),1998-01-01,73,118,1998-01-07,67,86,1998-01-25,49.0,64,real_glofas_reanalisis (cota superior: pronostico perfecto)
+piura,2017,2017-03-10,3469,SENAMHI (m³/s observados),2017-03-05,5,34,2017-03-05,5,28,2017-03-06,4.0,15,real_glofas_reanalisis (cota superior: pronostico perfecto)
+piura,2023,2023-03-30,1625,SENAMHI (m³/s observados),2023-03-14,16,20,2023-03-30,0,7,,,0,real_glofas_reanalisis (cota superior: pronostico perfecto)
+chira,1998,1998-03-16,5199,Percentiles GloFAS 2000-2025,1998-01-01,74,86,1998-01-01,74,38,1998-02-08,36.0,17,real_glofas_reanalisis (cota superior: pronostico perfecto)
+chira,2017,2017-03-27,4908,Percentiles GloFAS 2000-2025,2017-01-08,78,69,2017-01-14,72,39,2017-01-16,70.0,15,real_glofas_reanalisis (cota superior: pronostico perfecto)
+chira,2023,2023-02-23,3054,Percentiles GloFAS 2000-2025,2023-01-22,32,54,2023-02-22,1,18,2023-02-23,0.0,4,real_glofas_reanalisis (cota superior: pronostico perfecto)
