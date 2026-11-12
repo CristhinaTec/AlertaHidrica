@@ -1,0 +1,152 @@
+{
+ "normal": {
+  "GRAU-01": {
+   "nivel": "verde",
+   "ruta": "Condiciones normales",
+   "autonomiaH": null,
+   "corte": 0,
+   "deficitH": 0,
+   "cisternas": 0
+  },
+  "GRAU-02": {
+   "nivel": "verde",
+   "ruta": "Condiciones normales",
+   "autonomiaH": null,
+   "corte": 0,
+   "deficitH": 0,
+   "cisternas": 0
+  },
+  "GRAU-05": {
+   "nivel": "verde",
+   "ruta": "Condiciones normales",
+   "autonomiaH": null,
+   "corte": 0,
+   "deficitH": 0,
+   "cisternas": 0
+  },
+  "GRAU-06": {
+   "nivel": "verde",
+   "ruta": "Condiciones normales",
+   "autonomiaH": null,
+   "corte": 0,
+   "deficitH": 0,
+   "cisternas": 0
+  },
+  "GRAU-27": {
+   "nivel": "verde",
+   "ruta": "Condiciones normales",
+   "autonomiaH": null,
+   "corte": 0,
+   "deficitH": 0,
+   "cisternas": 0
+  },
+  "GRAU-03": {
+   "nivel": "verde",
+   "ruta": "Condiciones normales",
+   "autonomiaH": null,
+   "corte": 0,
+   "deficitH": 0,
+   "cisternas": 0
+  }
+ },
+ "hoy": {
+  "GRAU-01": {
+   "nivel": "naranja",
+   "ruta": "Amenaza alta pronosticada",
+   "autonomiaH": 56.212,
+   "corte": 0,
+   "deficitH": 0,
+   "cisternas": 0
+  },
+  "GRAU-02": {
+   "nivel": "naranja",
+   "ruta": "Amenaza alta pronosticada",
+   "autonomiaH": 24.8499,
+   "corte": 0,
+   "deficitH": 0,
+   "cisternas": 0
+  },
+  "GRAU-05": {
+   "nivel": "naranja",
+   "ruta": "Amenaza alta pronosticada",
+   "autonomiaH": 28.5714,
+   "corte": 0,
+   "deficitH": 0,
+   "cisternas": 0
+  },
+  "GRAU-06": {
+   "nivel": "naranja",
+   "ruta": "Amenaza alta pronosticada",
+   "autonomiaH": null,
+   "corte": 0,
+   "deficitH": 0,
+   "cisternas": 0
+  },
+  "GRAU-27": {
+   "nivel": "naranja",
+   "ruta": "Amenaza alta pronosticada",
+   "autonomiaH": null,
+   "corte": 0,
+   "deficitH": 0,
+   "cisternas": 0
+  },
+  "GRAU-03": {
+   "nivel": "naranja",
+   "ruta": "Amenaza alta pronosticada",
+   "autonomiaH": null,
+   "corte": 0,
+   "deficitH": 0,
+   "cisternas": 0
+  }
+ },
+ "marzo2023": {
+  "GRAU-01": {
+   "nivel": "rojo",
+   "ruta": "Rojo inmediato: falla confirmada",
+   "autonomiaH": 12.9456,
+   "corte": 87,
+   "deficitH": 74.0544,
+   "cisternas": 290
+  },
+  "GRAU-02": {
+   "nivel": "rojo",
+   "ruta": "Rojo inmediato: falla confirmada",
+   "autonomiaH": 5.212,
+   "corte": 110,
+   "deficitH": 104.788,
+   "cisternas": 170
+  },
+  "GRAU-05": {
+   "nivel": "rojo",
+   "ruta": "Rojo inmediato: falla confirmada",
+   "autonomiaH": 19.0476,
+   "corte": 87,
+   "deficitH": 67.9524,
+   "cisternas": 121
+  },
+  "GRAU-06": {
+   "nivel": "rojo",
+   "ruta": "Rojo anticipado: menos de 24 h de agua",
+   "autonomiaH": 10.9976,
+   "corte": 87,
+   "deficitH": 76.0024,
+   "cisternas": 152
+  },
+  "GRAU-27": {
+   "nivel": "naranja",
+   "ruta": "Amenaza alta pronosticada",
+   "autonomiaH": null,
+   "corte": 87,
+   "deficitH": 0,
+   "cisternas": 0
+  },
+  "GRAU-03": {
+   "nivel": "naranja",
+   "ruta": "Amenaza alta pronosticada",
+   "autonomiaH": null,
+   "corte": 87,
+   "deficitH": 0,
+   "cisternas": 0
+  }
+ }
+}
