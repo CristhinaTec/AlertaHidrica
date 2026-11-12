@@ -1,0 +1,228 @@
+bloque,predictor,objetivo,desfase,unidad,rho,p,n
+ENSO->mensual,nino12_anom,lluvia_Piura (mensual),0,meses,0.10328511574108755,0.06846535178319302,312
+ENSO->mensual,nino12_anom,lluvia_Piura (mensual),1,meses,0.04372046107652154,0.4415813228956278,312
+ENSO->mensual,nino12_anom,lluvia_Piura (mensual),2,meses,-0.013929869549365754,0.806398480786972,312
+ENSO->mensual,nino12_anom,lluvia_Piura (mensual),3,meses,-0.038889816485484965,0.4937018639271121,312
+ENSO->mensual,nino12_anom,lluvia_Piura (mensual),4,meses,-0.06617907870700915,0.24379976279052315,312
+ENSO->mensual,nino12_anom,lluvia_Piura (mensual),5,meses,-0.06887409698708467,0.22508505572009774,312
+ENSO->mensual,nino12_anom,lluvia_Piura (mensual),6,meses,-0.04059788205572159,0.4749069962700738,312
+ENSO->mensual,nino12_anom,lluvia_Sullana (mensual),0,meses,0.09665152567320703,0.08831643294766824,312
+ENSO->mensual,nino12_anom,lluvia_Sullana (mensual),1,meses,0.04054104438399448,0.47552606303248124,312
+ENSO->mensual,nino12_anom,lluvia_Sullana (mensual),2,meses,-0.010668570838657073,0.8511169313787872,312
+ENSO->mensual,nino12_anom,lluvia_Sullana (mensual),3,meses,-0.04733824386815761,0.40469181927947456,312
+ENSO->mensual,nino12_anom,lluvia_Sullana (mensual),4,meses,-0.0728195002341079,0.19956576100126067,312
+ENSO->mensual,nino12_anom,lluvia_Sullana (mensual),5,meses,-0.06975200396971729,0.21921518011292906,312
+ENSO->mensual,nino12_anom,lluvia_Sullana (mensual),6,meses,-0.03612864133400612,0.5249033993580979,312
+ENSO->mensual,nino12_anom,caudal_piura_max (mensual),0,meses,0.18529689281316755,0.0005120610663547471,348
+ENSO->mensual,nino12_anom,caudal_piura_max (mensual),1,meses,0.17646426533783285,0.0009462612500312447,348
+ENSO->mensual,nino12_anom,caudal_piura_max (mensual),2,meses,0.14173462752320673,0.00809952982436455,348
+ENSO->mensual,nino12_anom,caudal_piura_max (mensual),3,meses,0.09793496045511692,0.06803595491429598,348
+ENSO->mensual,nino12_anom,caudal_piura_max (mensual),4,meses,0.07071526272769528,0.18814787682029077,348
+ENSO->mensual,nino12_anom,caudal_piura_max (mensual),5,meses,0.04514029306134397,0.40120027906801975,348
+ENSO->mensual,nino12_anom,caudal_piura_max (mensual),6,meses,0.024368384916940256,0.6505357460735112,348
+ENSO->mensual,nino12_anom,caudal_chira_max (mensual),0,meses,0.1288295069473557,0.016187286623463495,348
+ENSO->mensual,nino12_anom,caudal_chira_max (mensual),1,meses,0.09486768548670113,0.0771689061016767,348
+ENSO->mensual,nino12_anom,caudal_chira_max (mensual),2,meses,0.06156211907129101,0.25205128629027646,348
+ENSO->mensual,nino12_anom,caudal_chira_max (mensual),3,meses,0.028456013187042092,0.5967795908723212,348
+ENSO->mensual,nino12_anom,caudal_chira_max (mensual),4,meses,-0.0016615304274922628,0.9753620892234204,348
+ENSO->mensual,nino12_anom,caudal_chira_max (mensual),5,meses,-0.03106088799674281,0.5636098664162955,348
+ENSO->mensual,nino12_anom,caudal_chira_max (mensual),6,meses,-0.04222064064865958,0.4323760461756688,348
+ENSO->mensual,nino34_anom,lluvia_Piura (mensual),0,meses,-0.07860889936306607,0.16602771630574584,312
+ENSO->mensual,nino34_anom,lluvia_Piura (mensual),1,meses,-0.10633640312719154,0.06064722113538931,312
+ENSO->mensual,nino34_anom,lluvia_Piura (mensual),2,meses,-0.14008112972714137,0.01326339065801896,312
+ENSO->mensual,nino34_anom,lluvia_Piura (mensual),3,meses,-0.12264981999945919,0.03031762168066084,312
+ENSO->mensual,nino34_anom,lluvia_Piura (mensual),4,meses,-0.0839004568234235,0.1392372630049984,312
+ENSO->mensual,nino34_anom,lluvia_Piura (mensual),5,meses,-0.05313093846841529,0.3495958808087921,312
+ENSO->mensual,nino34_anom,lluvia_Piura (mensual),6,meses,0.0017929833526949353,0.9748362556894478,312
+ENSO->mensual,nino34_anom,lluvia_Sullana (mensual),0,meses,-0.08488017541693473,0.1346625519053851,312
+ENSO->mensual,nino34_anom,lluvia_Sullana (mensual),1,meses,-0.11206589631624013,0.047954965837559135,312
+ENSO->mensual,nino34_anom,lluvia_Sullana (mensual),2,meses,-0.13502493828371637,0.017015102373751416,312
+ENSO->mensual,nino34_anom,lluvia_Sullana (mensual),3,meses,-0.11022827008462416,0.05175865843010468,312
+ENSO->mensual,nino34_anom,lluvia_Sullana (mensual),4,meses,-0.0677851628954939,0.23252002207873707,312
+ENSO->mensual,nino34_anom,lluvia_Sullana (mensual),5,meses,-0.03478540722998102,0.5404372820153993,312
+ENSO->mensual,nino34_anom,lluvia_Sullana (mensual),6,meses,0.015151555967575218,0.7897995443894562,312
+ENSO->mensual,nino34_anom,caudal_piura_max (mensual),0,meses,0.002742968744554602,0.9593371453205577,348
+ENSO->mensual,nino34_anom,caudal_piura_max (mensual),1,meses,-0.04471580770909084,0.40564754241457307,348
+ENSO->mensual,nino34_anom,caudal_piura_max (mensual),2,meses,-0.08175966004371375,0.12794177308185342,348
+ENSO->mensual,nino34_anom,caudal_piura_max (mensual),3,meses,-0.08369795438740558,0.11911876317154302,348
+ENSO->mensual,nino34_anom,caudal_piura_max (mensual),4,meses,-0.06841099644890568,0.202985783875389,348
+ENSO->mensual,nino34_anom,caudal_piura_max (mensual),5,meses,-0.03550818245870828,0.5091116667074944,348
+ENSO->mensual,nino34_anom,caudal_piura_max (mensual),6,meses,-0.009963825953714108,0.8530654175762287,348
+ENSO->mensual,nino34_anom,caudal_chira_max (mensual),0,meses,0.002604304773079708,0.9613911141909638,348
+ENSO->mensual,nino34_anom,caudal_chira_max (mensual),1,meses,-0.036520062258660176,0.49710724102216475,348
+ENSO->mensual,nino34_anom,caudal_chira_max (mensual),2,meses,-0.0579305298057076,0.2811689473187492,348
+ENSO->mensual,nino34_anom,caudal_chira_max (mensual),3,meses,-0.057969681578980616,0.2808433809874469,348
+ENSO->mensual,nino34_anom,caudal_chira_max (mensual),4,meses,-0.02759338873159655,0.6079557487001882,348
+ENSO->mensual,nino34_anom,caudal_chira_max (mensual),5,meses,0.0038133829882481115,0.9434916310336444,348
+ENSO->mensual,nino34_anom,caudal_chira_max (mensual),6,meses,0.04556270142725567,0.39680383843927153,348
+ENSO->mensual,oni,lluvia_Piura (mensual),0,meses,-0.04344644275669472,0.44445135663664315,312
+ENSO->mensual,oni,lluvia_Piura (mensual),1,meses,-0.08641414583055722,0.12773320666948665,312
+ENSO->mensual,oni,lluvia_Piura (mensual),2,meses,-0.11160017720670452,0.048896125709689535,312
+ENSO->mensual,oni,lluvia_Piura (mensual),3,meses,-0.11700741615356326,0.038869330072242116,312
+ENSO->mensual,oni,lluvia_Piura (mensual),4,meses,-0.1022992650567563,0.07116091921852512,312
+ENSO->mensual,oni,lluvia_Piura (mensual),5,meses,-0.07655532625674728,0.17740469217667626,312
+ENSO->mensual,oni,lluvia_Piura (mensual),6,meses,-0.05308440246506657,0.35001870461111745,312
+ENSO->mensual,oni,lluvia_Sullana (mensual),0,meses,-0.05089816011409579,0.3702457804274084,312
+ENSO->mensual,oni,lluvia_Sullana (mensual),1,meses,-0.08746822802961222,0.1231338997203104,312
+ENSO->mensual,oni,lluvia_Sullana (mensual),2,meses,-0.10369961396935759,0.0673572295497732,312
+ENSO->mensual,oni,lluvia_Sullana (mensual),3,meses,-0.10272570579208451,0.06998448085674759,312
+ENSO->mensual,oni,lluvia_Sullana (mensual),4,meses,-0.08568394668165075,0.13099648779728892,312
+ENSO->mensual,oni,lluvia_Sullana (mensual),5,meses,-0.05762308329743201,0.31030394593344174,312
+ENSO->mensual,oni,lluvia_Sullana (mensual),6,meses,-0.03246927835544213,0.5677485414020296,312
+ENSO->mensual,oni,caudal_piura_max (mensual),0,meses,0.04607336410577578,0.3915276675023387,348
+ENSO->mensual,oni,caudal_piura_max (mensual),1,meses,0.0070476516451166045,0.8957746437642792,348
+ENSO->mensual,oni,caudal_piura_max (mensual),2,meses,-0.030007846863166637,0.5769121852254279,348
+ENSO->mensual,oni,caudal_piura_max (mensual),3,meses,-0.05222778804546012,0.3313220099972996,348
+ENSO->mensual,oni,caudal_piura_max (mensual),4,meses,-0.056005337835698776,0.29749284363099177,348
+ENSO->mensual,oni,caudal_piura_max (mensual),5,meses,-0.04642708186312969,0.3878980304216122,348
+ENSO->mensual,oni,caudal_piura_max (mensual),6,meses,-0.034905152945124966,0.5163369430848115,348
+ENSO->mensual,oni,caudal_chira_max (mensual),0,meses,0.03704081782695705,0.4909882963837888,348
+ENSO->mensual,oni,caudal_chira_max (mensual),1,meses,-0.0017185810994322774,0.9745163982460183,348
+ENSO->mensual,oni,caudal_chira_max (mensual),2,meses,-0.033881501489160346,0.5287220320232662,348
+ENSO->mensual,oni,caudal_chira_max (mensual),3,meses,-0.047084800697458,0.3812034233687468,348
+ENSO->mensual,oni,caudal_chira_max (mensual),4,meses,-0.041591476094703386,0.4392726080205733,348
+ENSO->mensual,oni,caudal_chira_max (mensual),5,meses,-0.017961166432733832,0.7384681253136809,348
+ENSO->mensual,oni,caudal_chira_max (mensual),6,meses,0.006493188004774977,0.9039331630413033,348
+lluvia->caudal (todo),lluvia_Piura acum 1d,caudal_piura,0,dias,0.3434927251399406,3.3024027438188585e-261,9497
+lluvia->caudal (ene-may),lluvia_Piura acum 1d,caudal_piura,0,dias,0.33858852653402033,4.3269884596875766e-106,3933
+lluvia->caudal (todo),lluvia_Piura acum 1d,caudal_piura,1,dias,0.36905792834156353,3.092561017237259e-304,9496
+lluvia->caudal (ene-may),lluvia_Piura acum 1d,caudal_piura,1,dias,0.3809530772427754,5.147445196978422e-136,3932
+lluvia->caudal (todo),lluvia_Piura acum 1d,caudal_piura,2,dias,0.39210029211323416,0.0,9495
+lluvia->caudal (ene-may),lluvia_Piura acum 1d,caudal_piura,2,dias,0.4177407496125145,7.352968468372607e-166,3931
+lluvia->caudal (todo),lluvia_Piura acum 1d,caudal_piura,3,dias,0.406499611771007,0.0,9494
+lluvia->caudal (ene-may),lluvia_Piura acum 1d,caudal_piura,3,dias,0.43697446631701875,5.382831278394768e-183,3930
+lluvia->caudal (todo),lluvia_Piura acum 1d,caudal_piura,4,dias,0.4113491655525683,0.0,9493
+lluvia->caudal (ene-may),lluvia_Piura acum 1d,caudal_piura,4,dias,0.44445644321109284,6.170383839359802e-190,3929
+lluvia->caudal (todo),lluvia_Piura acum 1d,caudal_piura,5,dias,0.41169373186113956,0.0,9492
+lluvia->caudal (ene-may),lluvia_Piura acum 1d,caudal_piura,5,dias,0.44404767025127634,1.6761849678088558e-189,3928
+lluvia->caudal (todo),lluvia_Piura acum 1d,caudal_piura,6,dias,0.41148392244900767,0.0,9491
+lluvia->caudal (ene-may),lluvia_Piura acum 1d,caudal_piura,6,dias,0.4414576557647076,5.081105123845159e-187,3927
+lluvia->caudal (todo),lluvia_Piura acum 1d,caudal_piura,7,dias,0.4109631519718434,0.0,9490
+lluvia->caudal (ene-may),lluvia_Piura acum 1d,caudal_piura,7,dias,0.4374723564990956,2.8584122975931255e-183,3926
+lluvia->caudal (todo),lluvia_Piura acum 1d,caudal_piura,8,dias,0.4086366446932816,0.0,9489
+lluvia->caudal (ene-may),lluvia_Piura acum 1d,caudal_piura,8,dias,0.4305086927251982,7.131811813001296e-177,3925
+lluvia->caudal (todo),lluvia_Piura acum 1d,caudal_piura,9,dias,0.40544322178475495,0.0,9488
+lluvia->caudal (ene-may),lluvia_Piura acum 1d,caudal_piura,9,dias,0.42117903269528734,1.4919137692659277e-168,3924
+lluvia->caudal (todo),lluvia_Piura acum 1d,caudal_piura,10,dias,0.4013166593460372,0.0,9487
+lluvia->caudal (ene-may),lluvia_Piura acum 1d,caudal_piura,10,dias,0.40970933251592945,1.0850579429778395e-158,3923
+lluvia->caudal (todo),lluvia_Piura acum 3d,caudal_piura,0,dias,0.4467082707274815,0.0,9495
+lluvia->caudal (ene-may),lluvia_Piura acum 3d,caudal_piura,0,dias,0.46545285605780945,1.3083477539694972e-210,3931
+lluvia->caudal (todo),lluvia_Piura acum 3d,caudal_piura,1,dias,0.47281507045361615,0.0,9494
+lluvia->caudal (ene-may),lluvia_Piura acum 3d,caudal_piura,1,dias,0.5062741355261546,6.454758691709494e-255,3930
+lluvia->caudal (todo),lluvia_Piura acum 3d,caudal_piura,2,dias,0.4899162702572943,0.0,9493
+lluvia->caudal (ene-may),lluvia_Piura acum 3d,caudal_piura,2,dias,0.5331292612054899,1.6956034086264018e-287,3929
+lluvia->caudal (todo),lluvia_Piura acum 3d,caudal_piura,3,dias,0.49824309462488986,0.0,9492
+lluvia->caudal (ene-may),lluvia_Piura acum 3d,caudal_piura,3,dias,0.5430217508956637,3.3045359633861375e-300,3928
+lluvia->caudal (todo),lluvia_Piura acum 3d,caudal_piura,4,dias,0.5000830974669701,0.0,9491
+lluvia->caudal (ene-may),lluvia_Piura acum 3d,caudal_piura,4,dias,0.5421941591934932,4.792637088280787e-299,3927
+lluvia->caudal (todo),lluvia_Piura acum 3d,caudal_piura,5,dias,0.4991477053439156,0.0,9490
+lluvia->caudal (ene-may),lluvia_Piura acum 3d,caudal_piura,5,dias,0.5365088322059032,1.350011116465767e-291,3926
+lluvia->caudal (todo),lluvia_Piura acum 3d,caudal_piura,6,dias,0.4975372558235264,0.0,9489
+lluvia->caudal (ene-may),lluvia_Piura acum 3d,caudal_piura,6,dias,0.5278578255833223,1.4281764606430842e-280,3925
+lluvia->caudal (todo),lluvia_Piura acum 3d,caudal_piura,7,dias,0.495448558079844,0.0,9488
+lluvia->caudal (ene-may),lluvia_Piura acum 3d,caudal_piura,7,dias,0.5173970169970765,1.113290331740895e-267,3924
+lluvia->caudal (todo),lluvia_Piura acum 3d,caudal_piura,8,dias,0.4920406610923457,0.0,9487
+lluvia->caudal (ene-may),lluvia_Piura acum 3d,caudal_piura,8,dias,0.504242101784213,4.072046718170402e-252,3923
+lluvia->caudal (todo),lluvia_Piura acum 3d,caudal_piura,9,dias,0.4865438582404297,0.0,9486
+lluvia->caudal (ene-may),lluvia_Piura acum 3d,caudal_piura,9,dias,0.4898836180304392,6.686412406887592e-236,3922
+lluvia->caudal (todo),lluvia_Piura acum 3d,caudal_piura,10,dias,0.4797711681812989,0.0,9485
+lluvia->caudal (ene-may),lluvia_Piura acum 3d,caudal_piura,10,dias,0.4742612555246236,3.97510163044339e-219,3921
+lluvia->caudal (todo),lluvia_Piura acum 7d,caudal_piura,0,dias,0.5419272186688882,0.0,9491
+lluvia->caudal (ene-may),lluvia_Piura acum 7d,caudal_piura,0,dias,0.5984046104109053,0.0,3927
+lluvia->caudal (todo),lluvia_Piura acum 7d,caudal_piura,1,dias,0.555604988457,0.0,9490
+lluvia->caudal (ene-may),lluvia_Piura acum 7d,caudal_piura,1,dias,0.6191449394279865,0.0,3926
+lluvia->caudal (todo),lluvia_Piura acum 7d,caudal_piura,2,dias,0.5632933415427258,0.0,9489
+lluvia->caudal (ene-may),lluvia_Piura acum 7d,caudal_piura,2,dias,0.6283754339148949,0.0,3925
+lluvia->caudal (todo),lluvia_Piura acum 7d,caudal_piura,3,dias,0.5660512825767671,0.0,9488
+lluvia->caudal (ene-may),lluvia_Piura acum 7d,caudal_piura,3,dias,0.6267912492283148,0.0,3924
+lluvia->caudal (todo),lluvia_Piura acum 7d,caudal_piura,4,dias,0.5648533093624261,0.0,9487
+lluvia->caudal (ene-may),lluvia_Piura acum 7d,caudal_piura,4,dias,0.6175129540306384,0.0,3923
+lluvia->caudal (todo),lluvia_Piura acum 7d,caudal_piura,5,dias,0.5609973291545144,0.0,9486
+lluvia->caudal (ene-may),lluvia_Piura acum 7d,caudal_piura,5,dias,0.6033427093654953,0.0,3922
+lluvia->caudal (todo),lluvia_Piura acum 7d,caudal_piura,6,dias,0.5560919818685889,0.0,9485
+lluvia->caudal (ene-may),lluvia_Piura acum 7d,caudal_piura,6,dias,0.5866973680390923,0.0,3921
+lluvia->caudal (todo),lluvia_Piura acum 7d,caudal_piura,7,dias,0.5508986893385526,0.0,9484
+lluvia->caudal (ene-may),lluvia_Piura acum 7d,caudal_piura,7,dias,0.570087776228496,0.0,3920
+lluvia->caudal (todo),lluvia_Piura acum 7d,caudal_piura,8,dias,0.5451596111299747,0.0,9483
+lluvia->caudal (ene-may),lluvia_Piura acum 7d,caudal_piura,8,dias,0.5539470155873735,0.0,3919
+lluvia->caudal (todo),lluvia_Piura acum 7d,caudal_piura,9,dias,0.5392291538648674,0.0,9482
+lluvia->caudal (ene-may),lluvia_Piura acum 7d,caudal_piura,9,dias,0.5385549863156504,1.2250784507564346e-293,3918
+lluvia->caudal (todo),lluvia_Piura acum 7d,caudal_piura,10,dias,0.5338903719638581,0.0,9481
+lluvia->caudal (ene-may),lluvia_Piura acum 7d,caudal_piura,10,dias,0.5233648851556835,1.8807234499749443e-274,3917
+lluvia->caudal (todo),lluvia_Sullana acum 1d,caudal_chira,0,dias,0.4786501116096374,0.0,9497
+lluvia->caudal (ene-may),lluvia_Sullana acum 1d,caudal_chira,0,dias,0.4717488479830428,3.553215077759782e-217,3933
+lluvia->caudal (todo),lluvia_Sullana acum 1d,caudal_chira,1,dias,0.5201731712446042,0.0,9496
+lluvia->caudal (ene-may),lluvia_Sullana acum 1d,caudal_chira,1,dias,0.5531587090308676,0.0,3932
+lluvia->caudal (todo),lluvia_Sullana acum 1d,caudal_chira,2,dias,0.5399670391055167,0.0,9495
+lluvia->caudal (ene-may),lluvia_Sullana acum 1d,caudal_chira,2,dias,0.5802328253154068,0.0,3931
+lluvia->caudal (todo),lluvia_Sullana acum 1d,caudal_chira,3,dias,0.5278686739378181,0.0,9494
+lluvia->caudal (ene-may),lluvia_Sullana acum 1d,caudal_chira,3,dias,0.5420868467702223,3.92902835309985e-299,3930
+lluvia->caudal (todo),lluvia_Sullana acum 1d,caudal_chira,4,dias,0.5042961507190306,0.0,9493
+lluvia->caudal (ene-may),lluvia_Sullana acum 1d,caudal_chira,4,dias,0.4899503208920344,2.1591778424327226e-236,3929
+lluvia->caudal (todo),lluvia_Sullana acum 1d,caudal_chira,5,dias,0.485510183039182,0.0,9492
+lluvia->caudal (ene-may),lluvia_Sullana acum 1d,caudal_chira,5,dias,0.45374093087821205,8.38091012589374e-199,3928
+lluvia->caudal (todo),lluvia_Sullana acum 1d,caudal_chira,6,dias,0.47221493812601856,0.0,9491
+lluvia->caudal (ene-may),lluvia_Sullana acum 1d,caudal_chira,6,dias,0.42839143617999315,4.64105246425772e-175,3927
+lluvia->caudal (todo),lluvia_Sullana acum 1d,caudal_chira,7,dias,0.46371664325067213,0.0,9490
+lluvia->caudal (ene-may),lluvia_Sullana acum 1d,caudal_chira,7,dias,0.40337962214833434,1.4999639592834106e-153,3926
+lluvia->caudal (todo),lluvia_Sullana acum 1d,caudal_chira,8,dias,0.45595851508350854,0.0,9489
+lluvia->caudal (ene-may),lluvia_Sullana acum 1d,caudal_chira,8,dias,0.37491777389200504,3.0975033203035735e-131,3925
+lluvia->caudal (todo),lluvia_Sullana acum 1d,caudal_chira,9,dias,0.44477302127444096,0.0,9488
+lluvia->caudal (ene-may),lluvia_Sullana acum 1d,caudal_chira,9,dias,0.3441945975424016,1.5050738214337145e-109,3924
+lluvia->caudal (todo),lluvia_Sullana acum 1d,caudal_chira,10,dias,0.43415861740884526,0.0,9487
+lluvia->caudal (ene-may),lluvia_Sullana acum 1d,caudal_chira,10,dias,0.3194550402781297,8.896948948729646e-94,3923
+lluvia->caudal (todo),lluvia_Sullana acum 3d,caudal_chira,0,dias,0.6293424918045526,0.0,9495
+lluvia->caudal (ene-may),lluvia_Sullana acum 3d,caudal_chira,0,dias,0.6483629272825754,0.0,3931
+lluvia->caudal (todo),lluvia_Sullana acum 3d,caudal_chira,1,dias,0.6518916468893563,0.0,9494
+lluvia->caudal (ene-may),lluvia_Sullana acum 3d,caudal_chira,1,dias,0.6789149046634823,0.0,3930
+lluvia->caudal (todo),lluvia_Sullana acum 3d,caudal_chira,2,dias,0.6463492952527231,0.0,9493
+lluvia->caudal (ene-may),lluvia_Sullana acum 3d,caudal_chira,2,dias,0.6549110067081881,0.0,3929
+lluvia->caudal (todo),lluvia_Sullana acum 3d,caudal_chira,3,dias,0.6233083699618565,0.0,9492
+lluvia->caudal (ene-may),lluvia_Sullana acum 3d,caudal_chira,3,dias,0.6017451733313253,0.0,3928
+lluvia->caudal (todo),lluvia_Sullana acum 3d,caudal_chira,4,dias,0.5983617724426169,0.0,9491
+lluvia->caudal (ene-may),lluvia_Sullana acum 3d,caudal_chira,4,dias,0.5502633957212089,9.2360483352419e-310,3927
+lluvia->caudal (todo),lluvia_Sullana acum 3d,caudal_chira,5,dias,0.5797008080775348,0.0,9490
+lluvia->caudal (ene-may),lluvia_Sullana acum 3d,caudal_chira,5,dias,0.5128112508546939,2.4800317931537298e-262,3926
+lluvia->caudal (todo),lluvia_Sullana acum 3d,caudal_chira,6,dias,0.5662528695457134,0.0,9489
+lluvia->caudal (ene-may),lluvia_Sullana acum 3d,caudal_chira,6,dias,0.4806522640160132,4.3446469483139226e-226,3925
+lluvia->caudal (todo),lluvia_Sullana acum 3d,caudal_chira,7,dias,0.5542619192483681,0.0,9488
+lluvia->caudal (ene-may),lluvia_Sullana acum 3d,caudal_chira,7,dias,0.44673418378454466,7.417341579291482e-192,3924
+lluvia->caudal (todo),lluvia_Sullana acum 3d,caudal_chira,8,dias,0.5426154795700531,0.0,9487
+lluvia->caudal (ene-may),lluvia_Sullana acum 3d,caudal_chira,8,dias,0.4133857949395241,8.505361055672026e-162,3923
+lluvia->caudal (todo),lluvia_Sullana acum 3d,caudal_chira,9,dias,0.5317152900285682,0.0,9486
+lluvia->caudal (ene-may),lluvia_Sullana acum 3d,caudal_chira,9,dias,0.3855186996907566,3.5964567290944536e-139,3922
+lluvia->caudal (todo),lluvia_Sullana acum 3d,caudal_chira,10,dias,0.522977527453745,0.0,9485
+lluvia->caudal (ene-may),lluvia_Sullana acum 3d,caudal_chira,10,dias,0.36329946260023877,1.2217209418414096e-122,3921
+lluvia->caudal (todo),lluvia_Sullana acum 7d,caudal_chira,0,dias,0.7165839621734614,0.0,9491
+lluvia->caudal (ene-may),lluvia_Sullana acum 7d,caudal_chira,0,dias,0.7050990782774015,0.0,3927
+lluvia->caudal (todo),lluvia_Sullana acum 7d,caudal_chira,1,dias,0.7145368904893221,0.0,9490
+lluvia->caudal (ene-may),lluvia_Sullana acum 7d,caudal_chira,1,dias,0.6923918830385056,0.0,3926
+lluvia->caudal (todo),lluvia_Sullana acum 7d,caudal_chira,2,dias,0.7014600781752325,0.0,9489
+lluvia->caudal (ene-may),lluvia_Sullana acum 7d,caudal_chira,2,dias,0.6570279252533258,0.0,3925
+lluvia->caudal (todo),lluvia_Sullana acum 7d,caudal_chira,3,dias,0.6800907894844695,0.0,9488
+lluvia->caudal (ene-may),lluvia_Sullana acum 7d,caudal_chira,3,dias,0.6086699621662209,0.0,3924
+lluvia->caudal (todo),lluvia_Sullana acum 7d,caudal_chira,4,dias,0.6591393078455935,0.0,9487
+lluvia->caudal (ene-may),lluvia_Sullana acum 7d,caudal_chira,4,dias,0.5619820673079314,0.0,3923
+lluvia->caudal (todo),lluvia_Sullana acum 7d,caudal_chira,5,dias,0.6426799523336002,0.0,9486
+lluvia->caudal (ene-may),lluvia_Sullana acum 7d,caudal_chira,5,dias,0.5232052162953758,1.3259736852390342e-274,3922
+lluvia->caudal (todo),lluvia_Sullana acum 7d,caudal_chira,6,dias,0.6299379897987714,0.0,9485
+lluvia->caudal (ene-may),lluvia_Sullana acum 7d,caudal_chira,6,dias,0.48918052796196343,4.527835029849753e-235,3921
+lluvia->caudal (todo),lluvia_Sullana acum 7d,caudal_chira,7,dias,0.6205336339660583,0.0,9484
+lluvia->caudal (ene-may),lluvia_Sullana acum 7d,caudal_chira,7,dias,0.4585108284280032,4.4157719472746734e-203,3920
+lluvia->caudal (todo),lluvia_Sullana acum 7d,caudal_chira,8,dias,0.6140277851649674,0.0,9483
+lluvia->caudal (ene-may),lluvia_Sullana acum 7d,caudal_chira,8,dias,0.4331864135377986,5.009781938203154e-179,3919
+lluvia->caudal (todo),lluvia_Sullana acum 7d,caudal_chira,9,dias,0.6088269559862495,0.0,9482
+lluvia->caudal (ene-may),lluvia_Sullana acum 7d,caudal_chira,9,dias,0.41444170130016106,1.7193374086261944e-162,3918
+lluvia->caudal (todo),lluvia_Sullana acum 7d,caudal_chira,10,dias,0.6054658972937947,0.0,9481
+lluvia->caudal (ene-may),lluvia_Sullana acum 7d,caudal_chira,10,dias,0.40103363516302337,2.754959920463042e-151,3917
+ccf pearson log(caudal) vs lluvia diaria,lluvia_Piura diaria,log1p(caudal_piura),0,dias,0.2991648433059085,,9497
+ccf pearson log(caudal) vs lluvia diaria,lluvia_Piura diaria,log1p(caudal_piura),1,dias,0.3212414260165856,,9497
+ccf pearson log(caudal) vs lluvia diaria,lluvia_Piura diaria,log1p(caudal_piura),2,dias,0.3358301244659269,,9497
+ccf pearson log(caudal) vs lluvia diaria,lluvia_Piura diaria,log1p(caudal_piura),3,dias,0.3414650192031743,,9497
+ccf pearson log(caudal) vs lluvia diaria,lluvia_Piura diaria,log1p(caudal_piura),4,dias,0.3449186128670512,,9497
+ccf pearson log(caudal) vs lluvia diaria,lluvia_Piura diaria,log1p(caudal_piura),5,dias,0.34493677960737573,,9497
+ccf pearson log(caudal) vs lluvia diaria,lluvia_Piura diaria,log1p(caudal_piura),6,dias,0.342251484764987,,9497
+ccf pearson log(caudal) vs lluvia diaria,lluvia_Piura diaria,log1p(caudal_piura),7,dias,0.33817909409071006,,9497
+ccf pearson log(caudal) vs lluvia diaria,lluvia_Piura diaria,log1p(caudal_piura),8,dias,0.3328760789096842,,9497
+ccf pearson log(caudal) vs lluvia diaria,lluvia_Piura diaria,log1p(caudal_piura),9,dias,0.3266299277063644,,9497
+ccf pearson log(caudal) vs lluvia diaria,lluvia_Piura diaria,log1p(caudal_piura),10,dias,0.3224218346638859,,9497

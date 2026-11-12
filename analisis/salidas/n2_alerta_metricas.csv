@@ -1,0 +1,3 @@
+umbral_nino12,aciertos,eventos_no_anticipados,falsas_alarmas,correctos_negativos,POD,FAR
+1.0,5,3,12,8,0.625,0.7058823529411765
+2.0,3,5,3,17,0.375,0.5
