@@ -1,0 +1,12 @@
+# Umbrales y parametros del semaforo (port de web/src/config/reglas.ts; MISMOS valores).
+# EDITABLES: la EPS los calibra sin tocar el motor. Valores provisionales (calibrar con cortes 2017 y 2023 y EPS Grau).
+caudal: {amarillo: 900, naranja: 1290, rojo: 1900}        # m3/s Sanchez Cerro (umbrales SENAMHI por confirmar)
+lluvia24h: {amarillo: 20, naranja: 40, rojo: 80}          # mm, supuesto inicial
+turbiedad: {alta: 1000, critica: 3000}                    # NTU agua cruda
+autonomiaH: {amarillo: 72, naranja: 48, rojo: 24}
+reservorioCriticoPct: 30
+duracionCorteH: {captacion: 87, linea: 110, pozo: 91, turbiedad: 36, energia: 12}
+perdidaProduccion: {turbiedadAlta: 0.5, turbiedadCritica: 1, sinEnergia: 0.4}
+perdidasRed: 0.35
+cisterna: {capacidadM3: 20, viajesPorDia: 4, fraccionPrioritaria: 0.15}
+vulnerabilidadAlta: 0.6
