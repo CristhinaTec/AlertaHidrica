@@ -4,6 +4,8 @@
 
 Hackathon Sunass "Lideresas por el Agua" · Desafío 2: Resiliencia hídrica · 2026
 
+**Aplicación publicada:** https://alertahidrica.vercel.app
+
 ## El problema
 
 Con El Niño, el río Piura arrastra lodo, las plantas de agua se detienen y miles de familias quedan sin agua por días. SENAMHI y ENFEN avisan que vienen lluvias, pero nadie le dice a EPS Grau qué barrio se quedará sin agua ni cuándo.
