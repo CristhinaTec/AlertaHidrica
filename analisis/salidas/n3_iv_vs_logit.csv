@@ -1,0 +1,6 @@
+variable,peso_IV,coef_logit_std,peso_logit_normalizado,origen
+exposicion,0.3,0.578,0.283,demo_sintetico
+cruce_quebrada,0.25,0.696,0.341,demo_sintetico
+sin_generador,0.2,0.458,0.225,demo_sintetico
+antiguedad_n,0.15,0.309,0.151,demo_sintetico
+estado_n,0.1,-0.041,0.0,demo_sintetico

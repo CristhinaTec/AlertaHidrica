@@ -1,0 +1,7 @@
+causa,eventos,horas,pct_horas,pct_acum,origen
+turbiedad alta,65,7392.9,26.0,26.0,demo_sintetico
+rotura por huaico/erosion,49,6799.5,23.9,49.9,demo_sintetico
+mantenimiento,103,5245.5,18.4,68.3,demo_sintetico
+rotura por antiguedad,69,3491.2,12.3,80.6,demo_sintetico
+corte electrico,53,3388.8,11.9,92.5,demo_sintetico
+inundacion de equipo,13,2143.0,7.5,100.0,demo_sintetico
