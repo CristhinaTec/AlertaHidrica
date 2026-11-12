@@ -3,6 +3,8 @@ import { Copy, MapPin, Volume2 } from 'lucide-react'
 import { NIVEL_BG } from '@/components/NivelBadge'
 import { Button } from '@/components/ui/button'
 import { useSemaforo } from '@/hooks/useSemaforo'
+import { InfoTip } from '@/components/InfoTip'
+import { consejosSanitarios, evaluarSanitario, SANITARIO_ICONO, SANITARIO_NIVEL, SANITARIO_TXT } from '@/lib/sanitario'
 import { consejosCiudadano, NIVEL_ICONO, NIVEL_TXT, smsCiudadano } from '@/lib/mensajes'
 
 const horasTexto = (h: number) =>
@@ -38,8 +40,9 @@ export default function Ciudadania() {
       </label>
 
       {sel && (() => {
-        const { loc, r } = sel
-        const resumen = `${NIVEL_TXT[r.nivel]} en ${loc.nombre}. Tu zona tiene agua para ${horasTexto(r.autonomiaH)}. ${consejosCiudadano(r.nivel).join(' ')}`
+        const { loc, r, planta } = sel
+        const san = evaluarSanitario(loc, planta, r)
+        const resumen = `${NIVEL_TXT[r.nivel]} en ${loc.nombre}. Tu zona tiene agua para ${horasTexto(r.autonomiaH)}. ${consejosCiudadano(r.nivel).join(' ')} El agua: ${SANITARIO_TXT[san.nivel]}.`
         return (
           <section aria-live="polite" className="space-y-4">
             <div className={`rounded-2xl p-5 ${NIVEL_BG[r.nivel]}`}>
@@ -49,6 +52,22 @@ export default function Ciudadania() {
               <p className="mt-2 text-xl">
                 {r.nivel === 'verde' ? 'El servicio está normal.' : <>Tu zona tiene agua para <strong>{horasTexto(r.autonomiaH)}</strong>.</>}
               </p>
+            </div>
+
+            <div className="rounded-2xl bg-card p-4 shadow-sm">
+              <div className="flex items-center justify-between gap-2">
+                <h2 className="font-semibold">¿Es segura el agua?</h2>
+                <InfoTip label="Cómo se calcula" align="right">
+                  Se estima con el cloro y la turbiedad en la red (sensores simulados), las horas de corte y el agua guardada en casa.
+                  Un sensor no certifica que el agua sea potable: da una alerta temprana. La EPS lo confirma con análisis de laboratorio.
+                </InfoTip>
+              </div>
+              <p className={`mt-2 inline-flex items-center gap-2 rounded-full px-3 py-1 text-base font-bold ${NIVEL_BG[SANITARIO_NIVEL[san.nivel]]}`}>
+                <span aria-hidden>{SANITARIO_ICONO[san.nivel]}</span>{SANITARIO_TXT[san.nivel]}
+              </p>
+              <ul className="mt-3 list-disc space-y-1 pl-6 text-base">
+                {consejosSanitarios(san).map((c) => <li key={c}>{c}</li>)}
+              </ul>
             </div>
 
             <div className="rounded-2xl bg-card p-5 shadow-sm">
@@ -66,7 +85,7 @@ export default function Ciudadania() {
 
             <div className="flex flex-wrap gap-2">
               <Button size="lg" onClick={() => escuchar(resumen)}><Volume2 className="size-5" /> Escuchar</Button>
-              <Button size="lg" variant="outline" onClick={() => navigator.clipboard?.writeText(smsCiudadano(loc, r))}>
+              <Button size="lg" variant="outline" onClick={() => navigator.clipboard?.writeText(smsCiudadano(loc, r, san))}>
                 <Copy className="size-5" /> Copiar aviso para reenviar
               </Button>
             </div>

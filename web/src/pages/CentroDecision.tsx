@@ -1,5 +1,5 @@
 import { useEffect, useId, useMemo, useState, type KeyboardEvent } from 'react'
-import { BellRing, CheckCircle2, ChevronDown, ClipboardList, Copy, History, Megaphone, MessageSquare, Siren, Truck } from 'lucide-react'
+import { BellRing, CheckCircle2, ChevronDown, ClipboardList, HeartPulse, Copy, History, Megaphone, MessageSquare, Siren, Truck } from 'lucide-react'
 import { PageHero } from '@/components/PageHero'
 import { KpiPortada } from '@/components/KpiPortada'
 import { NIVEL_HEX, NivelBadge } from '@/components/NivelBadge'
@@ -9,6 +9,9 @@ import { useDatos } from '@/hooks/useDatos'
 import { useSemaforo } from '@/hooks/useSemaforo'
 import type { Despacho, Pronostico } from '@/lib/datos'
 import { sismate, smsCiudadano } from '@/lib/mensajes'
+import { evaluarSanitario, SANITARIO_ICONO, SANITARIO_NIVEL, SANITARIO_TXT, type Origen, type Sanitario } from '@/lib/sanitario'
+import { InfoTip } from '@/components/InfoTip'
+import { NIVEL_BG } from '@/components/NivelBadge'
 import { guardarLS, leerLS, useModo } from '@/lib/modo'
 import { fmtHoras, type Nivel } from '@/lib/semaforo'
 
@@ -110,7 +113,8 @@ function Centro({ modo, escenarioId }: { modo: string; escenarioId: string }) {
         </div>
         {!alertas.length && <p className="rounded-xl border bg-card p-6 text-center text-muted-foreground"><CheckCircle2 className="mx-auto mb-2 size-6" />Sin alertas activas. Todo en NORMAL.</p>}
         <ul className="space-y-2">
-          {alertas.map(({ loc, r }) => {
+          {alertas.map(({ loc, r, planta }) => {
+            const san = evaluarSanitario(loc, planta, r)
             const k = clave(loc.id, r.nivel)
             const st = estado[k]
             const acciones = proto?.niveles[r.nivel] ?? []
@@ -159,8 +163,8 @@ function Centro({ modo, escenarioId }: { modo: string; escenarioId: string }) {
                         <Megaphone className="size-4" /> {st?.aviso ? 'Aviso enviado' : 'Enviar aviso'}
                       </Button>
                     </div>
-                    <Pestanas nivel={r.nivel} proto={proto} check={check} onCheck={toggleCheck} desp={desp}
-                      mensajes={{ sms: smsCiudadano(loc, r), sismate: r.nivel === 'rojo' ? sismate(loc) : null }} />
+                    <Pestanas nivel={r.nivel} proto={proto} check={check} onCheck={toggleCheck} desp={desp} san={san}
+                      mensajes={{ sms: smsCiudadano(loc, r, san), sismate: r.nivel === 'rojo' ? sismate(loc) : null }} />
                   </div>
                 )}
               </li>
@@ -183,12 +187,12 @@ function Centro({ modo, escenarioId }: { modo: string; escenarioId: string }) {
   )
 }
 
-type Tab = 'hacer' | 'cisternas' | 'mensaje'
-const TABS: [Tab, string, typeof ClipboardList][] = [['hacer', 'Qué hacer', ClipboardList], ['cisternas', 'Cisternas', Truck], ['mensaje', 'Mensaje', MessageSquare]]
+type Tab = 'hacer' | 'cisternas' | 'salud' | 'mensaje'
+const TABS: [Tab, string, typeof ClipboardList][] = [['hacer', 'Qué hacer', ClipboardList], ['cisternas', 'Cisternas', Truck], ['salud', 'Salud', HeartPulse], ['mensaje', 'Mensaje', MessageSquare]]
 
-function Pestanas({ nivel, proto, check, onCheck, desp, mensajes }: {
+function Pestanas({ nivel, proto, check, onCheck, desp, san, mensajes }: {
   nivel: Nivel; proto: Protocolo | null; check: Record<string, boolean>; onCheck: (id: string, v: boolean) => void
-  desp: Despacho | null; mensajes: { sms: string; sismate: string | null }
+  desp: Despacho | null; san: Sanitario; mensajes: { sms: string; sismate: string | null }
 }) {
   const [tab, setTab] = useState<Tab>('hacer')
   const [canal, setCanal] = useState<'sms' | 'sismate'>('sms')
@@ -257,6 +261,7 @@ function Pestanas({ nivel, proto, check, onCheck, desp, mensajes }: {
             <p className="mt-2 text-xs text-muted-foreground">Puntos reales (OSM, COESALUD); demanda y flota supuestas.</p>
           </div>
         )}
+        {tab === 'salud' && <Salud s={san} />}
         {tab === 'mensaje' && (
           <div>
             <div className="mb-2 flex gap-2">
@@ -270,6 +275,48 @@ function Pestanas({ nivel, proto, check, onCheck, desp, mensajes }: {
             </div>
           </div>
         )}
+      </div>
+    </div>
+  )
+}
+
+const CHIP_ORIGEN: Record<Origen, string> = { REAL: 'chip', SUPUESTO: 'chip chip-lila', 'SIMULADO-IoT': 'chip chip-borde', CALCULADO: 'chip chip-lila' }
+
+function Salud({ s }: { s: Sanitario }) {
+  const filas: [string, string, Origen, string][] = [
+    ['Cloro residual', `${s.cloro.valor.toFixed(1).replace('.', ',')} mg/L`, s.cloro.origen, s.cloro.fuente],
+    ['Turbiedad en red', `${s.turbiedadRed.valor.toFixed(1).replace('.', ',')} NTU`, s.turbiedadRed.origen, s.turbiedadRed.fuente],
+    ['Agua almacenada', s.almacenada.valor ? 'Sí, por corte' : 'No', s.almacenada.origen, s.almacenada.fuente],
+    ['Riesgo de dengue', s.dengue.valor, s.dengue.origen, s.dengue.fuente],
+    ['Riesgo de diarrea (EDA)', s.diarrea.valor, s.diarrea.origen, s.diarrea.fuente],
+  ]
+  return (
+    <div className="space-y-3">
+      <div className="flex flex-wrap items-center gap-2">
+        <span className="text-muted-foreground">¿Es segura el agua?</span>
+        <span className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5 text-xs font-semibold ${NIVEL_BG[SANITARIO_NIVEL[s.nivel]]}`}>
+          <span aria-hidden>{SANITARIO_ICONO[s.nivel]}</span>{SANITARIO_TXT[s.nivel]}
+        </span>
+        <InfoTip label="Alcance del semáforo sanitario">
+          Un sensor no certifica potabilidad: da alerta temprana. La EPS confirma con laboratorio.
+          Umbral de cloro residual: 0,5 mg/L (D.S. N.º 031-2010-SA, por confirmar).
+          {s.motivos.length > 0 && <><br /><strong>Por qué:</strong> {s.motivos.join('; ')}.</>}
+        </InfoTip>
+      </div>
+      <dl className="divide-y rounded-lg border">
+        {filas.map(([k, v, o, f]) => (
+          <div key={k} className="flex items-center justify-between gap-2 px-3 py-1.5">
+            <dt className="text-muted-foreground">{k}</dt>
+            <dd className="flex items-center gap-1.5 font-semibold tabular-nums">
+              {v}<span className={CHIP_ORIGEN[o]}>{o}</span>
+              <InfoTip label={`Fuente: ${k}`} align="right">{f}</InfoTip>
+            </dd>
+          </div>
+        ))}
+      </dl>
+      <div className="rounded-lg bg-brand-soft p-3">
+        <div className="text-xs text-muted-foreground">Acción para DIRESA</div>
+        <div className="font-semibold text-brand-ink">{s.accionDiresa}</div>
       </div>
     </div>
   )

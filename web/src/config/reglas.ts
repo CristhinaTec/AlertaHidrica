@@ -34,6 +34,15 @@ export const reglas = {
 
   // En zonas de vulnerabilidad alta se sube un nivel antes ("sin arrepentimiento").
   vulnerabilidadAlta: 0.6,
+
+  // Semáforo sanitario "¿Es segura el agua?"
+  sanitario: {
+    cloroMinMgL: 0.5, // cloro residual libre mínimo en red. D.S. N.º 031-2010-SA, por confirmar.
+    cloroCriticoMgL: 0.2, // por debajo: no tomar del caño. Supuesto.
+    turbiedadRedMaxNTU: 5, // límite en red (D.S. N.º 031-2010-SA, por confirmar).
+    turbiedadRedAvisoNTU: 2, // aviso temprano. Supuesto.
+    corteAlmacenamientoH: 24, // con cortes más largos los hogares almacenan agua: más riesgo. Supuesto.
+  },
 } as const
 
 export type Reglas = typeof reglas

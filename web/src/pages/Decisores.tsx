@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { escenarios } from '@/data/escenarios'
 import { useSemaforo } from '@/hooks/useSemaforo'
+import { evaluarSanitario } from '@/lib/sanitario'
 import { correoDecisores, sismate, smsCiudadano } from '@/lib/mensajes'
 import { fmtHoras, type Nivel } from '@/lib/semaforo'
 import { reglas } from '@/config/reglas'
@@ -37,7 +38,7 @@ export default function Decisores() {
   const totalCisternas = s.items.reduce((a, i) => a + i.r.cisternas, 0)
   const pobRiesgo = s.items.filter((i) => i.r.nivel === 'naranja' || i.r.nivel === 'rojo').reduce((a, i) => a + i.r.poblacion, 0)
   const correo = correoDecisores(loc, r)
-  const texto = canal === 'correo' ? `Asunto: ${correo.asunto}\n\n${correo.cuerpo}` : canal === 'sms' ? smsCiudadano(loc, r) : sismate(loc)
+  const texto = canal === 'correo' ? `Asunto: ${correo.asunto}\n\n${correo.cuerpo}` : canal === 'sms' ? smsCiudadano(loc, r, evaluarSanitario(loc, planta, r)) : sismate(loc)
 
   return (
     <div className="mx-auto max-w-7xl space-y-5 px-4 py-6">

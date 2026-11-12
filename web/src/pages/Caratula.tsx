@@ -60,6 +60,7 @@ export default function Caratula() {
               </li>
             ))}
           </ol>
+          <p className="mt-3 text-sm text-ink-gris">Empieza en Piura y se replica en todo el país cambiando solo la configuración.</p>
           <Link to="/hoja-de-ruta" className="mt-3 inline-block text-sm font-semibold text-brand-ink underline underline-offset-4">Ver hoja de ruta</Link>
         </Disclosure>
       </div>

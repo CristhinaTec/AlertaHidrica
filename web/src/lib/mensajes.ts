@@ -1,5 +1,6 @@
 import type { Localidad, Resultado } from './semaforo'
 import { fmtHoras } from './semaforo'
+import type { Sanitario } from './sanitario'
 
 export const NIVEL_TXT = { verde: 'NORMAL', amarillo: 'ATENCIÓN', naranja: 'PRECAUCIÓN', rojo: 'EMERGENCIA' } as const
 export const NIVEL_ICONO = { verde: '●', amarillo: '▲', naranja: '◆', rojo: '■' } as const
@@ -26,12 +27,14 @@ export function correoDecisores(loc: Localidad, r: Resultado) {
   return { asunto, cuerpo }
 }
 
-export function smsCiudadano(loc: Localidad, r: Resultado) {
-  if (r.nivel === 'verde') return `AguaSegura ${loc.nombre}: servicio normal. Cuide el agua.`
-  const base = `${NIVEL_TXT[r.nivel]} ${loc.nombre}: tu zona tiene agua para ${horasCiudadano(r.autonomiaH)}.`
+export function smsCiudadano(loc: Localidad, r: Resultado, s?: Pick<Sanitario, 'nivel'>) {
+  const insegura = s ? s.nivel !== 'segura' : r.nivel === 'rojo'
+  const hierve = insegura ? ' Agua no segura: hiérvela o clórala.' : ''
+  if (r.nivel === 'verde') return `AguaSegura ${loc.nombre}: servicio normal.${hierve || ' Cuide el agua.'}`
+  const base = `${NIVEL_TXT[r.nivel]} ${loc.nombre}: tu zona tiene agua para ${horasCiudadano(r.autonomiaH)}.${hierve}`
   if (r.nivel === 'amarillo') return `${base} Guarda agua en recipientes limpios y tapados.`
   if (r.nivel === 'naranja') return `${base} Guarda agua tapada y elimina agua estancada (dengue). Apoyo: ${loc.puntoApoyo}.`
-  return `${base} Usa solo agua segura, hierve o clora. Reparto: ${loc.puntoApoyo}. Fiebre o diarrea: acude al centro de salud.`
+  return `${base} Reparto: ${loc.puntoApoyo}. Fiebre o diarrea: acude al centro de salud.`
 }
 
 export function sismate(loc: Localidad) {
