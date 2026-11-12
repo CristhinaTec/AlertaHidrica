@@ -1,0 +1,34 @@
+# Protocolo de actuación por color del semáforo — AlertaHídrica Piura
+# ESTADO: PROPUESTA A VALIDAR con EPS Grau, Sunass (ODS Piura), COER/COE provincial, DIRESA Piura y municipalidades.
+# Los plazos (horas) cuentan desde que el sistema emite el nivel. No sustituye el Plan de Contingencia de la EPS
+# ni los protocolos SINAGERD; los articula.
+estado: propuesta_a_validar
+version: 0.1
+niveles:
+  verde:
+    - {actor: EPS Grau, accion: "Monitoreo rutinario de caudal, turbiedad y niveles de reservorio; mantenimiento preventivo", plazo_h: 24}
+    - {actor: Sunass, accion: "Revisión mensual del plan de contingencia y del inventario de cisternas de la EPS", plazo_h: 720}
+    - {actor: COE, accion: "Mantener directorio de enlaces y canal de alerta probado (simulacro mensual)", plazo_h: 720}
+    - {actor: DIRESA, accion: "Vigilancia rutinaria de cloro residual en red", plazo_h: 168}
+    - {actor: Municipalidad, accion: "Mantener padrón de puntos de reparto y albergues", plazo_h: 720}
+  amarillo:
+    - {actor: EPS Grau, accion: "Verificar niveles de reservorios y llevarlos sobre 80 %; revisar grupos electrógenos y stock de coagulante", plazo_h: 12}
+    - {actor: EPS Grau, accion: "Confirmar disponibilidad de cisternas propias y contratadas (lista con placas)", plazo_h: 24}
+    - {actor: Sunass, accion: "Solicitar a la EPS reporte de autonomía por localidad y verificar plan de contingencia", plazo_h: 24}
+    - {actor: COE, accion: "Difundir recomendación de almacenar agua en recipientes tapados", plazo_h: 12}
+    - {actor: DIRESA, accion: "Alertar a IPRESS para revisar sus tanques y reservas de agua", plazo_h: 24}
+    - {actor: Municipalidad, accion: "Verificar puntos de reparto y accesos", plazo_h: 24}
+  naranja:
+    - {actor: EPS Grau, accion: "Llenar reservorios al máximo y preposicionar cisternas según lista de despacho (n6)", plazo_h: 6}
+    - {actor: EPS Grau, accion: "Reforzar control de calidad (turbiedad, cloro) en plantas cada 2 h", plazo_h: 2}
+    - {actor: Sunass, accion: "Activar seguimiento diario de la EPS y canal de reclamos priorizado", plazo_h: 12}
+    - {actor: COE, accion: "Convocar mesa de agua y saneamiento; coordinar maquinaria y rutas alternas", plazo_h: 6}
+    - {actor: DIRESA, accion: "Confirmar demanda de agua de hospitales y IPRESS; priorizar diálisis y emergencias", plazo_h: 6}
+    - {actor: Municipalidad, accion: "Avisar a hogares vulnerables; habilitar puntos de reparto", plazo_h: 12}
+  rojo:
+    - {actor: EPS Grau, accion: "Despachar cisternas: hospitales primero, luego IPRESS y puntos de reparto (lista n6)", plazo_h: 2}
+    - {actor: EPS Grau, accion: "Comunicar corte, duración estimada y puntos de reparto", plazo_h: 1}
+    - {actor: Sunass, accion: "Supervisar en campo la continuidad y calidad del agua distribuida por cisternas", plazo_h: 12}
+    - {actor: COE, accion: "Emitir alerta ciudadana (SISMATE) y coordinar con INDECI apoyo logístico", plazo_h: 2}
+    - {actor: DIRESA, accion: "Vigilancia de calidad del agua en cisternas y puntos de reparto; alerta EDA", plazo_h: 12}
+    - {actor: Municipalidad, accion: "Operar puntos de reparto, ordenar colas y apoyar con cisternas municipales", plazo_h: 4}

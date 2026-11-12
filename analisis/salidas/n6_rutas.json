@@ -1,0 +1,1184 @@
+{
+ "metodo": "OR-Tools CVRP (PATH_CHEAPEST_ARC + GLS, 30 s)",
+ "n_nodos": 106,
+ "vehiculos_disponibles": 55,
+ "viajes_usados": 40,
+ "cisternas_usadas": 10,
+ "km_total": 2042.1,
+ "m3_total": 795,
+ "viajes": [
+  {
+   "viaje": 1,
+   "km": 67.8,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 1,
+     "nombre": "Hospital de apoyo II de Sullana / HOSPITAL DE APOYO II-2  SULLANA",
+     "tipo": "hospital",
+     "lat": -4.8958488,
+     "lon": -80.6950582,
+     "m3": 20
+    }
+   ],
+   "cisterna": 1
+  },
+  {
+   "viaje": 2,
+   "km": 74.2,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 102,
+     "nombre": "Salud es Vida",
+     "tipo": "consultorio",
+     "lat": -5.16775,
+     "lon": -80.6482978,
+     "m3": 1
+    },
+    {
+     "prioridad": 15,
+     "nombre": "CIENEGUILLO SUR ALTO",
+     "tipo": "ipress_coesalud",
+     "lat": -4.903638,
+     "lon": -80.6864323,
+     "m3": 1
+    },
+    {
+     "prioridad": 14,
+     "nombre": "CENTRO DE SALUD MENTAL COMUNITARIO  \"JESÚS REDENTOR\"",
+     "tipo": "ipress_coesalud",
+     "lat": -4.903638,
+     "lon": -80.6864323,
+     "m3": 3
+    },
+    {
+     "prioridad": 5,
+     "nombre": "Establecimiento de Salud Santa Teresita / SANTA TERESITA",
+     "tipo": "clinica",
+     "lat": -4.9004509,
+     "lon": -80.6777636,
+     "m3": 4
+    },
+    {
+     "prioridad": 36,
+     "nombre": "Centro de Salud Mental Comunitario Madre de Perpetuo Socorro",
+     "tipo": "clinica",
+     "lat": -4.8933157,
+     "lon": -80.6759778,
+     "m3": 4
+    },
+    {
+     "prioridad": 2,
+     "nombre": "Centro de Salud Bellavista / BELLAVISTA",
+     "tipo": "clinica",
+     "lat": -4.8844701,
+     "lon": -80.6714142,
+     "m3": 6
+    },
+    {
+     "prioridad": 99,
+     "nombre": "El Cucho",
+     "tipo": "consultorio",
+     "lat": -4.8700456,
+     "lon": -80.661105,
+     "m3": 1
+    }
+   ],
+   "cisterna": 1
+  },
+  {
+   "viaje": 3,
+   "km": 76.4,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 38,
+     "nombre": "Centro de Salud Comunidad Saludable",
+     "tipo": "clinica",
+     "lat": -4.9081922,
+     "lon": -80.6946605,
+     "m3": 4
+    },
+    {
+     "prioridad": 35,
+     "nombre": "Centro de Salud Marcavelica",
+     "tipo": "clinica",
+     "lat": -4.8824502,
+     "lon": -80.7061963,
+     "m3": 4
+    },
+    {
+     "prioridad": 34,
+     "nombre": "Puesto de Salud Mallaritos",
+     "tipo": "clinica",
+     "lat": -4.8694935,
+     "lon": -80.71803,
+     "m3": 4
+    },
+    {
+     "prioridad": 3,
+     "nombre": "Establecimiento de Salud Villa Primavera / CENTRO DE SALUD \"VILLA PRIMAVERA\"",
+     "tipo": "clinica",
+     "lat": -4.9048233,
+     "lon": -80.7106542,
+     "m3": 4
+    },
+    {
+     "prioridad": 6,
+     "nombre": "Nuevo Sullana / CENTRO DE SALUD NUEVO SULLANA",
+     "tipo": "clinica",
+     "lat": -4.9088237,
+     "lon": -80.7227337,
+     "m3": 4
+    }
+   ],
+   "cisterna": 1
+  },
+  {
+   "viaje": 4,
+   "km": 68.9,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 12,
+     "nombre": "Centro de Salud Micaela Bastidas / E.S. MICAELA BASTIDAS",
+     "tipo": "clinica",
+     "lat": -5.1786463,
+     "lon": -80.6763214,
+     "m3": 4
+    },
+    {
+     "prioridad": 11,
+     "nombre": "Puesto de Salud San Sebastian / E.S. SAN SEBASTIAN",
+     "tipo": "clinica",
+     "lat": -5.1799333,
+     "lon": -80.6819989,
+     "m3": 4
+    },
+    {
+     "prioridad": 25,
+     "nombre": "CENTRO SALUD MENTAL COMUNITARIO LAS DALIAS",
+     "tipo": "ipress_coesalud",
+     "lat": -5.159148600000001,
+     "lon": -80.6673711,
+     "m3": 3
+    },
+    {
+     "prioridad": 4,
+     "nombre": "Establecimiento de Salud  I-3 09 de Octubre / CENTRO DE SALUD 09  DE OCTUBRE",
+     "tipo": "clinica",
+     "lat": -4.9086166,
+     "lon": -80.6753457,
+     "m3": 4
+    },
+    {
+     "prioridad": 101,
+     "nombre": "Cieneguillo Centro",
+     "tipo": "consultorio",
+     "lat": -4.9269212,
+     "lon": -80.6621194,
+     "m3": 1
+    },
+    {
+     "prioridad": 51,
+     "nombre": "Puesto de Salud Convenio Ejidos de Huan (POSTA)",
+     "tipo": "clinica",
+     "lat": -5.1307695,
+     "lon": -80.6412926,
+     "m3": 4
+    }
+   ],
+   "cisterna": 1
+  },
+  {
+   "viaje": 5,
+   "km": 7.6,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 7,
+     "nombre": "Hospital de Apoyo Santa Rosa / HOSPITAL DE LA AMISTAD PERU - COREA SANTA ROSA II-2",
+     "tipo": "hospital",
+     "lat": -5.1840073,
+     "lon": -80.6656236,
+     "m3": 20
+    }
+   ],
+   "cisterna": 2
+  },
+  {
+   "viaje": 6,
+   "km": 9.8,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 78,
+     "nombre": "Policlínico El Buen Samaritano",
+     "tipo": "clinica",
+     "lat": -5.1976153,
+     "lon": -80.6206877,
+     "m3": 4
+    },
+    {
+     "prioridad": 8,
+     "nombre": "Centro Médico Materno El Hogar de la Madre / CENTRO MATERNO INFANTIL CASTILLA",
+     "tipo": "clinica",
+     "lat": -5.1984372,
+     "lon": -80.6193689,
+     "m3": 6
+    },
+    {
+     "prioridad": 47,
+     "nombre": "Laboratorio Referencial de Salud Piura",
+     "tipo": "clinica",
+     "lat": -5.1980425,
+     "lon": -80.6196394,
+     "m3": 4
+    },
+    {
+     "prioridad": 106,
+     "nombre": "Deseret",
+     "tipo": "consultorio",
+     "lat": -5.1882654,
+     "lon": -80.6223339,
+     "m3": 1
+    },
+    {
+     "prioridad": 105,
+     "nombre": "Consultorio Médico San Liz",
+     "tipo": "consultorio",
+     "lat": -5.1749929,
+     "lon": -80.6431017,
+     "m3": 1
+    },
+    {
+     "prioridad": 44,
+     "nombre": "Consultorio Obstetrico",
+     "tipo": "clinica",
+     "lat": -5.1726421,
+     "lon": -80.6523525,
+     "m3": 4
+    }
+   ],
+   "cisterna": 2
+  },
+  {
+   "viaje": 7,
+   "km": 5.7,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 95,
+     "nombre": "(clinica sin nombre)",
+     "tipo": "clinica",
+     "lat": -5.19007,
+     "lon": -80.620773,
+     "m3": 4
+    },
+    {
+     "prioridad": 56,
+     "nombre": "Clinica Praga Internacional",
+     "tipo": "clinica",
+     "lat": -5.1865389,
+     "lon": -80.6165936,
+     "m3": 4
+    },
+    {
+     "prioridad": 9,
+     "nombre": "Establecimiento de salud María Goretti / MARIA GORETTI",
+     "tipo": "clinica",
+     "lat": -5.1904867,
+     "lon": -80.609847,
+     "m3": 4
+    },
+    {
+     "prioridad": 43,
+     "nombre": "C.S",
+     "tipo": "clinica",
+     "lat": -5.1913271,
+     "lon": -80.6095246,
+     "m3": 4
+    },
+    {
+     "prioridad": 46,
+     "nombre": "Policlinico PNP",
+     "tipo": "clinica",
+     "lat": -5.1936191,
+     "lon": -80.6127459,
+     "m3": 4
+    }
+   ],
+   "cisterna": 2
+  },
+  {
+   "viaje": 8,
+   "km": 13.5,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 49,
+     "nombre": "Centro Médico Ocupacional Poderoso Cautivo",
+     "tipo": "clinica",
+     "lat": -5.1797502,
+     "lon": -80.6133888,
+     "m3": 4
+    },
+    {
+     "prioridad": 45,
+     "nombre": "P.S",
+     "tipo": "clinica",
+     "lat": -5.1832083,
+     "lon": -80.5967419,
+     "m3": 4
+    },
+    {
+     "prioridad": 53,
+     "nombre": "Establecimiento de Salud Tacalá",
+     "tipo": "clinica",
+     "lat": -5.1866935,
+     "lon": -80.597745,
+     "m3": 4
+    },
+    {
+     "prioridad": 10,
+     "nombre": "Establecimiento de Salud I-3 El Indio / E.S. EL INDIO",
+     "tipo": "clinica",
+     "lat": -5.2244929,
+     "lon": -80.6205902,
+     "m3": 4
+    },
+    {
+     "prioridad": 50,
+     "nombre": "Centro Médico Essalud Castilla",
+     "tipo": "clinica",
+     "lat": -5.2204119,
+     "lon": -80.6209594,
+     "m3": 4
+    }
+   ],
+   "cisterna": 2
+  },
+  {
+   "viaje": 9,
+   "km": 103.9,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 13,
+     "nombre": "Hospital Las Mercedes-Paita / CENTRO DE SALUD MENTAL COMUNITARIO \"SAN ALFONSO\"",
+     "tipo": "hospital",
+     "lat": -5.0902706,
+     "lon": -81.0902378,
+     "m3": 20
+    }
+   ],
+   "cisterna": 3
+  },
+  {
+   "viaje": 10,
+   "km": 201.8,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 33,
+     "nombre": "Puesto de Salud Jibito",
+     "tipo": "clinica",
+     "lat": -4.9051449,
+     "lon": -80.7473668,
+     "m3": 4
+    },
+    {
+     "prioridad": 64,
+     "nombre": "Simedic Diagnostica Sac",
+     "tipo": "clinica",
+     "lat": -4.5889846,
+     "lon": -81.2560144,
+     "m3": 4
+    },
+    {
+     "prioridad": 65,
+     "nombre": "Centro Clínico SANNA",
+     "tipo": "clinica",
+     "lat": -4.5749403,
+     "lon": -81.2689837,
+     "m3": 4
+    },
+    {
+     "prioridad": 66,
+     "nombre": "Centro de Adulto Mayor",
+     "tipo": "clinica",
+     "lat": -4.5786054,
+     "lon": -81.2682277,
+     "m3": 4
+    },
+    {
+     "prioridad": 16,
+     "nombre": "Centro de Salud José Abelardo Quiñones / JOSE ABELARDO QUINONES",
+     "tipo": "clinica",
+     "lat": -4.5944859,
+     "lon": -81.2554391,
+     "m3": 4
+    }
+   ],
+   "cisterna": 3
+  },
+  {
+   "viaje": 11,
+   "km": 14.4,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 17,
+     "nombre": "Establecimiento de Salud I-1 San Jacinto / P.S I - 1 SAN JACINTO",
+     "tipo": "hospital",
+     "lat": -5.2464712,
+     "lon": -80.6718848,
+     "m3": 20
+    }
+   ],
+   "cisterna": 3
+  },
+  {
+   "viaje": 12,
+   "km": 5.3,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 18,
+     "nombre": "Establecimiento de Salud Los Algarrobos / ACLAS LOS ALGARROBOS",
+     "tipo": "hospital",
+     "lat": -5.1751152,
+     "lon": -80.64642,
+     "m3": 20
+    }
+   ],
+   "cisterna": 3
+  },
+  {
+   "viaje": 13,
+   "km": 3.3,
+   "m3": 18,
+   "paradas": [
+    {
+     "prioridad": 80,
+     "nombre": "Clínica Oftalmológica Pongo",
+     "tipo": "clinica",
+     "lat": -5.194159,
+     "lon": -80.6352642,
+     "m3": 4
+    },
+    {
+     "prioridad": 24,
+     "nombre": "Consuelo de Velasco / \tE.S I-4 CONSUELO DE VELASCO",
+     "tipo": "clinica",
+     "lat": -5.1972869,
+     "lon": -80.6450193,
+     "m3": 4
+    },
+    {
+     "prioridad": 19,
+     "nombre": "Establecimiento de Salud San Pedro / E.S SAN PEDRO",
+     "tipo": "clinica",
+     "lat": -5.2005274,
+     "lon": -80.640031,
+     "m3": 6
+    },
+    {
+     "prioridad": 89,
+     "nombre": "Centro de Salud Victor Raúl Haya de la Torre",
+     "tipo": "clinica",
+     "lat": -5.2016424,
+     "lon": -80.6386537,
+     "m3": 4
+    }
+   ],
+   "cisterna": 4
+  },
+  {
+   "viaje": 14,
+   "km": 15.5,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 20,
+     "nombre": "Establecimiento de Salud Chiclayito / E.S. CHICLAYITO",
+     "tipo": "clinica",
+     "lat": -5.2246855,
+     "lon": -80.6273422,
+     "m3": 4
+    },
+    {
+     "prioridad": 21,
+     "nombre": "Establecimiento de Salud I-2 Simbila / E.S SIMBILA",
+     "tipo": "clinica",
+     "lat": -5.2475766,
+     "lon": -80.6511192,
+     "m3": 4
+    },
+    {
+     "prioridad": 22,
+     "nombre": "Puesto de Salud La Legua / P.S LA LEGUA",
+     "tipo": "clinica",
+     "lat": -5.2362962,
+     "lon": -80.6600506,
+     "m3": 4
+    },
+    {
+     "prioridad": 74,
+     "nombre": "Posta Médica Municipal Ricardo Jáuregui",
+     "tipo": "clinica",
+     "lat": -5.197085,
+     "lon": -80.6523457,
+     "m3": 4
+    },
+    {
+     "prioridad": 23,
+     "nombre": "Posta de San José / \tE.S. SAN JOSE",
+     "tipo": "clinica",
+     "lat": -5.1924094,
+     "lon": -80.6463567,
+     "m3": 4
+    }
+   ],
+   "cisterna": 4
+  },
+  {
+   "viaje": 15,
+   "km": 106.0,
+   "m3": 19,
+   "paradas": [
+    {
+     "prioridad": 26,
+     "nombre": "HOSPITAL DE APOYO II - 1 NUESTRA SEÑORA DE LAS MERCEDES - PAITA",
+     "tipo": "ipress_coesalud",
+     "lat": -5.090814529999999,
+     "lon": -81.09153053,
+     "m3": 15
+    },
+    {
+     "prioridad": 61,
+     "nombre": "Posta Medica Municipal",
+     "tipo": "clinica",
+     "lat": -5.0944516,
+     "lon": -81.1000109,
+     "m3": 4
+    }
+   ],
+   "cisterna": 4
+  },
+  {
+   "viaje": 16,
+   "km": 74.3,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 27,
+     "nombre": "Establecimiento de Salud Vista Florida",
+     "tipo": "hospital",
+     "lat": -4.8773073,
+     "lon": -80.7380904,
+     "m3": 20
+    }
+   ],
+   "cisterna": 4
+  },
+  {
+   "viaje": 17,
+   "km": 66.9,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 28,
+     "nombre": "SISOL Salud Sullana",
+     "tipo": "hospital",
+     "lat": -4.8984413,
+     "lon": -80.6870972,
+     "m3": 20
+    }
+   ],
+   "cisterna": 5
+  },
+  {
+   "viaje": 18,
+   "km": 65.5,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 29,
+     "nombre": "Hospital I Essalud- Sullana",
+     "tipo": "hospital",
+     "lat": -4.9060947,
+     "lon": -80.6921064,
+     "m3": 20
+    }
+   ],
+   "cisterna": 5
+  },
+  {
+   "viaje": 19,
+   "km": 64.2,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 30,
+     "nombre": "Establecimiento de Salud I-3 El Obrero",
+     "tipo": "hospital",
+     "lat": -4.9102671,
+     "lon": -80.6823704,
+     "m3": 20
+    }
+   ],
+   "cisterna": 5
+  },
+  {
+   "viaje": 20,
+   "km": 67.3,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 31,
+     "nombre": "Nuevo Hospital de Apoyo II-2 Sullana",
+     "tipo": "hospital",
+     "lat": -4.9063866,
+     "lon": -80.7252818,
+     "m3": 20
+    }
+   ],
+   "cisterna": 5
+  },
+  {
+   "viaje": 21,
+   "km": 237.9,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 32,
+     "nombre": "Meditech Salud",
+     "tipo": "clinica",
+     "lat": -4.8991118,
+     "lon": -80.6925772,
+     "m3": 4
+    },
+    {
+     "prioridad": 37,
+     "nombre": "Salitral",
+     "tipo": "clinica",
+     "lat": -4.8599003,
+     "lon": -80.6836031,
+     "m3": 4
+    },
+    {
+     "prioridad": 97,
+     "nombre": "Miraflores / MIRAFLORES",
+     "tipo": "consultorio",
+     "lat": -4.8403712,
+     "lon": -80.689474,
+     "m3": 1
+    },
+    {
+     "prioridad": 100,
+     "nombre": "La Quinta",
+     "tipo": "consultorio",
+     "lat": -4.8522205,
+     "lon": -80.7261634,
+     "m3": 1
+    },
+    {
+     "prioridad": 103,
+     "nombre": "Centro Médico San Pablo",
+     "tipo": "consultorio",
+     "lat": -4.575988,
+     "lon": -81.2710599,
+     "m3": 1
+    },
+    {
+     "prioridad": 60,
+     "nombre": "Puesto de Salud Yacila",
+     "tipo": "clinica",
+     "lat": -5.1327293,
+     "lon": -81.1707793,
+     "m3": 4
+    },
+    {
+     "prioridad": 59,
+     "nombre": "Clinica Paita",
+     "tipo": "clinica",
+     "lat": -5.0869925,
+     "lon": -81.1104133,
+     "m3": 4
+    },
+    {
+     "prioridad": 104,
+     "nombre": "Unidad Médico Legal Piura",
+     "tipo": "consultorio",
+     "lat": -5.1848009,
+     "lon": -80.6480779,
+     "m3": 1
+    }
+   ],
+   "cisterna": 6
+  },
+  {
+   "viaje": 22,
+   "km": 9.3,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 39,
+     "nombre": "Centro de salud I-4 Castilla",
+     "tipo": "hospital",
+     "lat": -5.1828678,
+     "lon": -80.5926178,
+     "m3": 20
+    }
+   ],
+   "cisterna": 6
+  },
+  {
+   "viaje": 23,
+   "km": 10.0,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 40,
+     "nombre": "Establecimiento de Salud Las Dalias",
+     "tipo": "hospital",
+     "lat": -5.160671,
+     "lon": -80.6626158,
+     "m3": 20
+    }
+   ],
+   "cisterna": 6
+  },
+  {
+   "viaje": 24,
+   "km": 7.7,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 41,
+     "nombre": "Hospital de Alta Complejidad de Piura",
+     "tipo": "hospital",
+     "lat": -5.1826715,
+     "lon": -80.6656474,
+     "m3": 20
+    }
+   ],
+   "cisterna": 6
+  },
+  {
+   "viaje": 25,
+   "km": 7.4,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 42,
+     "nombre": "Hospital Popular Regional Señor Cautivo",
+     "tipo": "hospital",
+     "lat": -5.1788824,
+     "lon": -80.6624217,
+     "m3": 20
+    }
+   ],
+   "cisterna": 7
+  },
+  {
+   "viaje": 26,
+   "km": 8.4,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 85,
+     "nombre": "Clínica Dental Moses",
+     "tipo": "clinica",
+     "lat": -5.1896407,
+     "lon": -80.6426471,
+     "m3": 4
+    },
+    {
+     "prioridad": 96,
+     "nombre": "Clínica Bello Horizonte",
+     "tipo": "clinica",
+     "lat": -5.1806126,
+     "lon": -80.649833,
+     "m3": 4
+    },
+    {
+     "prioridad": 48,
+     "nombre": "Laboratorio Labonorte",
+     "tipo": "clinica",
+     "lat": -5.1853472,
+     "lon": -80.6648644,
+     "m3": 4
+    },
+    {
+     "prioridad": 55,
+     "nombre": "Centro de Salud Nueva Esperanza",
+     "tipo": "clinica",
+     "lat": -5.1909234,
+     "lon": -80.664068,
+     "m3": 4
+    },
+    {
+     "prioridad": 54,
+     "nombre": "Centro de Salud Santa Julia",
+     "tipo": "clinica",
+     "lat": -5.1913384,
+     "lon": -80.6598161,
+     "m3": 4
+    }
+   ],
+   "cisterna": 7
+  },
+  {
+   "viaje": 27,
+   "km": 3.0,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 52,
+     "nombre": "Hospital Militar Regional",
+     "tipo": "clinica",
+     "lat": -5.1961489,
+     "lon": -80.6201579,
+     "m3": 4
+    },
+    {
+     "prioridad": 79,
+     "nombre": "Policlínico PNP Almirante Miguel Grau",
+     "tipo": "clinica",
+     "lat": -5.1953767,
+     "lon": -80.6207528,
+     "m3": 4
+    },
+    {
+     "prioridad": 94,
+     "nombre": "Policlínico PNP Almirante Miguel Grau",
+     "tipo": "clinica",
+     "lat": -5.1953489,
+     "lon": -80.620839,
+     "m3": 4
+    },
+    {
+     "prioridad": 91,
+     "nombre": "Centro Médico Hematológico",
+     "tipo": "clinica",
+     "lat": -5.1940201,
+     "lon": -80.6207362,
+     "m3": 4
+    },
+    {
+     "prioridad": 92,
+     "nombre": "Clínica Auna Miraflores",
+     "tipo": "clinica",
+     "lat": -5.1943446,
+     "lon": -80.6226917,
+     "m3": 4
+    }
+   ],
+   "cisterna": 7
+  },
+  {
+   "viaje": 28,
+   "km": 110.2,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 57,
+     "nombre": "Hospital Las Mercedes",
+     "tipo": "hospital",
+     "lat": -5.0832259,
+     "lon": -81.1177492,
+     "m3": 20
+    }
+   ],
+   "cisterna": 7
+  },
+  {
+   "viaje": 29,
+   "km": 106.2,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 58,
+     "nombre": "Hospital I Miguel Cruzado Vera",
+     "tipo": "hospital",
+     "lat": -5.0880538,
+     "lon": -81.1003872,
+     "m3": 20
+    }
+   ],
+   "cisterna": 8
+  },
+  {
+   "viaje": 30,
+   "km": 197.0,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 62,
+     "nombre": "Centro de Salud Talara II",
+     "tipo": "hospital",
+     "lat": -4.5786276,
+     "lon": -81.2717827,
+     "m3": 20
+    }
+   ],
+   "cisterna": 8
+  },
+  {
+   "viaje": 31,
+   "km": 198.9,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 63,
+     "nombre": "Hospital II Talara",
+     "tipo": "hospital",
+     "lat": -4.5681267,
+     "lon": -81.2735865,
+     "m3": 20
+    }
+   ],
+   "cisterna": 8
+  },
+  {
+   "viaje": 32,
+   "km": 2.8,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 67,
+     "nombre": "Hospital Regional Cayetano Heredia",
+     "tipo": "hospital",
+     "lat": -5.1869316,
+     "lon": -80.6226051,
+     "m3": 20
+    }
+   ],
+   "cisterna": 8
+  },
+  {
+   "viaje": 33,
+   "km": 2.3,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 68,
+     "nombre": "SANNA/CLINICA BELÉN",
+     "tipo": "hospital",
+     "lat": -5.1857414,
+     "lon": -80.6276702,
+     "m3": 20
+    }
+   ],
+   "cisterna": 9
+  },
+  {
+   "viaje": 34,
+   "km": 5.3,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 69,
+     "nombre": "Policlínico UDEP",
+     "tipo": "hospital",
+     "lat": -5.1711605,
+     "lon": -80.6369655,
+     "m3": 20
+    }
+   ],
+   "cisterna": 9
+  },
+  {
+   "viaje": 35,
+   "km": 0.8,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 70,
+     "nombre": "Hospital Jorge Reátegui Delgado",
+     "tipo": "hospital",
+     "lat": -5.193186,
+     "lon": -80.636344,
+     "m3": 20
+    }
+   ],
+   "cisterna": 9
+  },
+  {
+   "viaje": 36,
+   "km": 12.2,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 71,
+     "nombre": "Hospital Privado del Perú",
+     "tipo": "hospital",
+     "lat": -5.2455494,
+     "lon": -80.6527713,
+     "m3": 20
+    }
+   ],
+   "cisterna": 9
+  },
+  {
+   "viaje": 37,
+   "km": 2.0,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 72,
+     "nombre": "(hospital sin nombre)",
+     "tipo": "hospital",
+     "lat": -5.2014728,
+     "lon": -80.638403,
+     "m3": 20
+    }
+   ],
+   "cisterna": 10
+  },
+  {
+   "viaje": 38,
+   "km": 1.5,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 75,
+     "nombre": "Carita feliz",
+     "tipo": "clinica",
+     "lat": -5.1961563,
+     "lon": -80.6322645,
+     "m3": 4
+    },
+    {
+     "prioridad": 73,
+     "nombre": "Oncosalud",
+     "tipo": "clinica",
+     "lat": -5.1964326,
+     "lon": -80.6277613,
+     "m3": 4
+    },
+    {
+     "prioridad": 76,
+     "nombre": "Centro de Atencion Primaria Cap III Metropolitano",
+     "tipo": "clinica",
+     "lat": -5.1957226,
+     "lon": -80.626865,
+     "m3": 4
+    },
+    {
+     "prioridad": 83,
+     "nombre": "Clínica San Miguel II",
+     "tipo": "clinica",
+     "lat": -5.1948402,
+     "lon": -80.6314129,
+     "m3": 4
+    },
+    {
+     "prioridad": 84,
+     "nombre": "Clínica San Miguel",
+     "tipo": "clinica",
+     "lat": -5.1946562,
+     "lon": -80.631979,
+     "m3": 4
+    }
+   ],
+   "cisterna": 10
+  },
+  {
+   "viaje": 39,
+   "km": 4.2,
+   "m3": 20,
+   "paradas": [
+    {
+     "prioridad": 77,
+     "nombre": "Resocentro- Centro Especializado de Resonancia Magnética",
+     "tipo": "clinica",
+     "lat": -5.1813537,
+     "lon": -80.6281689,
+     "m3": 4
+    },
+    {
+     "prioridad": 90,
+     "nombre": "Instituto Médico Soy Diabético",
+     "tipo": "clinica",
+     "lat": -5.1832095,
+     "lon": -80.6260556,
+     "m3": 4
+    },
+    {
+     "prioridad": 88,
+     "nombre": "Clínica de Ojos",
+     "tipo": "clinica",
+     "lat": -5.1858974,
+     "lon": -80.6210267,
+     "m3": 4
+    },
+    {
+     "prioridad": 86,
+     "nombre": "Laser Visión",
+     "tipo": "clinica",
+     "lat": -5.1877768,
+     "lon": -80.6209507,
+     "m3": 4
+    },
+    {
+     "prioridad": 81,
+     "nombre": "Centro Médico Regional Piura",
+     "tipo": "clinica",
+     "lat": -5.1879511,
+     "lon": -80.6209844,
+     "m3": 4
+    }
+   ],
+   "cisterna": 10
+  },
+  {
+   "viaje": 40,
+   "km": 2.7,
+   "m3": 18,
+   "paradas": [
+    {
+     "prioridad": 98,
+     "nombre": "Consultorio Medico Ann Goulden / E.S. PACHITEA",
+     "tipo": "consultorio",
+     "lat": -5.1867065,
+     "lon": -80.6308504,
+     "m3": 6
+    },
+    {
+     "prioridad": 82,
+     "nombre": "Establecimiento de Salud I-4 Pachitea",
+     "tipo": "clinica",
+     "lat": -5.1860768,
+     "lon": -80.6311643,
+     "m3": 4
+    },
+    {
+     "prioridad": 93,
+     "nombre": "(clinica sin nombre)",
+     "tipo": "clinica",
+     "lat": -5.1861101,
+     "lon": -80.6312736,
+     "m3": 4
+    },
+    {
+     "prioridad": 87,
+     "nombre": "Centro de Rehabilitación Profesional Piura",
+     "tipo": "clinica",
+     "lat": -5.1834832,
+     "lon": -80.6345273,
+     "m3": 4
+    }
+   ],
+   "cisterna": 10
+  }
+ ],
+ "AVISO": "Distancias haversine en línea recta (sin red vial); demandas y flota SUPUESTAS; una sola base en Piura.",
+ "base": [
+  -5.1945,
+  -80.6328
+ ]
+}

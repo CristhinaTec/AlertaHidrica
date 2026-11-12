@@ -1,0 +1,677 @@
+﻿# SUPUESTOS: demanda por punto, flota (n5 con datos EPS supuestos). Puntos: OSM + CENEPRED COESALUD (reales).
+prioridad,puntaje,nombre,tipo,categoria,fuente,osm_id,ipress_afectada,localidad,distrito,niv_sinu,pobreza_pct,lat,lon,km_desde_base,demanda_m3d,asignado_m3d,viajes_dia,cubierto
+1,99.13,Hospital de apoyo II de Sullana / HOSPITAL DE APOYO II-2  SULLANA,hospital,II-2,OSM,way/549395452,True,Sullana,SULLANA,Muy alto,19.4,-4.8958488,-80.6950582,33.9,20,20,1,total
+2,99.13,Centro de Salud Bellavista / BELLAVISTA,clinica,I-4,OSM,way/839155670,True,Sullana,SULLANA,Muy alto,19.4,-4.8844701,-80.6714142,34.7,6,6,1,total
+3,99.13,"Establecimiento de Salud Villa Primavera / CENTRO DE SALUD ""VILLA PRIMAVERA""",clinica,I-3,OSM,way/1051957084,True,Sullana,SULLANA,Muy alto,19.4,-4.9048233,-80.7106542,33.3,4,4,1,total
+4,99.13,Establecimiento de Salud  I-3 09 de Octubre / CENTRO DE SALUD 09  DE OCTUBRE,clinica,I-3,OSM,way/1051957663,True,Sullana,SULLANA,Muy alto,19.4,-4.9086166,-80.6753457,32.1,4,4,1,total
+5,99.13,Establecimiento de Salud Santa Teresita / SANTA TERESITA,clinica,I-3,OSM,way/1051957842,True,Sullana,SULLANA,Muy alto,19.4,-4.9004509,-80.6777636,33.1,4,4,1,total
+6,99.13,Nuevo Sullana / CENTRO DE SALUD NUEVO SULLANA,clinica,I-3,OSM,way/1051957872,True,Sullana,SULLANA,Muy alto,19.4,-4.9088237,-80.7227337,33.3,4,4,1,total
+7,96.87,Hospital de Apoyo Santa Rosa / HOSPITAL DE LA AMISTAD PERU - COREA SANTA ROSA II-2,hospital,II-2,OSM,way/704105573,True,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1840073,-80.6656236,3.8,20,20,1,total
+8,96.87,Centro Médico Materno El Hogar de la Madre / CENTRO MATERNO INFANTIL CASTILLA,clinica,I-4,OSM,node/6928994886,True,Castilla,CASTILLA,Muy alto,16.3,-5.1984372,-80.6193689,1.6,6,6,1,total
+9,96.87,Establecimiento de salud María Goretti / MARIA GORETTI,clinica,I-3,OSM,node/4003072603,True,Castilla,CASTILLA,Muy alto,16.3,-5.1904867,-80.609847,2.6,4,4,1,total
+10,96.87,Establecimiento de Salud I-3 El Indio / E.S. EL INDIO,clinica,I-3,OSM,node/4003072619,True,Castilla,CASTILLA,Muy alto,16.3,-5.2244929,-80.6205902,3.6,4,4,1,total
+11,96.87,Puesto de Salud San Sebastian / E.S. SAN SEBASTIAN,clinica,I-3,OSM,way/890531015,True,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1799333,-80.6819989,5.7,4,4,1,total
+12,96.87,Centro de Salud Micaela Bastidas / E.S. MICAELA BASTIDAS,clinica,I-3,OSM,way/1051958268,True,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1786463,-80.6763214,5.1,4,4,1,total
+13,96.25,"Hospital Las Mercedes-Paita / CENTRO DE SALUD MENTAL COMUNITARIO ""SAN ALFONSO""",hospital,I-3,OSM,way/490466229,True,Paita,PAITA,Alto,20.6,-5.0902706,-81.0902378,52.0,20,20,1,total
+14,93.13,"CENTRO DE SALUD MENTAL COMUNITARIO  ""JESÚS REDENTOR""",ipress_coesalud,I-3,CENEPRED-COESALUD,00024988,True,Sullana,SULLANA,Muy alto,19.4,-4.903638,-80.6864323,32.9,3,3,1,total
+15,93.13,CIENEGUILLO SUR ALTO,ipress_coesalud,I-1,CENEPRED-COESALUD,00024065,True,Sullana,SULLANA,Muy alto,19.4,-4.903638,-80.6864323,32.9,1,1,1,total
+16,92.54,Centro de Salud José Abelardo Quiñones / JOSE ABELARDO QUINONES,clinica,I-3,OSM,way/486044207,True,Talara,PARIÑAS,Alto,15.5,-4.5944859,-81.2554391,96.0,4,4,1,total
+17,92.14,Establecimiento de Salud I-1 San Jacinto / P.S I - 1 SAN JACINTO,hospital,I-1,OSM,node/6858920973,True,Piura,PIURA,Muy alto,9.8,-5.2464712,-80.6718848,7.2,20,20,1,total
+18,92.14,Establecimiento de Salud Los Algarrobos / ACLAS LOS ALGARROBOS,hospital,I-4,OSM,way/468265348,True,Piura,PIURA,Muy alto,9.8,-5.1751152,-80.64642,2.6,20,20,1,total
+19,92.14,Establecimiento de Salud San Pedro / E.S SAN PEDRO,clinica,I-4,OSM,way/468265355,True,Piura,PIURA,Muy alto,9.8,-5.2005274,-80.640031,1.0,6,6,1,total
+20,92.14,Establecimiento de Salud Chiclayito / E.S. CHICLAYITO,clinica,I-3,OSM,node/4003072607,True,Piura,PIURA,Muy alto,9.8,-5.2246855,-80.6273422,3.4,4,4,1,total
+21,92.14,Establecimiento de Salud I-2 Simbila / E.S SIMBILA,clinica,I-2,OSM,node/6858920966,True,Piura,PIURA,Muy alto,9.8,-5.2475766,-80.6511192,6.2,4,4,1,total
+22,92.14,Puesto de Salud La Legua / P.S LA LEGUA,clinica,I-3,OSM,node/6858920974,True,Piura,PIURA,Muy alto,9.8,-5.2362962,-80.6600506,5.5,4,4,1,total
+23,92.14,Posta de San José / 	E.S. SAN JOSE,clinica,I-3,OSM,way/397311883,True,Piura,PIURA,Muy alto,9.8,-5.1924094,-80.6463567,1.5,4,4,1,total
+24,92.14,Consuelo de Velasco / 	E.S I-4 CONSUELO DE VELASCO,clinica,I-1,OSM,way/890533263,True,Piura,PIURA,Muy alto,9.8,-5.1972869,-80.6450193,1.4,4,4,1,total
+25,90.87,CENTRO SALUD MENTAL COMUNITARIO LAS DALIAS,ipress_coesalud,I-3,CENEPRED-COESALUD,00030872,True,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.159148600000001,-80.6673711,5.5,3,3,1,total
+26,90.25,HOSPITAL DE APOYO II - 1 NUESTRA SEÑORA DE LAS MERCEDES - PAITA,ipress_coesalud,II-1,CENEPRED-COESALUD,00002021,True,Paita,PAITA,Alto,20.6,-5.090814529999999,-81.09153053,52.1,15,15,1,total
+27,89.13,Establecimiento de Salud Vista Florida,hospital,,OSM,node/7050468487,False,Sullana,SULLANA,Muy alto,19.4,-4.8773073,-80.7380904,37.1,20,20,1,total
+28,89.13,SISOL Salud Sullana,hospital,,OSM,way/699814130,False,Sullana,SULLANA,Muy alto,19.4,-4.8984413,-80.6870972,33.5,20,20,1,total
+29,89.13,Hospital I Essalud- Sullana,hospital,,OSM,way/852545213,False,Sullana,SULLANA,Muy alto,19.4,-4.9060947,-80.6921064,32.7,20,20,1,total
+30,89.13,Establecimiento de Salud I-3 El Obrero,hospital,,OSM,way/1051957387,False,Sullana,SULLANA,Muy alto,19.4,-4.9102671,-80.6823704,32.1,20,20,1,total
+31,89.13,Nuevo Hospital de Apoyo II-2 Sullana,hospital,,OSM,way/1134537644,False,Sullana,SULLANA,Muy alto,19.4,-4.9063866,-80.7252818,33.6,20,20,1,total
+32,89.13,Meditech Salud,clinica,,OSM,node/8923051687,False,Sullana,SULLANA,Muy alto,19.4,-4.8991118,-80.6925772,33.5,4,4,1,total
+33,89.13,Puesto de Salud Jibito,clinica,,OSM,way/490200445,False,Sullana,SULLANA,Muy alto,19.4,-4.9051449,-80.7473668,34.6,4,4,1,total
+34,89.13,Puesto de Salud Mallaritos,clinica,,OSM,way/491507204,False,Sullana,SULLANA,Muy alto,19.4,-4.8694935,-80.71803,37.4,4,4,1,total
+35,89.13,Centro de Salud Marcavelica,clinica,,OSM,way/491507209,False,Sullana,SULLANA,Muy alto,19.4,-4.8824502,-80.7061963,35.6,4,4,1,total
+36,89.13,Centro de Salud Mental Comunitario Madre de Perpetuo Socorro,clinica,,OSM,way/551067594,False,Sullana,SULLANA,Muy alto,19.4,-4.8933157,-80.6759778,33.8,4,4,1,total
+37,89.13,Salitral,clinica,,OSM,way/1032402465,False,Sullana,SULLANA,Muy alto,19.4,-4.8599003,-80.6836031,37.6,4,4,1,total
+38,89.13,Centro de Salud Comunidad Saludable,clinica,,OSM,way/1051957205,False,Sullana,SULLANA,Muy alto,19.4,-4.9081922,-80.6946605,32.6,4,4,1,total
+39,86.87,Centro de salud I-4 Castilla,hospital,,OSM,node/11709521097,False,Castilla,CASTILLA,Muy alto,16.3,-5.1828678,-80.5926178,4.6,20,20,1,total
+40,86.87,Establecimiento de Salud Las Dalias,hospital,,OSM,node/13239716983,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.160671,-80.6626158,5.0,20,20,1,total
+41,86.87,Hospital de Alta Complejidad de Piura,hospital,,OSM,way/1018726255,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1826715,-80.6656474,3.9,20,20,1,total
+42,86.87,Hospital Popular Regional Señor Cautivo,hospital,,OSM,way/1056998804,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1788824,-80.6624217,3.7,20,20,1,total
+43,86.87,C.S,clinica,,OSM,node/4003072604,False,Castilla,CASTILLA,Muy alto,16.3,-5.1913271,-80.6095246,2.6,4,4,1,total
+44,86.87,Consultorio Obstetrico,clinica,,OSM,node/4003072611,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1726421,-80.6523525,3.3,4,4,1,total
+45,86.87,P.S,clinica,,OSM,node/4003072617,False,Castilla,CASTILLA,Muy alto,16.3,-5.1832083,-80.5967419,4.2,4,4,1,total
+46,86.87,Policlinico PNP,clinica,,OSM,node/4003072622,False,Castilla,CASTILLA,Muy alto,16.3,-5.1936191,-80.6127459,2.2,4,4,1,total
+47,86.87,Laboratorio Referencial de Salud Piura,clinica,,OSM,node/8335514419,False,Castilla,CASTILLA,Muy alto,16.3,-5.1980425,-80.6196394,1.5,4,4,1,total
+48,86.87,Laboratorio Labonorte,clinica,,OSM,node/13818196901,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1853472,-80.6648644,3.7,4,4,1,total
+49,86.87,Centro Médico Ocupacional Poderoso Cautivo,clinica,,OSM,node/14087567508,False,Castilla,CASTILLA,Muy alto,16.3,-5.1797502,-80.6133888,2.7,4,4,1,total
+50,86.87,Centro Médico Essalud Castilla,clinica,,OSM,way/398450093,False,Castilla,CASTILLA,Muy alto,16.3,-5.2204119,-80.6209594,3.2,4,4,1,total
+51,86.87,Puesto de Salud Convenio Ejidos de Huan (POSTA),clinica,,OSM,way/468265349,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1307695,-80.6412926,7.1,4,4,1,total
+52,86.87,Hospital Militar Regional,clinica,,OSM,way/890534868,False,Castilla,CASTILLA,Muy alto,16.3,-5.1961489,-80.6201579,1.4,4,4,1,total
+53,86.87,Establecimiento de Salud Tacalá,clinica,,OSM,way/895975543,False,Castilla,CASTILLA,Muy alto,16.3,-5.1866935,-80.597745,4.0,4,4,1,total
+54,86.87,Centro de Salud Santa Julia,clinica,,OSM,way/898070692,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1913384,-80.6598161,3.0,4,4,1,total
+55,86.87,Centro de Salud Nueva Esperanza,clinica,,OSM,way/900239069,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1909234,-80.664068,3.5,4,4,1,total
+56,86.87,Clinica Praga Internacional,clinica,,OSM,way/1414938272,False,Castilla,CASTILLA,Muy alto,16.3,-5.1865389,-80.6165936,2.0,4,4,1,total
+57,86.25,Hospital Las Mercedes,hospital,,OSM,node/5597386709,False,Paita,PAITA,Alto,20.6,-5.0832259,-81.1177492,55.1,20,20,1,total
+58,86.25,Hospital I Miguel Cruzado Vera,hospital,,OSM,way/490466228,False,Paita,PAITA,Alto,20.6,-5.0880538,-81.1003872,53.1,20,20,1,total
+59,86.25,Clinica Paita,clinica,,OSM,node/4826493942,False,Paita,PAITA,Alto,20.6,-5.0869925,-81.1104133,54.2,4,4,1,total
+60,86.25,Puesto de Salud Yacila,clinica,,OSM,way/490408659,False,Paita,PAITA,Alto,20.6,-5.1327293,-81.1707793,60.0,4,4,1,total
+61,86.25,Posta Medica Municipal,clinica,,OSM,way/585202238,False,Paita,PAITA,Alto,20.6,-5.0944516,-81.1000109,52.9,4,4,1,total
+62,82.54,Centro de Salud Talara II,hospital,,OSM,way/486044202,False,Talara,PARIÑAS,Alto,15.5,-4.5786276,-81.2717827,98.5,20,20,1,total
+63,82.54,Hospital II Talara,hospital,,OSM,way/486741857,False,Talara,PARIÑAS,Alto,15.5,-4.5681267,-81.2735865,99.5,20,20,1,total
+64,82.54,Simedic Diagnostica Sac,clinica,,OSM,node/7063896993,False,Talara,PARIÑAS,Alto,15.5,-4.5889846,-81.2560144,96.4,4,4,1,total
+65,82.54,Centro Clínico SANNA,clinica,,OSM,way/486044165,False,Talara,PARIÑAS,Alto,15.5,-4.5749403,-81.2689837,98.6,4,4,1,total
+66,82.54,Centro de Adulto Mayor,clinica,,OSM,way/487350545,False,Talara,PARIÑAS,Alto,15.5,-4.5786054,-81.2682277,98.2,4,4,1,total
+67,82.14,Hospital Regional Cayetano Heredia,hospital,,OSM,way/201126258,False,Piura,PIURA,Muy alto,9.8,-5.1869316,-80.6226051,1.4,20,20,1,total
+68,82.14,SANNA/CLINICA BELÉN,hospital,,OSM,way/385177976,False,Piura,PIURA,Muy alto,9.8,-5.1857414,-80.6276702,1.1,20,20,1,total
+69,82.14,Policlínico UDEP,hospital,,OSM,way/397153191,False,Piura,PIURA,Muy alto,9.8,-5.1711605,-80.6369655,2.6,20,20,1,total
+70,82.14,Hospital Jorge Reátegui Delgado,hospital,,OSM,way/397500652,False,Piura,PIURA,Muy alto,9.8,-5.193186,-80.636344,0.4,20,20,1,total
+71,82.14,Hospital Privado del Perú,hospital,,OSM,way/1034957866,False,Piura,PIURA,Muy alto,9.8,-5.2455494,-80.6527713,6.1,20,20,1,total
+72,82.14,(hospital sin nombre),hospital,,OSM,way/1372149681,False,Piura,PIURA,Muy alto,9.8,-5.2014728,-80.638403,1.0,20,20,1,total
+73,82.14,Oncosalud,clinica,,OSM,node/4002617838,False,Piura,PIURA,Muy alto,9.8,-5.1964326,-80.6277613,0.6,4,4,1,total
+74,82.14,Posta Médica Municipal Ricardo Jáuregui,clinica,,OSM,node/4003072618,False,Piura,PIURA,Muy alto,9.8,-5.197085,-80.6523457,2.2,4,4,1,total
+75,82.14,Carita feliz,clinica,,OSM,node/6718530485,False,Piura,PIURA,Muy alto,9.8,-5.1961563,-80.6322645,0.2,4,4,1,total
+76,82.14,Centro de Atencion Primaria Cap III Metropolitano,clinica,,OSM,node/7064511376,False,Piura,PIURA,Muy alto,9.8,-5.1957226,-80.626865,0.7,4,4,1,total
+77,82.14,Resocentro- Centro Especializado de Resonancia Magnética,clinica,,OSM,node/8171780691,False,Piura,PIURA,Muy alto,9.8,-5.1813537,-80.6281689,1.5,4,4,1,total
+78,82.14,Policlínico El Buen Samaritano,clinica,,OSM,node/8335514422,False,Piura,PIURA,Muy alto,9.8,-5.1976153,-80.6206877,1.4,4,4,1,total
+79,82.14,Policlínico PNP Almirante Miguel Grau,clinica,,OSM,node/8335514425,False,Piura,PIURA,Muy alto,9.8,-5.1953767,-80.6207528,1.3,4,4,1,total
+80,82.14,Clínica Oftalmológica Pongo,clinica,,OSM,node/9168883117,False,Piura,PIURA,Muy alto,9.8,-5.194159,-80.6352642,0.3,4,4,1,total
+81,82.14,Centro Médico Regional Piura,clinica,,OSM,node/11892858210,False,Piura,PIURA,Muy alto,9.8,-5.1879511,-80.6209844,1.5,4,4,1,total
+82,82.14,Establecimiento de Salud I-4 Pachitea,clinica,,OSM,way/397160627,False,Piura,PIURA,Muy alto,9.8,-5.1860768,-80.6311643,1.0,4,4,1,total
+83,82.14,Clínica San Miguel II,clinica,,OSM,way/397161950,False,Piura,PIURA,Muy alto,9.8,-5.1948402,-80.6314129,0.2,4,4,1,total
+84,82.14,Clínica San Miguel,clinica,,OSM,way/397161951,False,Piura,PIURA,Muy alto,9.8,-5.1946562,-80.631979,0.1,4,4,1,total
+85,82.14,Clínica Dental Moses,clinica,,OSM,way/397303246,False,Piura,PIURA,Muy alto,9.8,-5.1896407,-80.6426471,1.2,4,4,1,total
+86,82.14,Laser Visión,clinica,,OSM,way/397307194,False,Piura,PIURA,Muy alto,9.8,-5.1877768,-80.6209507,1.5,4,4,1,total
+87,82.14,Centro de Rehabilitación Profesional Piura,clinica,,OSM,way/397310835,False,Piura,PIURA,Muy alto,9.8,-5.1834832,-80.6345273,1.2,4,4,1,total
+88,82.14,Clínica de Ojos,clinica,,OSM,way/397311493,False,Piura,PIURA,Muy alto,9.8,-5.1858974,-80.6210267,1.6,4,4,1,total
+89,82.14,Centro de Salud Victor Raúl Haya de la Torre,clinica,,OSM,way/468265350,False,Piura,PIURA,Muy alto,9.8,-5.2016424,-80.6386537,1.0,4,4,1,total
+90,82.14,Instituto Médico Soy Diabético,clinica,,OSM,way/555853929,False,Piura,PIURA,Muy alto,9.8,-5.1832095,-80.6260556,1.5,4,4,1,total
+91,82.14,Centro Médico Hematológico,clinica,,OSM,way/860804966,False,Piura,PIURA,Muy alto,9.8,-5.1940201,-80.6207362,1.3,4,4,1,total
+92,82.14,Clínica Auna Miraflores,clinica,,OSM,way/860810821,False,Piura,PIURA,Muy alto,9.8,-5.1943446,-80.6226917,1.1,4,4,1,total
+93,82.14,(clinica sin nombre),clinica,,OSM,way/1347462547,False,Piura,PIURA,Muy alto,9.8,-5.1861101,-80.6312736,0.9,4,4,1,total
+94,82.14,Policlínico PNP Almirante Miguel Grau,clinica,,OSM,way/1372776608,False,Piura,PIURA,Muy alto,9.8,-5.1953489,-80.620839,1.3,4,4,1,total
+95,82.14,(clinica sin nombre),clinica,,OSM,way/1377465576,False,Piura,PIURA,Muy alto,9.8,-5.19007,-80.620773,1.4,4,4,1,total
+96,82.14,Clínica Bello Horizonte,clinica,,OSM,way/1489600001,False,Piura,PIURA,Muy alto,9.8,-5.1806126,-80.649833,2.4,4,4,1,total
+97,75.13,Miraflores / MIRAFLORES,consultorio,I-1,OSM,node/7070412687,True,Sullana,SULLANA,Muy alto,19.4,-4.8403712,-80.689474,39.9,1,1,1,total
+98,68.14,Consultorio Medico Ann Goulden / E.S. PACHITEA,consultorio,I-4,OSM,node/4323407892,True,Piura,PIURA,Muy alto,9.8,-5.1867065,-80.6308504,0.9,6,6,1,total
+99,65.13,El Cucho,consultorio,,OSM,node/6852753249,False,Sullana,SULLANA,Muy alto,19.4,-4.8700456,-80.661105,36.2,1,1,1,total
+100,65.13,La Quinta,consultorio,,OSM,node/7050468488,False,Sullana,SULLANA,Muy alto,19.4,-4.8522205,-80.7261634,39.4,1,1,1,total
+101,65.13,Cieneguillo Centro,consultorio,,OSM,node/7082482853,False,Sullana,SULLANA,Muy alto,19.4,-4.9269212,-80.6621194,29.9,1,1,1,total
+102,62.87,Salud es Vida,consultorio,,OSM,node/14115850001,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.16775,-80.6482978,3.4,1,1,1,total
+103,58.54,Centro Médico San Pablo,consultorio,,OSM,way/486044168,False,Talara,PARIÑAS,Alto,15.5,-4.575988,-81.2710599,98.6,1,1,1,total
+104,58.14,Unidad Médico Legal Piura,consultorio,,OSM,node/8279414829,False,Piura,PIURA,Muy alto,9.8,-5.1848009,-80.6480779,2.0,1,1,1,total
+105,58.14,Consultorio Médico San Liz,consultorio,,OSM,way/397307849,False,Piura,PIURA,Muy alto,9.8,-5.1749929,-80.6431017,2.5,1,1,1,total
+106,58.14,Deseret,consultorio,,OSM,way/397312801,False,Piura,PIURA,Muy alto,9.8,-5.1882654,-80.6223339,1.4,1,1,1,total
+107,53.13,Institución Educativa No. 15070,colegio,,OSM,node/5582448725,False,Sullana,SULLANA,Muy alto,19.4,-4.9476369,-80.6738479,27.8,2,2,1,total
+108,53.13,Institución Educativa No. 15284,colegio,,OSM,node/5582455911,False,Sullana,SULLANA,Muy alto,19.4,-4.9417808,-80.6489754,28.2,2,2,1,total
+109,53.13,Institución Educativa No. 15301,colegio,,OSM,node/5582455913,False,Sullana,SULLANA,Muy alto,19.4,-4.9586994,-80.656394,26.3,2,2,1,total
+110,53.13,Institución Educativa No. 20531,colegio,,OSM,node/5582460068,False,Sullana,SULLANA,Muy alto,19.4,-4.8978611,-80.6291395,33.0,2,2,1,total
+111,53.13,Institución Educativa No. 20849,colegio,,OSM,node/5582470110,False,Sullana,SULLANA,Muy alto,19.4,-4.9300442,-80.6841624,30.0,2,2,1,total
+112,53.13,Institución Educativa No. 20841,colegio,,OSM,node/5582470872,False,Sullana,SULLANA,Muy alto,19.4,-4.8616905,-80.6318772,37.0,2,2,1,total
+113,53.13,Institución Educativa San Benito De Palermo,colegio,,OSM,node/5582473479,False,Sullana,SULLANA,Muy alto,19.4,-4.8412823,-80.6908089,39.8,2,2,1,total
+114,53.13,Institución Educativa El Cucho,colegio,,OSM,node/5582474824,False,Sullana,SULLANA,Muy alto,19.4,-4.8686422,-80.6573264,36.3,2,2,1,total
+115,53.13,Institución Educativa No. 14858,colegio,,OSM,node/5582474834,False,Sullana,SULLANA,Muy alto,19.4,-4.904347,-80.748028,34.7,2,2,1,total
+116,53.13,Institución Educativa 14854 Jose Santos Chocano,colegio,,OSM,node/5582475112,False,Sullana,SULLANA,Muy alto,19.4,-4.8788025,-80.739546,37.0,2,2,1,total
+117,53.13,Institución educativa No. 14854,colegio,,OSM,node/5582475114,False,Sullana,SULLANA,Muy alto,19.4,-4.8789107,-80.7395607,37.0,2,2,1,total
+118,53.13,Institución Educativa 20508 San Francisco De Asis,colegio,,OSM,node/5582477325,False,Sullana,SULLANA,Muy alto,19.4,-4.8556202,-80.7250285,39.0,2,2,1,total
+119,53.13,Institución Educativa Mallaritos,colegio,,OSM,node/5582477327,False,Sullana,SULLANA,Muy alto,19.4,-4.8691444,-80.7194151,37.4,2,2,1,total
+120,53.13,Institución Educativa Jibito San Antonio De Padua,colegio,,OSM,node/5582478300,False,Sullana,SULLANA,Muy alto,19.4,-4.9063646,-80.750303,34.6,2,2,1,total
+121,53.13,Institución Educativa No. 20526,colegio,,OSM,node/5582480540,False,Sullana,SULLANA,Muy alto,19.4,-4.8965476,-80.645531,33.2,2,2,1,total
+122,53.13,Institución Educativa No. 15071,colegio,,OSM,node/5582480544,False,Sullana,SULLANA,Muy alto,19.4,-4.9070461,-80.6514658,32.0,2,2,1,total
+123,53.13,Institución educativa No. 14791,colegio,,OSM,node/5582481684,False,Sullana,SULLANA,Muy alto,19.4,-4.9173458,-80.6416122,30.8,2,2,1,total
+124,53.13,Institución Educativa No. 15079,colegio,,OSM,node/5582482812,False,Sullana,SULLANA,Muy alto,19.4,-4.9281231,-80.6626322,29.8,2,2,1,total
+125,53.13,Institución Educativa Nuestra Señora De Fatima,colegio,,OSM,node/5582487736,False,Sullana,SULLANA,Muy alto,19.4,-4.8565385,-80.6805223,37.9,2,2,1,total
+126,53.13,Institución Educativa Jose Ildefonso Coloma,colegio,,OSM,node/5582490444,False,Sullana,SULLANA,Muy alto,19.4,-4.8773172,-80.705134,36.2,2,2,1,total
+127,53.13,Institución Educativa Marcavelica,colegio,,OSM,node/5582490445,False,Sullana,SULLANA,Muy alto,19.4,-4.8771087,-80.7050575,36.2,2,2,1,total
+128,53.13,Colegio las Americas,colegio,,OSM,node/5582490740,False,Sullana,SULLANA,Muy alto,19.4,-4.9093548,-80.6721575,32.0,2,2,1,total
+129,53.13,Institución Educativa Capullito,colegio,,OSM,node/5582497541,False,Sullana,SULLANA,Muy alto,19.4,-4.8906277,-80.6723163,34.1,2,2,1,total
+130,53.13,Institución Educativa Hijos De Maria,colegio,,OSM,node/5582497543,False,Sullana,SULLANA,Muy alto,19.4,-4.889717,-80.6700111,34.1,2,2,1,total
+131,53.13,Institución Educativa Ricardo Palma,colegio,,OSM,node/5582598678,False,Sullana,SULLANA,Muy alto,19.4,-4.8898041,-80.6856256,34.4,2,2,1,total
+132,53.13,Institución Educativa San Juan,colegio,,OSM,node/5582598682,False,Sullana,SULLANA,Muy alto,19.4,-4.8926483,-80.6855951,34.1,2,2,1,total
+133,53.13,Institución Educativa Niño Jesus De Praga,colegio,,OSM,node/5582598683,False,Sullana,SULLANA,Muy alto,19.4,-4.892777,-80.6874664,34.1,2,2,1,total
+134,53.13,Institución Educativa Virgen Del Pilar,colegio,,OSM,node/5582598684,False,Sullana,SULLANA,Muy alto,19.4,-4.8888295,-80.6865867,34.5,2,2,1,total
+135,53.13,Institución Educativa Jose Matias Manzanilla,colegio,,OSM,node/5582598685,False,Sullana,SULLANA,Muy alto,19.4,-4.8931145,-80.6841538,34.0,2,2,1,total
+136,53.13,Institución Educativa Sagrado Corazon De Jesus,colegio,,OSM,node/5582640201,False,Sullana,SULLANA,Muy alto,19.4,-4.9077765,-80.7098216,33.0,2,2,1,total
+137,53.13,Institución Educativa Divino Redentor,colegio,,OSM,node/5582640202,False,Sullana,SULLANA,Muy alto,19.4,-4.9044883,-80.7086935,33.3,2,2,1,total
+138,53.13,Institución Educativa Nuestra Señora Reina De El Cisne,colegio,,OSM,node/5582640203,False,Sullana,SULLANA,Muy alto,19.4,-4.9070617,-80.7104061,33.1,2,2,1,total
+139,53.13,Institución Educativa 15085 Javier Pérez de Cuéllar,colegio,,OSM,node/5582640204,False,Sullana,SULLANA,Muy alto,19.4,-4.9040993,-80.7105329,33.4,2,2,1,total
+140,53.13,Institución Educativa 20534 Señor Cautivo De Ayabaca,colegio,,OSM,node/5582640211,False,Sullana,SULLANA,Muy alto,19.4,-4.9083547,-80.7245879,33.4,2,2,1,total
+141,53.13,Institución Educativa Diego Thomson,colegio,,OSM,node/5582640214,False,Sullana,SULLANA,Muy alto,19.4,-4.9055158,-80.7086318,33.2,2,2,1,total
+142,53.13,Institución Educativa Mayor Pnp (f) Roberto Vicente Morales Rojas,colegio,,OSM,node/5582641384,False,Sullana,SULLANA,Muy alto,19.4,-4.9045236,-80.7016293,33.1,2,2,1,total
+143,53.13,Institución Educativa Nº 15030,colegio,,OSM,node/5582641385,False,Sullana,SULLANA,Muy alto,19.4,-4.9031907,-80.7012546,33.3,2,2,1,total
+144,53.13,Institución Educativa Centenario,colegio,,OSM,node/5582641386,False,Sullana,SULLANA,Muy alto,19.4,-4.9004554,-80.6967862,33.5,2,2,1,total
+145,53.13,Institución Educativa Federico Villarreal,colegio,,OSM,node/5582641390,False,Sullana,SULLANA,Muy alto,19.4,-4.8996484,-80.6968244,33.5,2,2,1,total
+146,53.13,Institución Educativa Eros Erudic Sac,colegio,,OSM,node/5582641392,False,Sullana,SULLANA,Muy alto,19.4,-4.9026381,-80.6980924,33.2,2,2,1,total
+147,53.13,Institución Educativa Talent School El Churre,colegio,,OSM,node/5582641393,False,Sullana,SULLANA,Muy alto,19.4,-4.9043784,-80.6996439,33.1,2,2,1,total
+148,53.13,Institución Educativa Turicarami,colegio,,OSM,node/5582641394,False,Sullana,SULLANA,Muy alto,19.4,-4.9025836,-80.6977372,33.2,2,2,1,total
+149,53.13,Institución Educativa Santa Maria Reina,colegio,,OSM,node/5582641395,False,Sullana,SULLANA,Muy alto,19.4,-4.9031664,-80.6983922,33.2,2,2,1,total
+150,53.13,Institución Educativa Teniente Miguel Cortés,colegio,,OSM,node/5582641401,False,Sullana,SULLANA,Muy alto,19.4,-4.9031191,-80.6961063,33.2,2,2,1,total
+151,53.13,Institución Educativa Inif 48,colegio,,OSM,node/5582641402,False,Sullana,SULLANA,Muy alto,19.4,-4.9029168,-80.7020345,33.3,2,2,1,total
+152,53.13,Institución Educativa 14793 Luciano Castillo,colegio,,OSM,node/5582646183,False,Sullana,SULLANA,Muy alto,19.4,-4.8876531,-80.6737184,34.4,2,2,1,total
+153,53.13,Institución Educativa 15028 Augusto Gutierrez Mendoza,colegio,,OSM,node/5582646185,False,Sullana,SULLANA,Muy alto,19.4,-4.8871314,-80.6735353,34.5,2,2,1,total
+154,53.13,Institución Educativa Belen,colegio,,OSM,node/5582646186,False,Sullana,SULLANA,Muy alto,19.4,-4.8895062,-80.6805211,34.3,2,2,1,total
+155,53.13,Institución Educativa Bellavista,colegio,,OSM,node/5582646187,False,Sullana,SULLANA,Muy alto,19.4,-4.8925669,-80.6764935,33.9,2,2,1,total
+156,53.13,Institución Educativa Juan Xxiii,colegio,,OSM,node/5582646191,False,Sullana,SULLANA,Muy alto,19.4,-4.8843521,-80.67326,34.8,2,2,1,total
+157,53.13,Institución Educativa Nuestra Señora De Las Mercedes,colegio,,OSM,node/5582646201,False,Sullana,SULLANA,Muy alto,19.4,-4.8889497,-80.6779747,34.3,2,2,1,total
+158,53.13,Institución Educativa 14794 Maria Inmac. Concepcion,colegio,,OSM,node/5582646203,False,Sullana,SULLANA,Muy alto,19.4,-4.8846643,-80.6765842,34.8,2,2,1,total
+159,53.13,Institución Educativa Valentin Paniagua Corazao,colegio,,OSM,node/5582646205,False,Sullana,SULLANA,Muy alto,19.4,-4.8915269,-80.6775694,34.1,2,2,1,total
+160,53.13,Institución Educativa 14793 Luciano Castillo Colonna,colegio,,OSM,node/5582646206,False,Sullana,SULLANA,Muy alto,19.4,-4.8875569,-80.6737211,34.4,2,2,1,total
+161,53.13,Institución Educativa 14795 Divino Jesus Misericordioso,colegio,,OSM,node/5582646207,False,Sullana,SULLANA,Muy alto,19.4,-4.8928502,-80.6783085,33.9,2,2,1,total
+162,53.13,Institución educativa inicial No. 506,colegio,,OSM,node/5582646209,False,Sullana,SULLANA,Muy alto,19.4,-4.8873395,-80.6828862,34.6,2,2,1,total
+163,53.13,Institución Educativa Libertador Simon Bolivar,colegio,,OSM,node/5582653301,False,Sullana,SULLANA,Muy alto,19.4,-4.9049731,-80.6996546,33.0,2,2,1,total
+164,53.13,Institución Educativa No. 14785,colegio,,OSM,node/5582653303,False,Sullana,SULLANA,Muy alto,19.4,-4.9086634,-80.6948171,32.5,2,2,1,total
+165,53.13,Institución Educativa Creciendo,colegio,,OSM,node/5582653307,False,Sullana,SULLANA,Muy alto,19.4,-4.9152391,-80.6984586,31.9,2,2,1,total
+166,53.13,Institución Educativa Milagroso Señor Cautivo,colegio,,OSM,node/5582653314,False,Sullana,SULLANA,Muy alto,19.4,-4.905089,-80.7002996,33.0,2,2,1,total
+167,53.13,Institución Educativa Virgen Del Carmen,colegio,,OSM,node/5582653316,False,Sullana,SULLANA,Muy alto,19.4,-4.9085709,-80.703305,32.7,2,2,1,total
+168,53.13,Institución Educativa Ieduber,colegio,,OSM,node/5582653319,False,Sullana,SULLANA,Muy alto,19.4,-4.9115586,-80.6958889,32.2,2,2,1,total
+169,53.13,Institución Educativa Maria Reina De La Paz,colegio,,OSM,node/5582653320,False,Sullana,SULLANA,Muy alto,19.4,-4.9099174,-80.6946747,32.4,2,2,1,total
+170,53.13,Institución Educativa Jose Eusebio Merino Y Vinces,colegio,,OSM,node/5582653887,False,Sullana,SULLANA,Muy alto,19.4,-4.9057321,-80.6911764,32.8,2,2,1,total
+171,53.13,Institución Educativa No. 20501,colegio,,OSM,node/5582653888,False,Sullana,SULLANA,Muy alto,19.4,-4.9117656,-80.6866132,32.0,2,2,1,total
+172,53.13,Institución Educativa 14790 Maria Ignacia Garcia,colegio,,OSM,node/5582653890,False,Sullana,SULLANA,Muy alto,19.4,-4.9100766,-80.684418,32.1,2,2,1,total
+173,53.13,Craei Sullana,colegio,,OSM,node/5582653891,False,Sullana,SULLANA,Muy alto,19.4,-4.908225,-80.6937371,32.5,2,2,1,total
+174,53.13,Institución Educativa 14778 Jose M Quinde Taboada,colegio,,OSM,node/5582653893,False,Sullana,SULLANA,Muy alto,19.4,-4.9107944,-80.6940684,32.3,2,2,1,total
+175,53.13,Institución Educativa 14790 Maria Ignacia Garcia De Gonzales,colegio,,OSM,node/5582653895,False,Sullana,SULLANA,Muy alto,19.4,-4.9101568,-80.6843952,32.1,2,2,1,total
+176,53.13,Institución Educativa 20501 El Nazareno,colegio,,OSM,node/5582653896,False,Sullana,SULLANA,Muy alto,19.4,-4.9119072,-80.6865891,32.0,2,2,1,total
+177,53.13,Institución Educativa No. 14787,colegio,,OSM,node/5582655151,False,Sullana,SULLANA,Muy alto,19.4,-4.8970407,-80.6924148,33.7,2,2,1,total
+178,53.13,Institución Educativa Nuestro Pequeño Universo,colegio,,OSM,node/5582655153,False,Sullana,SULLANA,Muy alto,19.4,-4.8992647,-80.6932569,33.5,2,2,1,total
+179,53.13,Institución Educativa Divina Misericordia,colegio,,OSM,node/5582655156,False,Sullana,SULLANA,Muy alto,19.4,-4.8969344,-80.6928349,33.7,2,2,1,total
+180,53.13,Institución Educativa 14787 Victor Raul Haya De La Torre,colegio,,OSM,node/5582655157,False,Sullana,SULLANA,Muy alto,19.4,-4.8969511,-80.6923974,33.7,2,2,1,total
+181,53.13,Institución Educativa Nuestra Señora De Guadalupe,colegio,,OSM,node/5582655158,False,Sullana,SULLANA,Muy alto,19.4,-4.8988687,-80.6905437,33.5,2,2,1,total
+182,53.13,Institución Educativa Las Capullanas,colegio,,OSM,node/5582655925,False,Sullana,SULLANA,Muy alto,19.4,-4.8998526,-80.6923955,33.4,2,2,1,total
+183,53.13,Institución Educativa 15027 Amauta,colegio,,OSM,node/5582655926,False,Sullana,SULLANA,Muy alto,19.4,-4.9013367,-80.6913974,33.2,2,2,1,total
+184,53.13,Institución Educativa Nuestra Señora Del Carmen,colegio,,OSM,node/5582655929,False,Sullana,SULLANA,Muy alto,19.4,-4.9023688,-80.6893472,33.1,2,2,1,total
+185,53.13,Institución Educativa Adventista Sullana,colegio,,OSM,node/5582662247,False,Sullana,SULLANA,Muy alto,19.4,-4.8956319,-80.6873472,33.8,2,2,1,total
+186,53.13,Institución Educativa Virgen De Guadalupe,colegio,,OSM,node/5582662248,False,Sullana,SULLANA,Muy alto,19.4,-4.8955827,-80.6853955,33.7,2,2,1,total
+187,53.13,Institución Educativa No. 14783,colegio,,OSM,node/5582662252,False,Sullana,SULLANA,Muy alto,19.4,-4.8941072,-80.6849633,33.9,2,2,1,total
+188,53.13,Institución Educativa No. 14777,colegio,,OSM,node/5582666166,False,Sullana,SULLANA,Muy alto,19.4,-4.9032831,-80.6863814,32.9,2,2,1,total
+189,53.13,Institución Educativa Maria Teresa Otoya Arrese,colegio,,OSM,node/5582666167,False,Sullana,SULLANA,Muy alto,19.4,-4.9042377,-80.6862916,32.8,2,2,1,total
+190,53.13,Institución Educativa Carlos Augusto Salaverry,colegio,,OSM,node/5582666168,False,Sullana,SULLANA,Muy alto,19.4,-4.8998784,-80.6853105,33.3,2,2,1,total
+191,53.13,Institución Educativa Teresita De Jesus,colegio,,OSM,node/5582666174,False,Sullana,SULLANA,Muy alto,19.4,-4.9037288,-80.6888117,32.9,2,2,1,total
+192,53.13,Institución Educativa Lideres Del Futuro,colegio,,OSM,node/5582674266,False,Sullana,SULLANA,Muy alto,19.4,-4.8974351,-80.6820124,33.5,2,2,1,total
+193,53.13,Institución Educativa 15029 Santa Teresa De Jesus,colegio,,OSM,node/5582674270,False,Sullana,SULLANA,Muy alto,19.4,-4.895615,-80.6744193,33.6,2,2,1,total
+194,53.13,Institución Educativa Fe Y Alegria 18,colegio,,OSM,node/5582674272,False,Sullana,SULLANA,Muy alto,19.4,-4.9051852,-80.6733495,32.5,2,2,1,total
+195,53.13,Institución Educativa Mi Gran Maestro,colegio,,OSM,node/5582674273,False,Sullana,SULLANA,Muy alto,19.4,-4.8972699,-80.6788657,33.4,2,2,1,total
+196,53.13,Institución educativa No. 10411,colegio,,OSM,node/5582674275,False,Sullana,SULLANA,Muy alto,19.4,-4.8971607,-80.6820695,33.5,2,2,1,total
+197,53.13,Institución Educativa Cristo Viene,colegio,,OSM,node/5582674276,False,Sullana,SULLANA,Muy alto,19.4,-4.9005188,-80.6728442,33.0,2,2,1,total
+198,53.13,Institución Educativa No. 14904,colegio,,OSM,node/5582674278,False,Sullana,SULLANA,Muy alto,19.4,-4.8945789,-80.673885,33.7,2,2,1,total
+199,53.13,Institución Educativa 10406 Inmaculada Concepcion,colegio,,OSM,node/5582674281,False,Sullana,SULLANA,Muy alto,19.4,-4.8977942,-80.6768178,33.4,2,2,1,total
+200,53.13,Institución Educativa No. 14789,colegio,,OSM,node/5582674282,False,Sullana,SULLANA,Muy alto,19.4,-4.8970283,-80.6784293,33.5,2,2,1,total
+201,53.13,Institución Educativa 14871 Inmaculada Concepcion,colegio,,OSM,node/5582676734,False,Sullana,SULLANA,Muy alto,19.4,-4.8435979,-80.6590548,39.1,2,2,1,total
+202,53.13,Institución Educativa San Jose Obrero,colegio,,OSM,node/5582678324,False,Sullana,SULLANA,Muy alto,19.4,-4.9107536,-80.6815564,32.0,2,2,1,total
+203,53.13,Institución Educativa Señor De La Divina Misericordia,colegio,,OSM,node/5582678327,False,Sullana,SULLANA,Muy alto,19.4,-4.9059743,-80.6756331,32.4,2,2,1,total
+204,53.13,Institución Educativa Aula Especial Y De Rehabilitacion Fisica,colegio,,OSM,node/5582678328,False,Sullana,SULLANA,Muy alto,19.4,-4.9057634,-80.6755576,32.5,2,2,1,total
+205,53.13,Institución Educativa Esmelda Jimenez De Vasquez,colegio,,OSM,node/5582678330,False,Sullana,SULLANA,Muy alto,19.4,-4.9054355,-80.682653,32.6,2,2,1,total
+206,53.13,Institución Educativa Divino Maestro,colegio,,OSM,node/5582678335,False,Sullana,SULLANA,Muy alto,19.4,-4.9062868,-80.6766463,32.4,2,2,1,total
+207,53.13,(colegio sin nombre),colegio,,OSM,way/389941735,False,Sullana,SULLANA,Muy alto,19.4,-4.9037652,-80.7105249,33.5,2,2,1,total
+208,53.13,Institución Educativa 14798 Blanca Susana Franco de V.,colegio,,OSM,way/532271470,False,Sullana,SULLANA,Muy alto,19.4,-4.8913723,-80.6736695,34.0,2,2,1,total
+209,53.13,Institucion Educativa Santa Rita de Casia,colegio,,OSM,way/552001816,False,Sullana,SULLANA,Muy alto,19.4,-4.9030374,-80.6999182,33.3,2,2,1,total
+210,53.13,Institución Educativa 15025 José Cardo,colegio,,OSM,way/552637824,False,Sullana,SULLANA,Muy alto,19.4,-4.8942216,-80.6860943,33.9,2,2,1,total
+211,53.13,Institución Educativa 15026 Flora Córdova de Talledo,colegio,,OSM,way/554036211,False,Sullana,SULLANA,Muy alto,19.4,-4.8885473,-80.6823761,34.5,2,2,1,total
+212,53.13,Colegio Santa Rosa,colegio,,OSM,way/554039112,False,Sullana,SULLANA,Muy alto,19.4,-4.8988726,-80.6965491,33.6,2,2,1,total
+213,53.13,Institución Educativa San Pedro Chanel,colegio,,OSM,way/837724048,False,Sullana,SULLANA,Muy alto,19.4,-4.9085793,-80.6999888,32.7,2,2,1,total
+214,53.13,Institución Educativa Inicial 503 Santa Rosa de Lima,colegio,,OSM,way/839123358,False,Sullana,SULLANA,Muy alto,19.4,-4.8999369,-80.6963791,33.5,2,2,1,total
+215,53.13,Institución Educativa 8 de Diciembre,colegio,,OSM,way/839156378,False,Sullana,SULLANA,Muy alto,19.4,-4.88599,-80.6710786,34.6,2,2,1,total
+216,53.13,Institución Educativa Santa Úrsula,colegio,,OSM,way/966845060,False,Sullana,SULLANA,Muy alto,19.4,-4.8986654,-80.6992843,33.7,2,2,1,total
+217,53.13,(colegio sin nombre),colegio,,OSM,way/966855222,False,Sullana,SULLANA,Muy alto,19.4,-4.8971351,-80.6923729,33.7,2,2,1,total
+218,53.13,Institución Educativa 14876 Elsa Saavedra de Antón,colegio,,OSM,way/1032347384,False,Sullana,SULLANA,Muy alto,19.4,-4.8608546,-80.6850577,37.5,2,2,1,total
+219,53.13,Institución Educativa 19 De Junio,colegio,,OSM,way/1032402466,False,Sullana,SULLANA,Muy alto,19.4,-4.8603106,-80.6837534,37.6,2,2,1,total
+220,53.13,Institución Educativa 15285 María Auxiliadora,colegio,,OSM,way/1041599652,False,Sullana,SULLANA,Muy alto,19.4,-4.9069155,-80.721591,33.5,2,2,1,total
+221,53.13,Institución Educativa 20502 Nuestra Señora Del Rosario,colegio,,OSM,way/1051957662,False,Sullana,SULLANA,Muy alto,19.4,-4.9085762,-80.6751168,32.1,2,2,1,total
+222,53.13,Institución Educativa Inicial Nuestra Señora de La Medalla Milagrosa,colegio,,OSM,way/1228726825,False,Sullana,SULLANA,Muy alto,19.4,-4.9102768,-80.6816861,32.1,2,2,1,total
+223,53.13,Institución Educativa San José Obrero,colegio,,OSM,way/1228732404,False,Sullana,SULLANA,Muy alto,19.4,-4.9116465,-80.6819278,31.9,2,2,1,total
+224,53.13,Institución Educativa Nº 15030,colegio,,OSM,way/1394598284,False,Sullana,SULLANA,Muy alto,19.4,-4.9030264,-80.7010779,33.3,2,2,1,total
+225,53.13,Pronoei Mis Lindos Trabajadores,colegio,,OSM,way/1494853824,False,Sullana,SULLANA,Muy alto,19.4,-4.8485401,-80.6916649,39.0,2,2,1,total
+226,53.13,(colegio sin nombre),colegio,,OSM,way/1553054068,False,Sullana,SULLANA,Muy alto,19.4,-4.9083718,-80.7233867,33.4,2,2,1,total
+227,53.13,(colegio sin nombre),colegio,,OSM,way/1553054072,False,Sullana,SULLANA,Muy alto,19.4,-4.9083556,-80.7246838,33.4,2,2,1,total
+228,53.13,Institución Educativa Carlos Augusto Salaverry,colegio,,OSM,way/1563332828,False,Sullana,SULLANA,Muy alto,19.4,-4.8999224,-80.6841675,33.2,2,2,1,total
+229,50.87,(colegio sin nombre),colegio,,OSM,node/4357556502,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1611113,-80.6554432,4.5,2,2,1,total
+230,50.87,(colegio sin nombre),colegio,,OSM,node/4357598894,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1604141,-80.6552793,4.5,2,2,1,total
+231,50.87,Institución Educativa No. 14102,colegio,,OSM,node/5567144436,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1303,-80.6409344,7.2,2,2,1,total
+232,50.87,Institución Educativa 15016 Sagrada Familia,colegio,,OSM,node/5582698791,False,Castilla,CASTILLA,Muy alto,16.3,-5.2275807,-80.6167335,4.1,2,2,1,total
+233,50.87,Institución Educativa 14118 Marina Purizaca Benites,colegio,,OSM,node/5582700058,False,Castilla,CASTILLA,Muy alto,16.3,-5.2267813,-80.6192377,3.9,2,2,1,total
+234,50.87,Institución Educativa San Bernardo,colegio,,OSM,node/5582700060,False,Castilla,CASTILLA,Muy alto,16.3,-5.222324,-80.6248028,3.2,2,2,1,total
+235,50.87,Ceba - 17,colegio,,OSM,node/5582700062,False,Castilla,CASTILLA,Muy alto,16.3,-5.2249169,-80.6208137,3.6,2,2,1,total
+236,50.87,Institución Educativa No. 15180,colegio,,OSM,node/5582848002,False,Castilla,CASTILLA,Muy alto,16.3,-5.1638464,-80.6137874,4.0,2,2,1,total
+237,50.87,Institución Educativa No. 14119,colegio,,OSM,node/5582849854,False,Castilla,CASTILLA,Muy alto,16.3,-5.1429294,-80.6099631,6.3,2,2,1,total
+238,50.87,Institución Educativa No. 20133,colegio,,OSM,node/5582853134,False,Castilla,CASTILLA,Muy alto,16.3,-5.1845569,-80.5911709,4.7,2,2,1,total
+239,50.87,Institución Educativa Ernest Hamingway,colegio,,OSM,node/5582853135,False,Castilla,CASTILLA,Muy alto,16.3,-5.1999148,-80.5915951,4.6,2,2,1,total
+240,50.87,Institución Educativa 15035 Félix Joaquín Seminario Echeandía,colegio,,OSM,node/5582853137,False,Castilla,CASTILLA,Muy alto,16.3,-5.1900267,-80.590397,4.7,2,2,1,total
+241,50.87,Institución Educativa Santisima Cruz De Motupe,colegio,,OSM,node/5582853139,False,Castilla,CASTILLA,Muy alto,16.3,-5.1997639,-80.5923533,4.5,2,2,1,total
+242,50.87,Institución Educativa Emanuel,colegio,,OSM,node/5582853144,False,Castilla,CASTILLA,Muy alto,16.3,-5.1956073,-80.5934614,4.4,2,2,1,total
+243,50.87,Institución Educativa San Judas Tadeo,colegio,,OSM,node/5582853149,False,Castilla,CASTILLA,Muy alto,16.3,-5.1863274,-80.5928117,4.5,2,2,1,total
+244,50.87,Institución Educativa Colegio Italiano Pachy Ciraolo,colegio,,OSM,node/5582853151,False,Castilla,CASTILLA,Muy alto,16.3,-5.1935533,-80.5883158,4.9,2,2,1,total
+245,50.87,Institución Educativa 20017 Divino Jesus,colegio,,OSM,node/5582853156,False,Castilla,CASTILLA,Muy alto,16.3,-5.1873739,-80.5925889,4.5,2,2,1,total
+246,50.87,Institución Educativa Fray Martin De Porres,colegio,,OSM,node/5582853163,False,Castilla,CASTILLA,Muy alto,16.3,-5.1969928,-80.5953495,4.2,2,2,1,total
+247,50.87,Institución Educativa Maria De Los Angeles,colegio,,OSM,node/5582855295,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1555535,-80.6571562,5.1,2,2,1,total
+248,50.87,Institución Educativa Niño Jesusito,colegio,,OSM,node/5582855296,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1520562,-80.6591788,5.6,2,2,1,total
+249,50.87,Institución Educativa Los Sagrados Corazones De Jesus Y Maria,colegio,,OSM,node/5582855298,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1462318,-80.6556842,5.9,2,2,1,total
+250,50.87,Institución Educativa Luis Jose Castellano Lopez,colegio,,OSM,node/5582855299,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1543444,-80.6580911,5.3,2,2,1,total
+251,50.87,Institución Educativa San Agustin De Hipona,colegio,,OSM,node/5582855508,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1774168,-80.678652,5.4,2,2,1,total
+252,50.87,Institución Educativa Harvard College,colegio,,OSM,node/5582855514,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1757793,-80.6621888,3.9,2,2,1,total
+253,50.87,Institución Educativa Albert Einstein,colegio,,OSM,node/5582855515,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1761007,-80.6750468,5.1,2,2,1,total
+254,50.87,Institución Educativa Leon Trahtemberg,colegio,,OSM,node/5582856286,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1763614,-80.6931183,7.0,2,2,1,total
+255,50.87,Institución Educativa Divino Niño Jesus,colegio,,OSM,node/5582856290,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1738668,-80.6877855,6.5,2,2,1,total
+256,50.87,Institución Educativa Fe Y Alegria 49,colegio,,OSM,node/5582858725,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1823803,-80.6843082,5.9,2,2,1,total
+257,50.87,Institución Educativa Rosa De Santa Maria,colegio,,OSM,node/5582861321,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1779307,-80.6746354,5.0,2,2,1,total
+258,50.87,Institución Educativa Amiguito Celestial,colegio,,OSM,node/5582861322,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1626394,-80.6637769,4.9,2,2,1,total
+259,50.87,Institución Educativa Lewis Henry Morgan,colegio,,OSM,node/5582861325,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1781193,-80.6775681,5.3,2,2,1,total
+260,50.87,Institución Educativa Dios Es Amor,colegio,,OSM,node/5582861331,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1579237,-80.6703279,5.8,2,2,1,total
+261,50.87,Institución Educativa Jesus Maria,colegio,,OSM,node/5582861334,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1602759,-80.6643145,5.2,2,2,1,total
+262,50.87,Institución Educativa Virgen De Guadalupe,colegio,,OSM,node/5582861335,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1595255,-80.6680992,5.5,2,2,1,total
+263,50.87,Institución Educativa Jose Carlos Mariategui,colegio,,OSM,node/5582877923,False,Castilla,CASTILLA,Muy alto,16.3,-5.185663,-80.5974195,4.0,2,2,1,total
+264,50.87,Institución Educativa Nicolas Copernico,colegio,,OSM,node/5582877925,False,Castilla,CASTILLA,Muy alto,16.3,-5.188253,-80.5959221,4.1,2,2,1,total
+265,50.87,Institución Educativa No. 20134,colegio,,OSM,node/5582878786,False,Castilla,CASTILLA,Muy alto,16.3,-5.1918359,-80.6011981,3.5,2,2,1,total
+266,50.87,Institución Educativa Pitagoras,colegio,,OSM,node/5582878787,False,Castilla,CASTILLA,Muy alto,16.3,-5.1908662,-80.6038536,3.2,2,2,1,total
+267,50.87,Institución Educativa Los Angelitos De San Antonio,colegio,,OSM,node/5582878790,False,Castilla,CASTILLA,Muy alto,16.3,-5.1912613,-80.6033016,3.3,2,2,1,total
+268,50.87,Institución Educativa Virgen Reyna Del Cisne,colegio,,OSM,node/5582878792,False,Castilla,CASTILLA,Muy alto,16.3,-5.1972251,-80.5962834,4.1,2,2,1,total
+269,50.87,Institución Educativa Los Tallanes,colegio,,OSM,node/5582885080,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1831064,-80.6573251,3.0,2,2,1,total
+270,50.87,Institución Educativa Sagrada Familia,colegio,,OSM,node/5582885082,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1837595,-80.6582171,3.1,2,2,1,total
+271,50.87,Institución Educativa Inmaculada Concepcion,colegio,,OSM,node/5582885085,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1824215,-80.6591326,3.2,2,2,1,total
+272,50.87,Institución Educativa Fermín Tangüis,colegio,,OSM,node/5582885086,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1837466,-80.6574741,3.0,2,2,1,total
+273,50.87,Institución Educativa 20436 Rosa Suarez Rafael,colegio,,OSM,node/5582885087,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1834063,-80.6569118,2.9,2,2,1,total
+274,50.87,Institución Educativa Los Andes's College,colegio,,OSM,node/5582885089,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1829275,-80.6593446,3.2,2,2,1,total
+275,50.87,Institución Educativa Santo Toribio De Mogrovejo De San Isidro,colegio,,OSM,node/5582955187,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.161406,-80.6446602,3.9,2,2,1,total
+276,50.87,Institución Educativa Santa Maria Iluminada,colegio,,OSM,node/5582958832,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1594007,-80.6507059,4.4,2,2,1,total
+277,50.87,Institución Educativa Poderoso San Miguel Arcangel De Piura,colegio,,OSM,node/5582958833,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1603397,-80.6577271,4.7,2,2,1,total
+278,50.87,Institución Educativa Brian Nolan Jacks,colegio,,OSM,node/5582958837,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1573387,-80.6614454,5.2,2,2,1,total
+279,50.87,Institución Educativa Santa Margarita,colegio,,OSM,node/5582958840,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1655809,-80.6608629,4.5,2,2,1,total
+280,50.87,Institución Educativa No. 20845,colegio,,OSM,node/5582958845,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1576226,-80.6547459,4.8,2,2,1,total
+281,50.87,Institución Educativa Mahanaim (campamento De Dios),colegio,,OSM,node/5582958846,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1598326,-80.6596335,4.9,2,2,1,total
+282,50.87,Institución Educativa 20463 Monseñor Ramon Zubieta,colegio,,OSM,node/5582958849,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.164479,-80.6537749,4.1,2,2,1,total
+283,50.87,Institución Educativa Coar Piura,colegio,,OSM,node/5582961549,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1909217,-80.6680568,3.9,2,2,1,total
+284,50.87,Institución Educativa Emanuel,colegio,,OSM,node/5582961552,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1924105,-80.6705725,4.2,2,2,1,total
+285,50.87,Institución Educativa 15177 Jose Olaya Balandra,colegio,,OSM,node/5582961553,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1899438,-80.6714246,4.3,2,2,1,total
+286,50.87,Institución Educativa Micaela Bastidas,colegio,,OSM,node/5582962942,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.17925,-80.6743121,4.9,2,2,1,total
+287,50.87,Institución Educativa Angelitos De Dios,colegio,,OSM,node/5582962944,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1852961,-80.6728678,4.6,2,2,1,total
+288,50.87,Institución Educativa 20015 San Sebastian,colegio,,OSM,node/5582962946,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1825919,-80.6799416,5.4,2,2,1,total
+289,50.87,Institución Educativa R.m. Rafaela De La Pasion Veintemilla,colegio,,OSM,node/5582967857,False,Castilla,CASTILLA,Muy alto,16.3,-5.1863822,-80.6116663,2.5,2,2,1,total
+290,50.87,Institución Educativa Manuel Scorza,colegio,,OSM,node/5582967862,False,Castilla,CASTILLA,Muy alto,16.3,-5.1874361,-80.6081763,2.8,2,2,1,total
+291,50.87,Institución Educativa Anthony De Mello,colegio,,OSM,node/5582967863,False,Castilla,CASTILLA,Muy alto,16.3,-5.1891375,-80.6100342,2.6,2,2,1,total
+292,50.87,Institución Educativa Javier Perez De Cuellar,colegio,,OSM,node/5582967864,False,Castilla,CASTILLA,Muy alto,16.3,-5.1877528,-80.6081395,2.8,2,2,1,total
+293,50.87,Institución Educativa 15350 San Francisco De Asis,colegio,,OSM,node/5582967866,False,Castilla,CASTILLA,Muy alto,16.3,-5.1893763,-80.6068737,2.9,2,2,1,total
+294,50.87,Institución Educativa Carlota Ramos De Santolaya,colegio,,OSM,node/5582967872,False,Castilla,CASTILLA,Muy alto,16.3,-5.1835933,-80.6165901,2.2,2,2,1,total
+295,50.87,Institución Educativa Maria Goretti,colegio,,OSM,node/5582967913,False,Castilla,CASTILLA,Muy alto,16.3,-5.1904624,-80.6102466,2.5,2,2,1,total
+296,50.87,Institución Educativa Juan Enrique Pestalozzi,colegio,,OSM,node/5582967915,False,Castilla,CASTILLA,Muy alto,16.3,-5.1909873,-80.607811,2.8,2,2,1,total
+297,50.87,Institución Educativa Fap Alf Samuel Ordoñez Velasquez,colegio,,OSM,node/5582967919,False,Castilla,CASTILLA,Muy alto,16.3,-5.1948379,-80.616211,1.8,2,2,1,total
+298,50.87,Institución Educativa Isacc Newton,colegio,,OSM,node/5582968246,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1858866,-80.6671117,3.9,2,2,1,total
+299,50.87,Institución Educativa Niño De Jesus,colegio,,OSM,node/5582968248,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1862755,-80.6669331,3.9,2,2,1,total
+300,50.87,Institución Educativa Los Educadores,colegio,,OSM,node/5582972229,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1715989,-80.6581832,3.8,2,2,1,total
+301,50.87,Institución Educativa No. 20855,colegio,,OSM,node/5582972235,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1731949,-80.6584033,3.7,2,2,1,total
+302,50.87,Institución Educativa Corpus Christy,colegio,,OSM,node/5582972240,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1757968,-80.6536778,3.1,2,2,1,total
+303,50.87,Institución Educativa Camino De Alegria,colegio,,OSM,node/5582972242,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1734146,-80.6576463,3.6,2,2,1,total
+304,50.87,Institución Educativa Las Palmas De Piura,colegio,,OSM,node/5582972243,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1724436,-80.6560054,3.6,2,2,1,total
+305,50.87,Institución Educativa San Diego School,colegio,,OSM,node/5582972244,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1708302,-80.6591194,3.9,2,2,1,total
+306,50.87,Institución Educativa Jerusalen,colegio,,OSM,node/5582973963,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1731238,-80.6495972,3.0,2,2,1,total
+307,50.87,Institución Educativa Jerusalen,colegio,,OSM,node/5582973964,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1700541,-80.6504623,3.3,2,2,1,total
+308,50.87,Institución Educativa Los Algarrobos,colegio,,OSM,node/5582973967,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1677412,-80.6494704,3.5,2,2,1,total
+309,50.87,Institución Educativa San Agustin,colegio,,OSM,node/5582973968,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1684393,-80.6496959,3.4,2,2,1,total
+310,50.87,Institución Educativa Las Palmas De Piura - Los Jardines,colegio,,OSM,node/5582973972,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.169809,-80.6466999,3.1,2,2,1,total
+311,50.87,Institución Educativa Arcangel Gabriel,colegio,,OSM,node/5582973976,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.171824,-80.6486796,3.1,2,2,1,total
+312,50.87,Institución Educativa Miraflores School,colegio,,OSM,node/5582976779,False,Castilla,CASTILLA,Muy alto,16.3,-5.1856242,-80.618017,1.9,2,2,1,total
+313,50.87,Institución Educativa Capullito,colegio,,OSM,node/5582978989,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1830873,-80.6560019,2.9,2,2,1,total
+314,50.87,Institución Educativa Maria Auxiliadora,colegio,,OSM,node/5582979361,False,Castilla,CASTILLA,Muy alto,16.3,-5.2124637,-80.622653,2.3,2,2,1,total
+315,50.87,Institución Educativa Jorge Chavez,colegio,,OSM,node/5582979363,False,Castilla,CASTILLA,Muy alto,16.3,-5.2119036,-80.6203511,2.4,2,2,1,total
+316,50.87,Institución Educativa 14113 Vicente Artemio Pasapera Patiño,colegio,,OSM,node/5582989587,False,Castilla,CASTILLA,Muy alto,16.3,-5.2081669,-80.621772,1.9,2,2,1,total
+317,50.87,Institución Educativa Santa Ursula,colegio,,OSM,node/5582989592,False,Castilla,CASTILLA,Muy alto,16.3,-5.2065782,-80.6194868,2.0,2,2,1,total
+318,50.87,Institución Educativa John F Kennedy,colegio,,OSM,node/5582993177,False,Castilla,CASTILLA,Muy alto,16.3,-5.1983706,-80.6205084,1.4,2,2,1,total
+319,50.87,Institución Educativa Virgen De Guadalupe,colegio,,OSM,node/5582993178,False,Castilla,CASTILLA,Muy alto,16.3,-5.2001297,-80.618944,1.7,2,2,1,total
+320,50.87,Institución Educativa Ricardo Palma,colegio,,OSM,node/5582993181,False,Castilla,CASTILLA,Muy alto,16.3,-5.1984745,-80.6201816,1.5,2,2,1,total
+321,50.87,Institución Educativa Maria Del Pilar,colegio,,OSM,node/5582997218,False,Castilla,CASTILLA,Muy alto,16.3,-5.2050193,-80.6207304,1.8,2,2,1,total
+322,50.87,Institución Educativa Simon Bolivar,colegio,,OSM,node/5582997523,False,Castilla,CASTILLA,Muy alto,16.3,-5.2029001,-80.6215009,1.6,2,2,1,total
+323,50.87,Institución Educativa Nuestra Señora Del Transito,colegio,,OSM,node/5582997524,False,Castilla,CASTILLA,Muy alto,16.3,-5.2064596,-80.621875,1.8,2,2,1,total
+324,50.87,Institución Educativa Jesus Divino Maestro,colegio,,OSM,node/5582997525,False,Castilla,CASTILLA,Muy alto,16.3,-5.2014468,-80.6184331,1.8,2,2,1,total
+325,50.87,Institución Educativa Complejo La Alborada,colegio,,OSM,node/5583002120,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1862684,-80.6542827,2.5,2,2,1,total
+326,50.87,Institución Educativa Nuestra Señora De Guadalupe,colegio,,OSM,node/5583002922,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1874867,-80.6545754,2.5,2,2,1,total
+327,50.87,Institución Educativa Antonio Raymondi,colegio,,OSM,node/5583003760,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1857972,-80.6589235,3.1,2,2,1,total
+328,50.87,Institución Educativa Hildebrando Castro Pozo,colegio,,OSM,node/5583003762,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1851587,-80.6568032,2.9,2,2,1,total
+329,50.87,Institución Educativa Fermín Tangüis,colegio,,OSM,node/5583003763,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1841818,-80.6581624,3.0,2,2,1,total
+330,50.87,Institución Educativa Inicial Fermín Tangüis,colegio,,OSM,node/5583003764,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.184294,-80.6581463,3.0,2,2,1,total
+331,50.87,Institución Educativa Santa Rosa de Jesús,colegio,,OSM,node/5583003766,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1854023,-80.6602109,3.2,2,2,1,total
+332,50.87,Institución Educativa Sor Ana De Los Angeles,colegio,,OSM,node/5583004647,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1912731,-80.6562063,2.6,2,2,1,total
+333,50.87,Institución Educativa 15110 Jose Gabriel Condorcanqui,colegio,,OSM,node/5583025492,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1954518,-80.6559057,2.6,2,2,1,total
+334,50.87,Institución Educativa Cesar Vallejo,colegio,,OSM,node/5583033626,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1900552,-80.653236,2.3,2,2,1,total
+335,50.87,Institución Educativa 1327,colegio,,OSM,node/13621900713,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.2505306,-80.6817489,8.3,2,2,1,total
+336,50.87,I.E.I. N° 1549,colegio,,OSM,node/14161438088,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1638762,-80.6500455,3.9,2,2,1,total
+337,50.87,I.E.P. Villarreal,colegio,,OSM,node/14161458923,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.164745,-80.6495242,3.8,2,2,1,total
+338,50.87,Institución Educativa Santa Mónica y San Agustín,colegio,,OSM,way/396452593,False,Castilla,CASTILLA,Muy alto,16.3,-5.1870604,-80.6166956,2.0,2,2,1,total
+339,50.87,Centro Educativo Inicial Sagrado Corazón de Jesús,colegio,,OSM,way/397154046,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1765371,-80.6837427,6.0,2,2,1,total
+340,50.87,(colegio sin nombre),colegio,,OSM,way/397173622,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1673284,-80.6498105,3.6,2,2,1,total
+341,50.87,I.E.P. Miraflores School,colegio,,OSM,way/397314506,False,Castilla,CASTILLA,Muy alto,16.3,-5.1858855,-80.6182412,1.9,2,2,1,total
+342,50.87,Centro de Educación Básica Especial Jesús Nazareno,colegio,,OSM,way/397378332,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1818709,-80.660738,3.4,2,2,1,total
+343,50.87,Institución Educativa Nº 20138,colegio,,OSM,way/397491960,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1746228,-80.6848259,6.2,2,2,1,total
+344,50.87,Institución Educativa Parroquial Niño Jesús de Praga,colegio,,OSM,way/397502997,False,Castilla,CASTILLA,Muy alto,16.3,-5.2064853,-80.6202497,1.9,2,2,1,total
+345,50.87,Institución Educativa Fe y Alegría 15,colegio,,OSM,way/741759787,False,Castilla,CASTILLA,Muy alto,16.3,-5.2278978,-80.6113351,4.4,2,2,1,total
+346,50.87,Institución Educativa Militar Pedro Ruiz Gallo,colegio,,OSM,way/860785882,False,Castilla,CASTILLA,Muy alto,16.3,-5.1882707,-80.6005567,3.6,2,2,1,total
+347,50.87,Institución Educativa Capitán FAP José Abelardo Quiñones,colegio,,OSM,way/895949388,False,Castilla,CASTILLA,Muy alto,16.3,-5.1892851,-80.5946503,4.3,2,2,1,total
+348,50.87,(colegio sin nombre),colegio,,OSM,way/895949389,False,Castilla,CASTILLA,Muy alto,16.3,-5.1875545,-80.592537,4.5,2,2,1,total
+349,50.87,Institución Educativa San Jose de Tarbes,colegio,,OSM,way/896720592,False,Castilla,CASTILLA,Muy alto,16.3,-5.1954445,-80.6188742,1.5,2,2,1,total
+350,50.87,Institución Educativa Nº 14007,colegio,,OSM,way/897343682,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.190692,-80.6542872,2.4,2,2,1,total
+351,50.87,Institución Educativa Inicial Nº 21,colegio,,OSM,way/897373360,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1889442,-80.6549959,2.5,2,2,1,total
+352,50.87,Institución Educativa 14008 Leonor Cerna de Valdiviezo,colegio,,OSM,way/898158601,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1855415,-80.6634939,3.5,2,2,1,total
+353,50.87,Institución Educativa Luis Alberto Sanchez Sánchez,colegio,,OSM,way/898179626,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1869967,-80.6578767,2.9,2,2,1,total
+354,50.87,Institución Educativa Santa Rosa de Lima,colegio,,OSM,way/898201883,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1883575,-80.6599547,3.1,2,2,1,total
+355,50.87,Institución Educativa Inicial 032 Aprendizaje,colegio,,OSM,way/898205135,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1875096,-80.658047,2.9,2,2,1,total
+356,50.87,Institución Educativa 14012 San Martin De Porres,colegio,,OSM,way/899057043,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1840069,-80.6737943,4.7,2,2,1,total
+357,50.87,Institución Educativa San Juan Bautista,colegio,,OSM,way/899057044,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1823928,-80.6719818,4.5,2,2,1,total
+358,50.87,Institución Educativa 14011 Nuestra Señora del Pilar,colegio,,OSM,way/899057049,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1848757,-80.6676943,4.0,2,2,1,total
+359,50.87,Institución Educativa Nuestra Señora Del Rosario,colegio,,OSM,way/899629872,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1833671,-80.6683515,4.1,2,2,1,total
+360,50.87,Institución Educativa 14015 Nuestra Señora del Carmen,colegio,,OSM,way/900232002,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1928159,-80.6587129,2.9,2,2,1,total
+361,50.87,Institución Educativa Señor De La Divina Misericordia,colegio,,OSM,way/900239072,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1918269,-80.6632666,3.4,2,2,1,total
+362,50.87,Institución Educativa Inicial 016 Emilia Barcía Boniffatti,colegio,,OSM,way/900239080,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1942099,-80.6602044,3.0,2,2,1,total
+363,50.87,Institución Educativa Almirante Miguel Grau,colegio,,OSM,way/900241408,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1974142,-80.6611456,3.2,2,2,1,total
+364,50.87,Institución Educativa Jorge Basadre,colegio,,OSM,way/958221053,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1836578,-80.661297,3.4,2,2,1,total
+365,50.87,(colegio sin nombre),colegio,,OSM,way/963752716,False,Castilla,CASTILLA,Muy alto,16.3,-5.2081553,-80.6215845,2.0,2,2,1,total
+366,50.87,Institución Educativa 15014 Manuel Hidalgo Carnero,colegio,,OSM,way/963752719,False,Castilla,CASTILLA,Muy alto,16.3,-5.2075009,-80.6215088,1.9,2,2,1,total
+367,50.87,Institución educativa inicial 033 Santa Maria De Guadalupe,colegio,,OSM,way/963752723,False,Castilla,CASTILLA,Muy alto,16.3,-5.2056858,-80.6200352,1.9,2,2,1,total
+368,50.87,Institución Educativa Teniente Miguel Cortes del Castillo,colegio,,OSM,way/963850020,False,Castilla,CASTILLA,Muy alto,16.3,-5.2158399,-80.6233317,2.6,2,2,1,total
+369,50.87,Institución Educativa Nueva Era,colegio,,OSM,way/1025423077,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1913721,-80.6555278,2.5,2,2,1,total
+370,50.87,Institución Educativa Jesús de Nazaret,colegio,,OSM,way/1025423078,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1920306,-80.6559147,2.6,2,2,1,total
+371,50.87,Institución Educativa Jesús de Nazaret,colegio,,OSM,way/1025423079,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1921738,-80.6556106,2.5,2,2,1,total
+372,50.87,Institución Educativa Pasitos,colegio,,OSM,way/1031068168,False,Castilla,CASTILLA,Muy alto,16.3,-5.2201614,-80.6232941,3.0,2,2,1,total
+373,50.87,Institución Educativa Castilla,colegio,,OSM,way/1031070558,False,Castilla,CASTILLA,Muy alto,16.3,-5.2206342,-80.6227183,3.1,2,2,1,total
+374,50.87,Institución Educativa San Martín de Porras,colegio,,OSM,way/1031539868,False,Castilla,CASTILLA,Muy alto,16.3,-5.2071573,-80.6202755,2.0,2,2,1,total
+375,50.87,Institución Educativa N° 1365,colegio,,OSM,way/1159013316,False,Castilla,CASTILLA,Muy alto,16.3,-5.1939866,-80.5777638,6.1,2,2,1,total
+376,50.87,Institución educativa inicial No. 1392,colegio,,OSM,way/1305854379,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1805651,-80.6727389,4.7,2,2,1,total
+377,50.87,(colegio sin nombre),colegio,,OSM,way/1305854380,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1793218,-80.6740476,4.9,2,2,1,total
+378,50.87,Institución Educativa 1149 Los Almendros- Castilla,colegio,,OSM,way/1310893842,False,Castilla,CASTILLA,Muy alto,16.3,-5.1896193,-80.5950889,4.2,2,2,1,total
+379,50.87,(colegio sin nombre),colegio,,OSM,way/1329965503,False,Castilla,CASTILLA,Muy alto,16.3,-5.1432154,-80.6100458,6.2,2,2,1,total
+380,50.87,(colegio sin nombre),colegio,,OSM,way/1333386861,False,Castilla,CASTILLA,Muy alto,16.3,-5.1900646,-80.590224,4.7,2,2,1,total
+381,50.87,(colegio sin nombre),colegio,,OSM,way/1333509537,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1674796,-80.653572,3.8,2,2,1,total
+382,50.87,(colegio sin nombre),colegio,,OSM,way/1338510130,False,Castilla,CASTILLA,Muy alto,16.3,-5.1855109,-80.597431,4.0,2,2,1,total
+383,50.87,(colegio sin nombre),colegio,,OSM,way/1338978446,False,Castilla,CASTILLA,Muy alto,16.3,-5.1878841,-80.590976,4.7,2,2,1,total
+384,50.87,(colegio sin nombre),colegio,,OSM,way/1339161924,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1899624,-80.6715714,4.3,2,2,1,total
+385,50.87,(colegio sin nombre),colegio,,OSM,way/1376620123,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1914698,-80.6689081,4.0,2,2,1,total
+386,50.87,I.E Elvira Castro de Quiroz,colegio,,OSM,way/1377871905,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1304078,-80.6408934,7.2,2,2,1,total
+387,50.87,(colegio sin nombre),colegio,,OSM,way/1383906645,False,Castilla,CASTILLA,Muy alto,16.3,-5.1843349,-80.5914861,4.7,2,2,1,total
+388,50.87,(colegio sin nombre),colegio,,OSM,way/1426233741,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.174769,-80.689408,6.6,2,2,1,total
+389,50.87,(colegio sin nombre),colegio,,OSM,way/1426233742,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1752662,-80.6880529,6.5,2,2,1,total
+390,50.87,Institución Educativa FAP Samuel Ordoñez Velazquez,colegio,,OSM,way/1429408816,False,Castilla,CASTILLA,Muy alto,16.3,-5.1956224,-80.6181514,1.6,2,2,1,total
+391,50.87,Colegio Adventista Unión Piura,colegio,,OSM,way/1442478942,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1450399,-80.6554492,6.0,2,2,1,total
+392,50.87,Institución Educativa 15110 José Gabriel Condorcanqui,colegio,,OSM,way/1446812083,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1958275,-80.6562766,2.6,2,2,1,total
+393,50.87,Institución Educativa 15016 Sagrada Familia,colegio,,OSM,way/1460810374,False,Castilla,CASTILLA,Muy alto,16.3,-5.2282057,-80.6166881,4.2,2,2,1,total
+394,50.87,Institución educativa inicial No. 1544,colegio,,OSM,way/1462471826,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.180057,-80.6858036,6.1,2,2,1,total
+395,50.87,Institución Educativa Parroquial Nuestra Señora del Tránsito,colegio,,OSM,way/1538932999,False,Castilla,CASTILLA,Muy alto,16.3,-5.2043532,-80.6208235,1.7,2,2,1,total
+396,50.87,Centro de Educación Básica Alternativa N° 17,colegio,,OSM,way/1539234514,False,Castilla,CASTILLA,Muy alto,16.3,-5.2250706,-80.6208339,3.6,2,2,1,total
+397,50.87,Institución Educativa Nuestra Señora del Perpetuo Socorro,colegio,,OSM,way/1569826157,False,Veintiséis de Octubre,VEINTISEIS DE OCTUBRE,Muy alto,16.3,-5.1887133,-80.6628527,3.4,2,2,1,total
+398,50.25,Institución Educativa 14746 Dios Es Amor,colegio,,OSM,node/5582577615,False,Paita,PAITA,Alto,20.6,-5.1332112,-81.1707327,60.0,2,2,1,total
+399,50.25,"Institución Educativa Jesus, Señor De Los Milagros",colegio,,OSM,node/5582577616,False,Paita,PAITA,Alto,20.6,-5.1320105,-81.1706659,60.0,2,2,1,total
+400,50.25,Institución Educativa Capitan De Navio Juan Noel Lastra,colegio,,OSM,node/5582579443,False,Paita,PAITA,Alto,20.6,-5.0839583,-81.1234231,55.7,2,2,1,total
+401,50.25,Institución Educativa 14740 Nuestra Señora De Lourdes,colegio,,OSM,node/5582681508,False,Paita,PAITA,Alto,20.6,-5.0841655,-81.1147743,54.8,2,2,1,total
+402,50.25,Institución Educativa Nuestra Señora De Fatima,colegio,,OSM,node/5582682456,False,Paita,PAITA,Alto,20.6,-5.0892204,-81.108218,53.9,2,2,1,total
+403,50.25,Institución Educativa Nuestra Señora Del Perpetuo Socorro,colegio,,OSM,node/5582682573,False,Paita,PAITA,Alto,20.6,-5.0859964,-81.1140968,54.7,2,2,1,total
+404,50.25,Institución Educativa Betel,colegio,,OSM,node/5582683975,False,Paita,PAITA,Alto,20.6,-5.0888942,-81.0986654,52.9,2,2,1,total
+405,50.25,Institución Educativa Inicial Mater Admirabilis,colegio,,OSM,node/5582683980,False,Paita,PAITA,Alto,20.6,-5.0874467,-81.0985353,52.9,2,2,1,total
+406,50.25,Institución Educativa Los Becados,colegio,,OSM,node/5582683981,False,Paita,PAITA,Alto,20.6,-5.0889921,-81.097224,52.8,2,2,1,total
+407,50.25,Institución Educativa Ilustre Jorge Basadre,colegio,,OSM,node/5582686544,False,Paita,PAITA,Alto,20.6,-5.0931839,-81.0935975,52.3,2,2,1,total
+408,50.25,Institución Educativa Divino Redentor,colegio,,OSM,node/5582686547,False,Paita,PAITA,Alto,20.6,-5.0933843,-81.0992264,52.9,2,2,1,total
+409,50.25,Institución Educativa El Triunfo,colegio,,OSM,node/5582686550,False,Paita,PAITA,Alto,20.6,-5.0940486,-81.0964607,52.5,2,2,1,total
+410,50.25,Institución Educativa No. 20854,colegio,,OSM,node/5582686551,False,Paita,PAITA,Alto,20.6,-5.0918515,-81.0833461,51.2,2,2,1,total
+411,50.25,Institución Educativa 20803 Carlos Durand Hernandez,colegio,,OSM,node/5582686553,False,Paita,PAITA,Alto,20.6,-5.0951166,-81.0926055,52.1,2,2,1,total
+412,50.25,Institución Educativa 14739 Eliseo Alcides Bernal La Serna,colegio,,OSM,node/5582687554,False,Paita,PAITA,Alto,20.6,-5.0925359,-81.1141844,54.5,2,2,1,total
+413,50.25,Institución Educativa Inicial Fe y Alegría 73,colegio,,OSM,node/5582687561,False,Paita,PAITA,Alto,20.6,-5.1046704,-81.1069871,53.5,2,2,1,total
+414,50.25,Colegio 14746 Dios es Amor,colegio,,OSM,way/490408657,False,Paita,PAITA,Alto,20.6,-5.1333173,-81.1709261,60.0,2,2,1,total
+415,50.25,Institución Educativa Niño Jesus,colegio,,OSM,way/490465877,False,Paita,PAITA,Alto,20.6,-5.0929376,-81.1031325,53.3,2,2,1,total
+416,50.25,Colegio 14743 - Sagrado Corazón de Jesús,colegio,,OSM,way/490465955,False,Paita,PAITA,Alto,20.6,-5.0907992,-81.0984839,52.8,2,2,1,total
+417,50.25,Colegio 20803 Carlos Durand Hernandez,colegio,,OSM,way/490466117,False,Paita,PAITA,Alto,20.6,-5.0950694,-81.0925905,52.1,2,2,1,total
+418,50.25,Colegio 14739 Eliseo Alcides Bernal La Serna,colegio,,OSM,way/491227789,False,Paita,PAITA,Alto,20.6,-5.0899303,-81.1138382,54.5,2,2,1,total
+419,50.25,Institución Educativa San Francisco de Asís,colegio,,OSM,way/491227793,False,Paita,PAITA,Alto,20.6,-5.0919182,-81.1123614,54.3,2,2,1,total
+420,50.25,Institución Educativa 14741 Señor de los Milagros,colegio,,OSM,way/491227794,False,Paita,PAITA,Alto,20.6,-5.083481,-81.1164754,55.0,2,2,1,total
+421,50.25,Institución Educativa Stephen William Hawking,colegio,,OSM,way/491227797,False,Paita,PAITA,Alto,20.6,-5.0902898,-81.1116928,54.3,2,2,1,total
+422,50.25,Institución Educativa Nuestra Señora de las Mercedes,colegio,,OSM,way/491227798,False,Paita,PAITA,Alto,20.6,-5.0907044,-81.1137195,54.5,2,2,1,total
+423,50.25,Colegio 14740 Nuestra Señora de Lourdes,colegio,,OSM,way/491227800,False,Paita,PAITA,Alto,20.6,-5.0858292,-81.1105443,54.3,2,2,1,total
+424,50.25,Institución Educativa 14744 Juan Pablo II,colegio,,OSM,way/491227873,False,Paita,PAITA,Alto,20.6,-5.0973787,-81.1053227,53.4,2,2,1,total
+425,50.25,Unidad Educativa,colegio,,OSM,way/585201973,False,Paita,PAITA,Alto,20.6,-5.0936917,-81.1006381,53.0,2,2,1,total
+426,50.25,Institución Educativa Ebenezer,colegio,,OSM,way/910070611,False,Paita,PAITA,Alto,20.6,-5.0886221,-81.0995313,53.0,2,2,1,total
+427,50.25,Institución Educativa Creciendo Juntos Señor Cautivo,colegio,,OSM,way/1026641653,False,Paita,PAITA,Alto,20.6,-5.0916944,-81.0956514,52.5,2,2,1,total
+428,50.25,Liceo Naval Capitan de Navio Juan Noel Lastra,colegio,,OSM,way/1089353357,False,Paita,PAITA,Alto,20.6,-5.0834725,-81.1217441,55.5,2,2,1,total
+429,46.54,Institución Educativa Alejandro Taboada,colegio,,OSM,node/5582508130,False,Talara,PARIÑAS,Alto,15.5,-4.562387,-81.275018,100.0,2,2,1,total
+430,46.54,Institución Educativa Semillero De Jesus,colegio,,OSM,node/5582511500,False,Talara,PARIÑAS,Alto,15.5,-4.5931135,-81.2497858,95.6,2,2,1,total
+431,46.54,Institución Educativa Angeles De Jesus,colegio,,OSM,node/5582518983,False,Talara,PARIÑAS,Alto,15.5,-4.5946354,-81.2551835,95.9,2,2,1,total
+432,46.54,Institución Educativa Manantial,colegio,,OSM,node/5582518986,False,Talara,PARIÑAS,Alto,15.5,-4.6001098,-81.2575118,95.7,2,2,1,total
+433,46.54,Institución Educativa Ceycar Innovadores De La Educacion,colegio,,OSM,node/5582518993,False,Talara,PARIÑAS,Alto,15.5,-4.594146,-81.2559454,96.0,2,2,1,total
+434,46.54,Institución Educativa Inicial José María Escribá de Balaguer,colegio,,OSM,node/5582518997,False,Talara,PARIÑAS,Alto,15.5,-4.590439,-81.2567588,96.4,2,2,1,total
+435,46.54,Institución Educativa Consorcio Trilce Calcuta,colegio,,OSM,node/5582518998,False,Talara,PARIÑAS,Alto,15.5,-4.5896503,-81.255044,96.3,2,2,1,total
+436,46.54,Institución Educativa Galeno,colegio,,OSM,node/5582519000,False,Talara,PARIÑAS,Alto,15.5,-4.5888789,-81.2570339,96.5,2,2,1,total
+437,46.54,Institución Educativa José María Escribá de Balaguer,colegio,,OSM,node/5582519002,False,Talara,PARIÑAS,Alto,15.5,-4.5904744,-81.2568004,96.4,2,2,1,total
+438,46.54,Institución Educativa El Galeno Daniel Alcides Carrion,colegio,,OSM,node/5582519008,False,Talara,PARIÑAS,Alto,15.5,-4.5888575,-81.2569226,96.5,2,2,1,total
+439,46.54,Institución Educativa Newton,colegio,,OSM,node/5582522047,False,Talara,PARIÑAS,Alto,15.5,-4.5872264,-81.2467021,95.8,2,2,1,total
+440,46.54,Institución educativa No. 14902,colegio,,OSM,node/5582524971,False,Talara,PARIÑAS,Alto,15.5,-4.5841229,-81.2559449,96.8,2,2,1,total
+441,46.54,Institución Educativa Andres Avelino Caceres,colegio,,OSM,node/5582524975,False,Talara,PARIÑAS,Alto,15.5,-4.5857891,-81.2653003,97.4,2,2,1,total
+442,46.54,Institución Educativa 15511 San Martin De Porres,colegio,,OSM,node/5582524976,False,Talara,PARIÑAS,Alto,15.5,-4.5855167,-81.2635679,97.3,2,2,1,total
+443,46.54,Institución Educativa Ignacio Merino,colegio,,OSM,node/5582524979,False,Talara,PARIÑAS,Alto,15.5,-4.5861241,-81.258654,96.9,2,2,1,total
+444,46.54,Institución Educativa Cristo Redentor,colegio,,OSM,node/5582533719,False,Talara,PARIÑAS,Alto,15.5,-4.5746961,-81.2674489,98.5,2,2,1,total
+445,46.54,Institución Educativa Jorge Basadre,colegio,,OSM,node/5582534621,False,Talara,PARIÑAS,Alto,15.5,-4.575374,-81.2732937,98.9,2,2,1,total
+446,46.54,Institución Educativa Señora Del Carmen,colegio,,OSM,node/5582534625,False,Talara,PARIÑAS,Alto,15.5,-4.5748306,-81.2687636,98.6,2,2,1,total
+447,46.54,Nuestra Señora Del Carmen,colegio,,OSM,node/5582534631,False,Talara,PARIÑAS,Alto,15.5,-4.5749509,-81.2688012,98.5,2,2,1,total
+448,46.54,Institución Educativa Jorge Chavez,colegio,,OSM,node/5582535296,False,Talara,PARIÑAS,Alto,15.5,-4.5861071,-81.2676353,97.6,2,2,1,total
+449,46.54,Institución Educativa San Sebastian,colegio,,OSM,node/5582535299,False,Talara,PARIÑAS,Alto,15.5,-4.5869238,-81.266501,97.4,2,2,1,total
+450,46.54,Institución Educativa San Gabriel,colegio,,OSM,node/5582535300,False,Talara,PARIÑAS,Alto,15.5,-4.5855753,-81.2694085,97.8,2,2,1,total
+451,46.54,Institución Educativa Inca Garcilazo De La Vega,colegio,,OSM,node/5582535301,False,Talara,PARIÑAS,Alto,15.5,-4.5853205,-81.2664897,97.6,2,2,1,total
+452,46.54,Institución Educativa Santisimo Sacramento,colegio,,OSM,node/5582545637,False,Talara,PARIÑAS,Alto,15.5,-4.5859529,-81.2747753,98.2,2,2,1,total
+453,46.54,Institución Educativa 15509 Nuestra Señora De Lourdes,colegio,,OSM,node/5582545638,False,Talara,PARIÑAS,Alto,15.5,-4.5834319,-81.2720062,98.1,2,2,1,total
+454,46.54,Institución Educativa Miguel Grau,colegio,,OSM,node/5582545640,False,Talara,PARIÑAS,Alto,15.5,-4.5837117,-81.274433,98.3,2,2,1,total
+455,46.54,Institución Educativa Proyecto Delta,colegio,,OSM,node/5582546981,False,Talara,PARIÑAS,Alto,15.5,-4.5816828,-81.2691056,98.0,2,2,1,total
+456,46.54,Institución Educativa Little Bee,colegio,,OSM,node/5582546982,False,Talara,PARIÑAS,Alto,15.5,-4.5784196,-81.2708357,98.4,2,2,1,total
+457,46.54,Institución Educativa Nuestra Señora De Guadalupe,colegio,,OSM,node/5582546983,False,Talara,PARIÑAS,Alto,15.5,-4.5812318,-81.2680346,98.0,2,2,1,total
+458,46.54,Institución Educativa Sagrado Corazon De Jesus,colegio,,OSM,node/5582546988,False,Talara,PARIÑAS,Alto,15.5,-4.5787456,-81.2688955,98.3,2,2,1,total
+459,46.54,Institución Educativa Trilce,colegio,,OSM,node/5582549006,False,Talara,PARIÑAS,Alto,15.5,-4.5816194,-81.2721029,98.3,2,2,1,total
+460,46.54,Institución Educativa Niño Divino,colegio,,OSM,node/5582549010,False,Talara,PARIÑAS,Alto,15.5,-4.5786672,-81.2742734,98.7,2,2,1,total
+461,46.54,Institución Educativa La Inmaculada,colegio,,OSM,way/486044107,False,Talara,PARIÑAS,Alto,15.5,-4.5880518,-81.2730289,97.9,2,2,1,total
+462,46.54,Colegio Ignacio Merino,colegio,,OSM,way/486044109,False,Talara,PARIÑAS,Alto,15.5,-4.5870252,-81.2731215,98.0,2,2,1,total
+463,46.54,Institución Educativa 15508 Domingo Savio,colegio,,OSM,way/486314990,False,Talara,PARIÑAS,Alto,15.5,-4.5768872,-81.2732471,98.7,2,2,1,total
+464,46.54,Institución educativa inicial 610 Maria Reiche,colegio,,OSM,way/486315052,False,Talara,PARIÑAS,Alto,15.5,-4.5851687,-81.2602647,97.1,2,2,1,total
+465,46.54,Institución Educativa Blas Pascal,colegio,,OSM,way/486315058,False,Talara,PARIÑAS,Alto,15.5,-4.5851896,-81.259067,97.0,2,2,1,total
+466,46.54,Institución Educativa Maria Montessori,colegio,,OSM,way/486315061,False,Talara,PARIÑAS,Alto,15.5,-4.5833849,-81.2564518,96.9,2,2,1,total
+467,46.54,Colegio 14902,colegio,,OSM,way/486315063,False,Talara,PARIÑAS,Alto,15.5,-4.582643,-81.2560682,96.9,2,2,1,total
+468,46.54,Institución Educativa Nuestra Señora del Perpetuo Socorro,colegio,,OSM,way/486315068,False,Talara,PARIÑAS,Alto,15.5,-4.5851268,-81.2650664,97.5,2,2,1,total
+469,46.54,Institución Educativa Santa Rosa de Lima,colegio,,OSM,way/486741795,False,Talara,PARIÑAS,Alto,15.5,-4.5755421,-81.2654677,98.2,2,2,1,total
+470,46.54,Institución Educativa Santa Rosa de Lima,colegio,,OSM,way/486741796,False,Talara,PARIÑAS,Alto,15.5,-4.5751233,-81.2667676,98.4,2,2,1,total
+471,46.54,Colegio Señora del Carmen,colegio,,OSM,way/486741797,False,Talara,PARIÑAS,Alto,15.5,-4.5748173,-81.2687959,98.6,2,2,1,total
+472,46.54,CEBA Inicial Jardín Ceba - 15037-38,colegio,,OSM,way/486741798,False,Talara,PARIÑAS,Alto,15.5,-4.5736084,-81.2693485,98.7,2,2,1,total
+473,46.54,Institución Educativa 15038 Santa Rosa De Lima,colegio,,OSM,way/486741799,False,Talara,PARIÑAS,Alto,15.5,-4.5736143,-81.2690629,98.7,2,2,1,total
+474,46.54,Institución Educativa 15037 José Cayetano Heredia,colegio,,OSM,way/486741800,False,Talara,PARIÑAS,Alto,15.5,-4.5737835,-81.2685264,98.6,2,2,1,total
+475,46.54,Institución Educativa Joyitas De Belen,colegio,,OSM,way/486741851,False,Talara,PARIÑAS,Alto,15.5,-4.5686069,-81.272848,99.4,2,2,1,total
+476,46.54,Institución Educativa Mi Mundo Magico,colegio,,OSM,way/486741866,False,Talara,PARIÑAS,Alto,15.5,-4.5661865,-81.2727158,99.5,2,2,1,total
+477,46.54,Colegio Alejandro Taboada,colegio,,OSM,way/486741885,False,Talara,PARIÑAS,Alto,15.5,-4.5659121,-81.2744884,99.7,2,2,1,total
+478,46.54,Institución Educativa Antonio Raymondi,colegio,,OSM,way/486741904,False,Talara,PARIÑAS,Alto,15.5,-4.5643533,-81.2733598,99.7,2,2,1,total
+479,46.54,Institución Educativa 15031 Monseñor Luis Pacheco Wilson,colegio,,OSM,way/486741905,False,Talara,PARIÑAS,Alto,15.5,-4.5636796,-81.275458,99.9,2,2,1,total
+480,46.54,Institución Educativa 14901 Maximo Heraclio Cornejo Pacora,colegio,,OSM,way/486741906,False,Talara,PARIÑAS,Alto,15.5,-4.5635472,-81.2750174,99.9,2,2,1,total
+481,46.54,Institución Educativa San Marcos,colegio,,OSM,way/487350065,False,Talara,PARIÑAS,Alto,15.5,-4.5874617,-81.2553387,96.5,2,2,1,total
+482,46.54,Institución Educativa Maria De Nazaret,colegio,,OSM,way/487350066,False,Talara,PARIÑAS,Alto,15.5,-4.587913,-81.2548927,96.4,2,2,1,total
+483,46.54,Institución Educativa Despertar,colegio,,OSM,way/487350067,False,Talara,PARIÑAS,Alto,15.5,-4.5881976,-81.2548172,96.4,2,2,1,total
+484,46.54,Institución Educativa Las Joyas de Jesucristo,colegio,,OSM,way/487350071,False,Talara,PARIÑAS,Alto,15.5,-4.5898289,-81.2549388,96.3,2,2,1,total
+485,46.54,Institución Educativa Alejandro Sanchez Arteaga,colegio,,OSM,way/487350073,False,Talara,PARIÑAS,Alto,15.5,-4.5921427,-81.25832,96.4,2,2,1,total
+486,46.54,Colegio 15513 Nuestra Señora de Guadalupe,colegio,,OSM,way/487350078,False,Talara,PARIÑAS,Alto,15.5,-4.5928055,-81.2571147,96.2,2,2,1,total
+487,46.54,Colegio 15512 Andrés Avelino Cáceres,colegio,,OSM,way/487350079,False,Talara,PARIÑAS,Alto,15.5,-4.5933504,-81.2571609,96.2,2,2,1,total
+488,46.54,Institución Educativa Divino Corazon De Jesus,colegio,,OSM,way/487350080,False,Talara,PARIÑAS,Alto,15.5,-4.5923847,-81.2550333,96.1,2,2,1,total
+489,46.54,Institución Educativa Cesar Vallejo,colegio,,OSM,way/487350084,False,Talara,PARIÑAS,Alto,15.5,-4.593772,-81.252532,95.8,2,2,1,total
+490,46.54,Colegio San Sebastián,colegio,,OSM,way/487350086,False,Talara,PARIÑAS,Alto,15.5,-4.5944055,-81.2521858,95.7,2,2,1,total
+491,46.54,Institución Educativa Federico Olaya,colegio,,OSM,way/487350087,False,Talara,PARIÑAS,Alto,15.5,-4.5931457,-81.2494321,95.6,2,2,1,total
+492,46.54,Institución Educativa Jesus Divino Maestro,colegio,,OSM,way/487350088,False,Talara,PARIÑAS,Alto,15.5,-4.5877711,-81.2485983,95.9,2,2,1,total
+493,46.54,Colegio Jorge Chávez,colegio,,OSM,way/487350090,False,Talara,PARIÑAS,Alto,15.5,-4.5942525,-81.2484299,95.4,2,2,1,total
+494,46.54,Institución Educativa Punta Arenas,colegio,,OSM,way/487350485,False,Talara,PARIÑAS,Alto,15.5,-4.5899694,-81.2826199,98.5,2,2,1,total
+495,46.54,Colegio 15511 San Martín de Porres,colegio,,OSM,way/487350551,False,Talara,PARIÑAS,Alto,15.5,-4.5771004,-81.2703434,98.5,2,2,1,total
+496,46.54,Institución Educativa Federico Villarreal,colegio,,OSM,way/487350570,False,Talara,PARIÑAS,Alto,15.5,-4.5778691,-81.2795556,99.2,2,2,1,total
+497,46.54,Colegio 15509 Nuestra Señora de Lourdes,colegio,,OSM,way/490296578,False,Talara,PARIÑAS,Alto,15.5,-4.5842056,-81.2709272,98.0,2,2,1,total
+498,46.54,Institución Educativa 15510 José Gálvez Egusquiza,colegio,,OSM,way/490296582,False,Talara,PARIÑAS,Alto,15.5,-4.5824384,-81.2712865,98.2,2,2,1,total
+499,46.54,Institución Educativa Capitán FAP José Emilio Velarde Vargas,colegio,,OSM,way/1041586752,False,Talara,PARIÑAS,Alto,15.5,-4.5805469,-81.2611163,97.5,2,2,1,total
+500,46.54,Institución Educativa Antonio Raymondi,colegio,,OSM,way/1041591576,False,Talara,PARIÑAS,Alto,15.5,-4.5761856,-81.267354,98.3,2,2,1,total
+501,46.54,Institución Educativa San Ignacio De Loyola,colegio,,OSM,way/1041594205,False,Talara,PARIÑAS,Alto,15.5,-4.5768399,-81.269222,98.4,2,2,1,total
+502,46.54,Institución Educativa 20487 Santa Elena,colegio,,OSM,way/1042769703,False,Talara,PARIÑAS,Alto,15.5,-4.5240146,-81.2671566,102.5,2,2,1,total
+503,46.14,Institución Educativa Nuestra Señora De Las Mercedes,colegio,,OSM,node/5582700053,False,Piura,PIURA,Muy alto,9.8,-5.2243993,-80.629927,3.3,2,2,1,total
+504,46.14,Institución Educativa Agropecuario 07,colegio,,OSM,node/5582700055,False,Piura,PIURA,Muy alto,9.8,-5.2272226,-80.6309519,3.6,2,2,1,total
+505,46.14,Institución Educativa No. 14114,colegio,,OSM,node/5582700056,False,Piura,PIURA,Muy alto,9.8,-5.2245462,-80.6281948,3.4,2,2,1,total
+506,46.14,Institución educativa No. 14038,colegio,,OSM,node/5582701583,False,Piura,PIURA,Muy alto,9.8,-5.236529,-80.6608455,5.6,2,2,1,total
+507,46.14,Institución Educativa No. 14032,colegio,,OSM,node/5582701586,False,Piura,PIURA,Muy alto,9.8,-5.2366458,-80.6576853,5.4,2,2,1,total
+508,46.14,Institución Educativa Nuestra Señora Del Carmen,colegio,,OSM,node/5582701587,False,Piura,PIURA,Muy alto,9.8,-5.2336204,-80.658224,5.2,2,2,1,total
+509,46.14,Institución Educativa No. 14031,colegio,,OSM,node/5582701694,False,Piura,PIURA,Muy alto,9.8,-5.2442171,-80.6497989,5.8,2,2,1,total
+510,46.14,Institución Educativa No. 20446,colegio,,OSM,node/5582702210,False,Piura,PIURA,Muy alto,9.8,-5.2530261,-80.6653188,7.4,2,2,1,total
+511,46.14,Institución Educativa Andrea Lucia De Jesus,colegio,,OSM,node/5582872513,False,Piura,PIURA,Muy alto,9.8,-5.1602326,-80.6338366,3.8,2,2,1,total
+512,46.14,Institución Educativa Melanie Klein,colegio,,OSM,node/5582872514,False,Piura,PIURA,Muy alto,9.8,-5.1630552,-80.6341554,3.5,2,2,1,total
+513,46.14,Institución Educativa Innova Schools,colegio,,OSM,node/5582872515,False,Piura,PIURA,Muy alto,9.8,-5.15857,-80.6270343,4.0,2,2,1,total
+514,46.14,Institución Educativa La Salle,colegio,,OSM,node/5582872517,False,Piura,PIURA,Muy alto,9.8,-5.1688736,-80.6342045,2.9,2,2,1,total
+515,46.14,Institución Educativa Cped - 14103,colegio,,OSM,node/5582875524,False,Piura,PIURA,Muy alto,9.8,-5.1581056,-80.6207945,4.3,2,2,1,total
+516,46.14,Institución Educativa Los Geranios,colegio,,OSM,node/5582875529,False,Piura,PIURA,Muy alto,9.8,-5.1716976,-80.6332951,2.5,2,2,1,total
+517,46.14,Institución Educativa Divino Redentor,colegio,,OSM,node/5582875531,False,Piura,PIURA,Muy alto,9.8,-5.1690941,-80.630378,2.8,2,2,1,total
+518,46.14,Institución Educativa Estrellitas Del Saber,colegio,,OSM,node/5582875532,False,Piura,PIURA,Muy alto,9.8,-5.1726643,-80.6286205,2.5,2,2,1,total
+519,46.14,Institución Educativa Los Clavelitos De San Judas Tadeo,colegio,,OSM,node/5582875534,False,Piura,PIURA,Muy alto,9.8,-5.1707498,-80.631934,2.6,2,2,1,total
+520,46.14,Institución Educativa No. 14103,colegio,,OSM,node/5582875541,False,Piura,PIURA,Muy alto,9.8,-5.1579747,-80.6207864,4.3,2,2,1,total
+521,46.14,Institución Educativa Turicara,colegio,,OSM,node/5582875545,False,Piura,PIURA,Muy alto,9.8,-5.1693216,-80.6352772,2.8,2,2,1,total
+522,46.14,Institución Educativa Rayitos De Alegria,colegio,,OSM,node/5582881929,False,Piura,PIURA,Muy alto,9.8,-5.205422,-80.6530744,2.6,2,2,1,total
+523,46.14,Institución Educativa 20457 Cristo El Rey,colegio,,OSM,node/5582881930,False,Piura,PIURA,Muy alto,9.8,-5.2023515,-80.6445926,1.6,2,2,1,total
+524,46.14,Institución Educativa Trieste,colegio,,OSM,node/5582881931,False,Piura,PIURA,Muy alto,9.8,-5.2135962,-80.6429276,2.4,2,2,1,total
+525,46.14,Institución Educativa El Milagro De Jesus Y Maria,colegio,,OSM,node/5582881933,False,Piura,PIURA,Muy alto,9.8,-5.2047014,-80.649028,2.1,2,2,1,total
+526,46.14,Craei - Piura,colegio,,OSM,node/5582881934,False,Piura,PIURA,Muy alto,9.8,-5.2004329,-80.6455416,1.6,2,2,1,total
+527,46.14,Institución Educativa Principe De Paz,colegio,,OSM,node/5582881935,False,Piura,PIURA,Muy alto,9.8,-5.2044208,-80.65,2.2,2,2,1,total
+528,46.14,Institución Educativa No. 20458,colegio,,OSM,node/5582881937,False,Piura,PIURA,Muy alto,9.8,-5.2220834,-80.6548966,3.9,2,2,1,total
+529,46.14,Institución Educativa Madre Del Buen Consejo,colegio,,OSM,node/5582881940,False,Piura,PIURA,Muy alto,9.8,-5.2081036,-80.6453859,2.1,2,2,1,total
+530,46.14,Institución Educativa San Lucas,colegio,,OSM,node/5582881946,False,Piura,PIURA,Muy alto,9.8,-5.2006942,-80.6422523,1.3,2,2,1,total
+531,46.14,Institución Educativa Luis Antonio Eguiguren Escudero,colegio,,OSM,node/5582973965,False,Piura,PIURA,Muy alto,9.8,-5.1765018,-80.6404644,2.2,2,2,1,total
+532,46.14,Institución Educativa Inca Garcilazo De La Vega,colegio,,OSM,node/5582973966,False,Piura,PIURA,Muy alto,9.8,-5.1782426,-80.642984,2.1,2,2,1,total
+533,46.14,Institución Educativa Federico Helguero Seminario,colegio,,OSM,node/5582973970,False,Piura,PIURA,Muy alto,9.8,-5.1744739,-80.6460582,2.7,2,2,1,total
+534,46.14,Institución Educativa Alexander Von Humboldt,colegio,,OSM,node/5582973973,False,Piura,PIURA,Muy alto,9.8,-5.1774681,-80.6445535,2.3,2,2,1,total
+535,46.14,Institución Educativa Villasol,colegio,,OSM,node/5582973979,False,Piura,PIURA,Muy alto,9.8,-5.1770158,-80.6400838,2.1,2,2,1,total
+536,46.14,Institución Educativa La Semillita,colegio,,OSM,node/5582973986,False,Piura,PIURA,Muy alto,9.8,-5.1761026,-80.6411562,2.2,2,2,1,total
+537,46.14,Institución Educativa Dante Alighieri,colegio,,OSM,node/5582976765,False,Piura,PIURA,Muy alto,9.8,-5.1860959,-80.6260885,1.2,2,2,1,total
+538,46.14,Institución Educativa Christian Life Community School,colegio,,OSM,node/5582976767,False,Piura,PIURA,Muy alto,9.8,-5.1872618,-80.6278033,1.0,2,2,1,total
+539,46.14,Institución Educativa Rosa Carrera De Martos,colegio,,OSM,node/5582976770,False,Piura,PIURA,Muy alto,9.8,-5.1853398,-80.6279456,1.2,2,2,1,total
+540,46.14,Institución Educativa San Gabriel,colegio,,OSM,node/5582976771,False,Piura,PIURA,Muy alto,9.8,-5.185102,-80.6210252,1.7,2,2,1,total
+541,46.14,Institución Educativa Hans Christian Andersen,colegio,,OSM,node/5582976775,False,Piura,PIURA,Muy alto,9.8,-5.1849798,-80.6257979,1.3,2,2,1,total
+542,46.14,Institución Educativa Pamer Las Arenas,colegio,,OSM,node/5582976778,False,Piura,PIURA,Muy alto,9.8,-5.1855886,-80.6262435,1.2,2,2,1,total
+543,46.14,Institución Educativa San Rafael,colegio,,OSM,node/5582976784,False,Piura,PIURA,Muy alto,9.8,-5.1859711,-80.6260851,1.2,2,2,1,total
+544,46.14,Institución Educativa No. 15004,colegio,,OSM,node/5582976786,False,Piura,PIURA,Muy alto,9.8,-5.1889619,-80.6251972,1.0,2,2,1,total
+545,46.14,Institución Educativa Exitus,colegio,,OSM,node/5582976788,False,Piura,PIURA,Muy alto,9.8,-5.1857371,-80.6231805,1.4,2,2,1,total
+546,46.14,Institución Educativa 14117 Juan Palacios Torres,colegio,,OSM,node/5582979359,False,Piura,PIURA,Muy alto,9.8,-5.2210748,-80.6278074,3.0,2,2,1,total
+547,46.14,Institución Educativa Nuestra Señora Del Carmen,colegio,,OSM,node/5582979377,False,Piura,PIURA,Muy alto,9.8,-5.2194157,-80.6268618,2.8,2,2,1,total
+548,46.14,Institución Educativa Mi Divino Niño Jesus,colegio,,OSM,node/5582979382,False,Piura,PIURA,Muy alto,9.8,-5.2190836,-80.6278311,2.8,2,2,1,total
+549,46.14,Institución Educativa Paul Harris,colegio,,OSM,node/5582982917,False,Piura,PIURA,Muy alto,9.8,-5.1881914,-80.6462401,1.6,2,2,1,total
+550,46.14,Institución Educativa Nuestra Señora De La Merced,colegio,,OSM,node/5582982920,False,Piura,PIURA,Muy alto,9.8,-5.1790267,-80.6428026,2.0,2,2,1,total
+551,46.14,Institución Educativa Ignacio Merino,colegio,,OSM,node/5582983231,False,Piura,PIURA,Muy alto,9.8,-5.179204,-80.6435859,2.1,2,2,1,total
+552,46.14,Institución Educativa Frederick Mayer,colegio,,OSM,node/5582983235,False,Piura,PIURA,Muy alto,9.8,-5.1861446,-80.6505112,2.2,2,2,1,total
+553,46.14,Institución Educativa Robert Fuller,colegio,,OSM,node/5582983237,False,Piura,PIURA,Muy alto,9.8,-5.1891547,-80.6482395,1.8,2,2,1,total
+554,46.14,Institución Educativa Proyecto,colegio,,OSM,node/5582984813,False,Piura,PIURA,Muy alto,9.8,-5.182181,-80.6291978,1.4,2,2,1,total
+555,46.14,Institución Educativa Nuestra Señora De La Paz,colegio,,OSM,node/5582984816,False,Piura,PIURA,Muy alto,9.8,-5.1819261,-80.635742,1.4,2,2,1,total
+556,46.14,Institución Educativa San Luis Gonzaga,colegio,,OSM,node/5582986327,False,Piura,PIURA,Muy alto,9.8,-5.1821963,-80.6325575,1.4,2,2,1,total
+557,46.14,Institución Educativa Domenico Savio,colegio,,OSM,node/5582986329,False,Piura,PIURA,Muy alto,9.8,-5.1819871,-80.6350845,1.4,2,2,1,total
+558,46.14,Institución Educativa Parcemon Saldarriaga Montejo,colegio,,OSM,node/5582986330,False,Piura,PIURA,Muy alto,9.8,-5.1887151,-80.6287461,0.8,2,2,1,total
+559,46.14,Institución Educativa Las Praderas Del Norte,colegio,,OSM,node/5582986334,False,Piura,PIURA,Muy alto,9.8,-5.1862129,-80.6297227,1.0,2,2,1,total
+560,46.14,Institución Educativa Sacerdote Don Bartolome Herrera,colegio,,OSM,node/5582987049,False,Piura,PIURA,Muy alto,9.8,-5.2073418,-80.6358591,1.5,2,2,1,total
+561,46.14,Institución Educativa No. 20124,colegio,,OSM,node/5582987054,False,Piura,PIURA,Muy alto,9.8,-5.2062528,-80.6343295,1.3,2,2,1,total
+562,46.14,Institución Educativa San Jorge,colegio,,OSM,node/5582987069,False,Piura,PIURA,Muy alto,9.8,-5.2007702,-80.6358404,0.8,2,2,1,total
+563,46.14,Institución Educativa Benedicto Xvi,colegio,,OSM,node/5582987078,False,Piura,PIURA,Muy alto,9.8,-5.206196,-80.6235516,1.7,2,2,1,total
+564,46.14,Institución Educativa Virgen De La Puerta,colegio,,OSM,node/5582989591,False,Piura,PIURA,Muy alto,9.8,-5.2081829,-80.6228915,1.9,2,2,1,total
+565,46.14,Institución Educativa Alfonso Ugarte,colegio,,OSM,node/5582989679,False,Piura,PIURA,Muy alto,9.8,-5.1941584,-80.6202871,1.4,2,2,1,total
+566,46.14,Institución Educativa 15015 Heroes Del Cenepa,colegio,,OSM,node/5582993168,False,Piura,PIURA,Muy alto,9.8,-5.1992252,-80.6211802,1.4,2,2,1,total
+567,46.14,Institución Educativa Mariscal Ramon Castilla,colegio,,OSM,node/5582993175,False,Piura,PIURA,Muy alto,9.8,-5.199572,-80.6215663,1.4,2,2,1,total
+568,46.14,Institución Educativa El Triunfo,colegio,,OSM,node/5582993176,False,Piura,PIURA,Muy alto,9.8,-5.1980453,-80.623003,1.2,2,2,1,total
+569,46.14,Institución Educativa Salesiano Don Bosco,colegio,,OSM,node/5582993180,False,Piura,PIURA,Muy alto,9.8,-5.195421,-80.6220132,1.2,2,2,1,total
+570,46.14,Institución Educativa Ignacio Sanchez,colegio,,OSM,node/5582993222,False,Piura,PIURA,Muy alto,9.8,-5.1930033,-80.6274524,0.6,2,2,1,total
+571,46.14,Institución Educativa Premium,colegio,,OSM,node/5582993223,False,Piura,PIURA,Muy alto,9.8,-5.1918739,-80.6268223,0.7,2,2,1,total
+572,46.14,Institución Educativa Pamer Piura Santa Ana,colegio,,OSM,node/5582993226,False,Piura,PIURA,Muy alto,9.8,-5.1916367,-80.628007,0.6,2,2,1,total
+573,46.14,Institución Educativa Belen,colegio,,OSM,node/5582993229,False,Piura,PIURA,Muy alto,9.8,-5.1923353,-80.6273484,0.6,2,2,1,total
+574,46.14,Institución Educativa Exitus,colegio,,OSM,node/5582993230,False,Piura,PIURA,Muy alto,9.8,-5.1938426,-80.625808,0.8,2,2,1,total
+575,46.14,Institución Educativa San Isidro De Piura,colegio,,OSM,node/5582997217,False,Piura,PIURA,Muy alto,9.8,-5.2015494,-80.6220053,1.4,2,2,1,total
+576,46.14,Institución Educativa Juan Pablo Ii,colegio,,OSM,node/5582997932,False,Piura,PIURA,Muy alto,9.8,-5.2053009,-80.6240669,1.5,2,2,1,total
+577,46.14,Institución Educativa Juan Xxiii,colegio,,OSM,node/5582997934,False,Piura,PIURA,Muy alto,9.8,-5.2011968,-80.6285434,0.9,2,2,1,total
+578,46.14,Institución Educativa Ann Goulden,colegio,,OSM,node/5582997935,False,Piura,PIURA,Muy alto,9.8,-5.2031487,-80.6282918,1.1,2,2,1,total
+579,46.14,Institución Educativa Regina Coeli,colegio,,OSM,node/5583001147,False,Piura,PIURA,Muy alto,9.8,-5.1963169,-80.6253728,0.8,2,2,1,total
+580,46.14,Institución Educativa Ciencia Y Libertad,colegio,,OSM,node/5583001149,False,Piura,PIURA,Muy alto,9.8,-5.1994183,-80.6281675,0.7,2,2,1,total
+581,46.14,Institución Educativa Socrates,colegio,,OSM,node/5583001150,False,Piura,PIURA,Muy alto,9.8,-5.1982462,-80.6286211,0.6,2,2,1,total
+582,46.14,Institución Educativa Proyecto Pontificio,colegio,,OSM,node/5583001151,False,Piura,PIURA,Muy alto,9.8,-5.1994707,-80.6259251,0.9,2,2,1,total
+583,46.14,Institución Educativa Coronel Jose Joaquin Inclan,colegio,,OSM,node/5583006134,False,Piura,PIURA,Muy alto,9.8,-5.19885,-80.6376189,0.7,2,2,1,total
+584,46.14,Institución Educativa Susana Wesley,colegio,,OSM,node/5583006137,False,Piura,PIURA,Muy alto,9.8,-5.1997714,-80.6377338,0.8,2,2,1,total
+585,46.14,Institución Educativa Juan Jacobo Rousseau,colegio,,OSM,node/5583009330,False,Piura,PIURA,Muy alto,9.8,-5.1991827,-80.643857,1.3,2,2,1,total
+586,46.14,Institución Educativa Divino Niño Jesus De Piura,colegio,,OSM,node/5583009331,False,Piura,PIURA,Muy alto,9.8,-5.1986897,-80.6424597,1.2,2,2,1,total
+587,46.14,Institución Educativa Nuevo Amanecer,colegio,,OSM,node/5583009337,False,Piura,PIURA,Muy alto,9.8,-5.1985456,-80.6449712,1.4,2,2,1,total
+588,46.14,Institución Educativa Juan Pablo Ii,colegio,,OSM,node/5583009339,False,Piura,PIURA,Muy alto,9.8,-5.2001533,-80.6422731,1.2,2,2,1,total
+589,46.14,Institución Educativa Escuela Wesleyana,colegio,,OSM,node/5583009341,False,Piura,PIURA,Muy alto,9.8,-5.1993213,-80.6431952,1.3,2,2,1,total
+590,46.14,Institución Educativa San Vicente De Paul,colegio,,OSM,node/5583015151,False,Piura,PIURA,Muy alto,9.8,-5.1912284,-80.6448453,1.4,2,2,1,total
+591,46.14,Institución Educativa San Vicente De Paul,colegio,,OSM,node/5583015155,False,Piura,PIURA,Muy alto,9.8,-5.1911384,-80.6441849,1.3,2,2,1,total
+592,46.14,Institución Educativa Ascension Nicol,colegio,,OSM,node/5583022815,False,Piura,PIURA,Muy alto,9.8,-5.1899489,-80.6475408,1.7,2,2,1,total
+593,46.14,Institución Educativa San Marcos,colegio,,OSM,node/5583023003,False,Piura,PIURA,Muy alto,9.8,-5.191307,-80.6386752,0.7,2,2,1,total
+594,46.14,Institución Educativa Celestine Freinet,colegio,,OSM,node/5583023004,False,Piura,PIURA,Muy alto,9.8,-5.1908368,-80.6388436,0.8,2,2,1,total
+595,46.14,Otto Tonsmann,colegio,,OSM,node/5583023008,False,Piura,PIURA,Muy alto,9.8,-5.194341,-80.6366766,0.4,2,2,1,total
+596,46.14,Institución Educativa Hogar Santa Rosa,colegio,,OSM,node/5583023009,False,Piura,PIURA,Muy alto,9.8,-5.1906736,-80.6356886,0.5,2,2,1,total
+597,46.14,Institución Educativa Stella Maris,colegio,,OSM,node/5583023010,False,Piura,PIURA,Muy alto,9.8,-5.1909909,-80.6368578,0.6,2,2,1,total
+598,46.14,Institución Educativa Maria Auxiliadora,colegio,,OSM,node/5583024024,False,Piura,PIURA,Muy alto,9.8,-5.1897573,-80.6470253,1.7,2,2,1,total
+599,46.14,Institución Educativa Independencia,colegio,,OSM,node/5583024026,False,Piura,PIURA,Muy alto,9.8,-5.1897946,-80.6452838,1.5,2,2,1,total
+600,46.14,Institución Educativa Santa Sofia,colegio,,OSM,node/5583025466,False,Piura,PIURA,Muy alto,9.8,-5.1994582,-80.6466437,1.6,2,2,1,total
+601,46.14,Institución Educativa Divina Misericordia,colegio,,OSM,node/5583025472,False,Piura,PIURA,Muy alto,9.8,-5.1980811,-80.6469102,1.6,2,2,1,total
+602,46.14,Institución Educativa Aventuras Y Colores,colegio,,OSM,node/5583025475,False,Piura,PIURA,Muy alto,9.8,-5.198248,-80.6473169,1.7,2,2,1,total
+603,46.14,Institución Educativa Mundo Kids,colegio,,OSM,node/5583025476,False,Piura,PIURA,Muy alto,9.8,-5.1984955,-80.6466544,1.6,2,2,1,total
+604,46.14,Institución Educativa San Martin,colegio,,OSM,node/5583025484,False,Piura,PIURA,Muy alto,9.8,-5.1967255,-80.6534579,2.3,2,2,1,total
+605,46.14,Institución Educativa No. 20440,colegio,,OSM,node/5583025490,False,Piura,PIURA,Muy alto,9.8,-5.1967417,-80.6520921,2.2,2,2,1,total
+606,46.14,Institución Educativa Creciendo Juntos,colegio,,OSM,node/5583025491,False,Piura,PIURA,Muy alto,9.8,-5.1962788,-80.6521157,2.1,2,2,1,total
+607,46.14,Institución Educativa Nuestra Señora Del Carmen Nueva Generacion,colegio,,OSM,node/5583025494,False,Piura,PIURA,Muy alto,9.8,-5.1981568,-80.6536988,2.3,2,2,1,total
+608,46.14,Institución Educativa No. 15282,colegio,,OSM,node/5583033020,False,Piura,PIURA,Muy alto,9.8,-5.1943838,-80.6533482,2.3,2,2,1,total
+609,46.14,Institución Educativa Santo Tomas De Aquino,colegio,,OSM,node/5583033635,False,Piura,PIURA,Muy alto,9.8,-5.1907647,-80.6513065,2.1,2,2,1,total
+610,46.14,Institución Educativa Sol Maria De Los Andes,colegio,,OSM,node/5583033636,False,Piura,PIURA,Muy alto,9.8,-5.1906174,-80.6514212,2.1,2,2,1,total
+611,46.14,Institución Educativa La Sendita De Santa Teresita Del Niño Jesus,colegio,,OSM,node/5583036076,False,Piura,PIURA,Muy alto,9.8,-5.1946177,-80.6318869,0.1,2,2,1,total
+612,46.14,Institución Educativa La Sendita De Santa Teresita Del Niño Jesus,colegio,,OSM,node/5583036077,False,Piura,PIURA,Muy alto,9.8,-5.1943741,-80.6323923,0.0,2,2,1,total
+613,46.14,Institución Educativa El Triunfo,colegio,,OSM,node/5583036080,False,Piura,PIURA,Muy alto,9.8,-5.1907041,-80.6334662,0.4,2,2,1,total
+614,46.14,Institución Educativa San Antonio De Padua,colegio,,OSM,node/5583036081,False,Piura,PIURA,Muy alto,9.8,-5.1918369,-80.6311332,0.3,2,2,1,total
+615,46.14,Institución Educativa Adventista Piura,colegio,,OSM,node/5583036084,False,Piura,PIURA,Muy alto,9.8,-5.1947409,-80.629603,0.4,2,2,1,total
+616,46.14,Institución Educativa La Cantuta,colegio,,OSM,node/5583036088,False,Piura,PIURA,Muy alto,9.8,-5.1914609,-80.632703,0.3,2,2,1,total
+617,46.14,Institución Educativa San Francisco De Asis,colegio,,OSM,node/5583038098,False,Piura,PIURA,Muy alto,9.8,-5.2003398,-80.6292033,0.8,2,2,1,total
+618,46.14,Institución Educativa Jose Antonio Encinas,colegio,,OSM,node/5583038099,False,Piura,PIURA,Muy alto,9.8,-5.2001538,-80.6317187,0.6,2,2,1,total
+619,46.14,Institución Educativa Federico Villarreal,colegio,,OSM,node/5583038101,False,Piura,PIURA,Muy alto,9.8,-5.1970138,-80.6301698,0.4,2,2,1,total
+620,46.14,Institución Educativa Stella Maris,colegio,,OSM,node/5583038103,False,Piura,PIURA,Muy alto,9.8,-5.1968671,-80.6300591,0.4,2,2,1,total
+621,46.14,Institución Educativa 04 De Enero,colegio,,OSM,node/5583038108,False,Piura,PIURA,Muy alto,9.8,-5.1974712,-80.6318551,0.3,2,2,1,total
+622,46.14,Academia El Triunfo,colegio,,OSM,node/5693908407,False,Piura,PIURA,Muy alto,9.8,-5.191662,-80.6283617,0.6,2,2,1,total
+623,46.14,Institución educativa inicial 084 San Pedro,colegio,,OSM,node/11016554422,False,Piura,PIURA,Muy alto,9.8,-5.2024916,-80.6415535,1.3,2,2,1,total
+624,46.14,Institución Educativa Enrique López Albújar,colegio,,OSM,way/317390035,False,Piura,PIURA,Muy alto,9.8,-5.193809,-80.6487192,1.8,2,2,1,total
+625,46.14,Colegio Turicara,colegio,,OSM,way/374303245,False,Piura,PIURA,Muy alto,9.8,-5.1686646,-80.6365318,2.9,2,2,1,total
+626,46.14,Institución Educativa No. 14031,colegio,,OSM,way/387252570,False,Piura,PIURA,Muy alto,9.8,-5.2441085,-80.6489812,5.8,2,2,1,total
+627,46.14,Institución Educativa Trilce de Piura,colegio,,OSM,way/395912819,False,Piura,PIURA,Muy alto,9.8,-5.1869573,-80.6202004,1.6,2,2,1,total
+628,46.14,Colegio San Gabriel,colegio,,OSM,way/397135504,False,Piura,PIURA,Muy alto,9.8,-5.1846004,-80.6209255,1.7,2,2,1,total
+629,46.14,Institución Educativa Maria Montessori,colegio,,OSM,way/397158001,False,Piura,PIURA,Muy alto,9.8,-5.1746407,-80.6287774,2.3,2,2,1,total
+630,46.14,Colegio San Luis Gonzaga,colegio,,OSM,way/397160869,False,Piura,PIURA,Muy alto,9.8,-5.1817256,-80.6338355,1.4,2,2,1,total
+631,46.14,Institución Educativa Vallesol,colegio,,OSM,way/397161383,False,Piura,PIURA,Muy alto,9.8,-5.1778103,-80.632908,1.9,2,2,1,total
+632,46.14,Institución Educativa San Ignacio de Loyola de Piura,colegio,,OSM,way/397162095,False,Piura,PIURA,Muy alto,9.8,-5.1869736,-80.61923,1.7,2,2,1,total
+633,46.14,Institución Educativa Nuestra Señora de Lourdes,colegio,,OSM,way/397162634,False,Piura,PIURA,Muy alto,9.8,-5.1920803,-80.6338446,0.3,2,2,1,total
+634,46.14,I.E.P Premium,colegio,,OSM,way/397163959,False,Piura,PIURA,Muy alto,9.8,-5.1963833,-80.6258863,0.8,2,2,1,total
+635,46.14,Institución Educativa Sagrado Corazon De Jesus,colegio,,OSM,way/397164289,False,Piura,PIURA,Muy alto,9.8,-5.1879679,-80.6285345,0.9,2,2,1,total
+636,46.14,Institución Educativa Nuestra Señora de Fatima,colegio,,OSM,way/397173092,False,Piura,PIURA,Muy alto,9.8,-5.1896196,-80.6369089,0.7,2,2,1,total
+637,46.14,Institución Educativa San José,colegio,,OSM,way/397307799,False,Piura,PIURA,Muy alto,9.8,-5.1925015,-80.6457564,1.5,2,2,1,total
+638,46.14,Jardín D'La amistad,colegio,,OSM,way/397308037,False,Piura,PIURA,Muy alto,9.8,-5.185777,-80.622085,1.5,2,2,1,total
+639,46.14,Institución Educativa Victor Francisco Rosales Ortega,colegio,,OSM,way/397310842,False,Piura,PIURA,Muy alto,9.8,-5.1858901,-80.6342309,1.0,2,2,1,total
+640,46.14,Institución Educativa P.N.P. Bacilio Ramírez Peña,colegio,,OSM,way/397312842,False,Piura,PIURA,Muy alto,9.8,-5.1881141,-80.6497237,2.0,2,2,1,total
+641,46.14,Institución Educativa Particular Hogar San Antonio,colegio,,OSM,way/397490924,False,Piura,PIURA,Muy alto,9.8,-5.1913577,-80.6348256,0.4,2,2,1,total
+642,46.14,Institución Educativa San Miguel,colegio,,OSM,way/397498433,False,Piura,PIURA,Muy alto,9.8,-5.1968034,-80.6344505,0.3,2,2,1,total
+643,46.14,Institución Educativa Santa María,colegio,,OSM,way/397523715,False,Piura,PIURA,Muy alto,9.8,-5.184109,-80.6279603,1.3,2,2,1,total
+644,46.14,Institución Educativa San Pedro,colegio,,OSM,way/468265353,False,Piura,PIURA,Muy alto,9.8,-5.2005797,-80.6416018,1.2,2,2,1,total
+645,46.14,Institución Educativa No. 20197,colegio,,OSM,way/468278377,False,Piura,PIURA,Muy alto,9.8,-5.2037538,-80.6367259,1.1,2,2,1,total
+646,46.14,Institución Educativa No. 15005,colegio,,OSM,way/468278379,False,Piura,PIURA,Muy alto,9.8,-5.2048018,-80.6334911,1.1,2,2,1,total
+647,46.14,Colegio Internacional Elim,colegio,,OSM,way/468278380,False,Piura,PIURA,Muy alto,9.8,-5.2042908,-80.6329114,1.1,2,2,1,total
+648,46.14,Institución Educativa No. 14044,colegio,,OSM,way/720033143,False,Piura,PIURA,Muy alto,9.8,-5.2477337,-80.6704159,7.2,2,2,1,total
+649,46.14,Institución Educativa Proyecto,colegio,,OSM,way/878409067,False,Piura,PIURA,Muy alto,9.8,-5.1810809,-80.6286841,1.6,2,2,1,total
+650,46.14,Institución Educativa San José Obrero,colegio,,OSM,way/896780013,False,Piura,PIURA,Muy alto,9.8,-5.1922026,-80.6437689,1.2,2,2,1,total
+651,46.14,Institución Educativa 14001 Magdalena Seminario de Llirod,colegio,,OSM,way/897224488,False,Piura,PIURA,Muy alto,9.8,-5.196028,-80.6378739,0.6,2,2,1,total
+652,46.14,Institución Educativa 14005 Lucia Estela Echeandia Altuna,colegio,,OSM,way/897226333,False,Piura,PIURA,Muy alto,9.8,-5.1952493,-80.6430421,1.1,2,2,1,total
+653,46.14,Institución Educativa Selmira de Varona,colegio,,OSM,way/897328888,False,Piura,PIURA,Muy alto,9.8,-5.1910973,-80.6494774,1.9,2,2,1,total
+654,46.14,Institución Educativa Inicial Nº 24,colegio,,OSM,way/897385435,False,Piura,PIURA,Muy alto,9.8,-5.1978539,-80.6450085,1.4,2,2,1,total
+655,46.14,Institución Educativa 15317 César Abraham Vallejo Mendoza,colegio,,OSM,way/897385437,False,Piura,PIURA,Muy alto,9.8,-5.1972364,-80.645345,1.4,2,2,1,total
+656,46.14,Institución Educativa Rosita Mistica,colegio,,OSM,way/1024503974,False,Piura,PIURA,Muy alto,9.8,-5.176606,-80.6407289,2.2,2,2,1,total
+657,46.14,Institución Educativa No. 14987,colegio,,OSM,way/1030850657,False,Piura,PIURA,Muy alto,9.8,-5.142088,-80.6296502,5.8,2,2,1,total
+658,46.14,Institución Educativa 14116 San Martin De Porras,colegio,,OSM,way/1031074949,False,Piura,PIURA,Muy alto,9.8,-5.2173579,-80.626504,2.6,2,2,1,total
+659,46.14,Institución Educativa 14112 Augusto Timana Sosa,colegio,,OSM,way/1031074960,False,Piura,PIURA,Muy alto,9.8,-5.2156,-80.6278235,2.4,2,2,1,total
+660,46.14,Institución Educativa Josemaria Escriva De Balaguer,colegio,,OSM,way/1031539721,False,Piura,PIURA,Muy alto,9.8,-5.2107621,-80.624785,2.0,2,2,1,total
+661,46.14,Institución Educativa Divino Niño,colegio,,OSM,way/1031539992,False,Piura,PIURA,Muy alto,9.8,-5.208379,-80.6258937,1.7,2,2,1,total
+662,46.14,Innova Schools,colegio,,OSM,way/1279716202,False,Piura,PIURA,Muy alto,9.8,-5.158764,-80.6268638,4.0,2,2,1,total
+663,46.14,Innova Schools Piura Progreso,colegio,,OSM,way/1294602886,False,Piura,PIURA,Muy alto,9.8,-5.2290158,-80.6311551,3.8,2,2,1,total
+664,46.14,(colegio sin nombre),colegio,,OSM,way/1338978335,False,Piura,PIURA,Muy alto,9.8,-5.1863822,-80.6260586,1.2,2,2,1,total
+665,46.14,Institución Educativa Inicial Mariscal Ramón Castilla,colegio,,OSM,way/1338978442,False,Piura,PIURA,Muy alto,9.8,-5.1992827,-80.6216748,1.3,2,2,1,total
+666,46.14,Institución Educativa 15015 Héroes Del Cenepa,colegio,,OSM,way/1338978443,False,Piura,PIURA,Muy alto,9.8,-5.1993616,-80.6213178,1.4,2,2,1,total
+667,46.14,Centro de Educación Básica Especial Paul Harris,colegio,,OSM,way/1372776558,False,Piura,PIURA,Muy alto,9.8,-5.18827,-80.6460883,1.6,2,2,1,total
+668,46.14,(colegio sin nombre),colegio,,OSM,way/1414339654,False,Piura,PIURA,Muy alto,9.8,-5.1577646,-80.6204604,4.3,2,2,1,total
+669,46.14,Institución Educativa Salesiano Don Bosco,colegio,,OSM,way/1419252749,False,Piura,PIURA,Muy alto,9.8,-5.1960823,-80.6224187,1.2,2,2,1,total
+670,46.14,Institución Educativa Agropecuario 07,colegio,,OSM,way/1449482783,False,Piura,PIURA,Muy alto,9.8,-5.2275348,-80.6301557,3.7,2,2,1,total
+671,46.14,Colegio Salesiano,colegio,,OSM,way/1472535474,False,Piura,PIURA,Muy alto,9.8,-5.192863,-80.6249767,0.9,2,2,1,total
+672,46.14,I.E.P. Ebenezer School,colegio,,OSM,way/1538932992,False,Piura,PIURA,Muy alto,9.8,-5.2103758,-80.6265988,1.9,2,2,1,total
+673,46.14,I.E. Parcemón Saldarriaga Montejo,colegio,,OSM,way/1548466810,False,Piura,PIURA,Muy alto,9.8,-5.1885866,-80.6288658,0.8,2,2,1,total
+674,46.14,Institución Educativa Ann Goulden,colegio,,OSM,way/1549168795,False,Piura,PIURA,Muy alto,9.8,-5.2030413,-80.6285495,1.1,2,2,1,total
+675,46.14,Institución Educativa No. 20446,colegio,,OSM,way/1564802238,False,Piura,PIURA,Muy alto,9.8,-5.2528401,-80.6649911,7.4,2,2,1,total
