@@ -1,0 +1,11 @@
+modelo,p_media,frec_obs,origen_objetivo
+lightgbm,0.016,0.172,demo_sintetico
+lightgbm,0.048,0.034,demo_sintetico
+lightgbm,0.102,0.071,demo_sintetico
+lightgbm,0.237,0.138,demo_sintetico
+lightgbm,0.793,0.828,demo_sintetico
+logistica,0.037,0.138,demo_sintetico
+logistica,0.065,0.069,demo_sintetico
+logistica,0.115,0.0,demo_sintetico
+logistica,0.237,0.207,demo_sintetico
+logistica,0.719,0.828,demo_sintetico

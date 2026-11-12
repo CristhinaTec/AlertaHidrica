@@ -1,0 +1,8 @@
+variable,importancia_perm_brier,sd,coef_logit_std,tipo_dato_X,origen_objetivo,rotulo
+lluvia_max_dia,0.0299,0.00307,0.8055,real,demo_sintetico,"DEMOSTRACION DEL METODO, no precision real (objetivo demo_sintetico)"
+nino12_lag2,0.00699,0.00126,-0.49273,real,demo_sintetico,"DEMOSTRACION DEL METODO, no precision real (objetivo demo_sintetico)"
+nino12_lag1,0.0035,0.00093,0.39355,real,demo_sintetico,"DEMOSTRACION DEL METODO, no precision real (objetivo demo_sintetico)"
+nino12_lag0,0.00238,0.00065,0.32165,real,demo_sintetico,"DEMOSTRACION DEL METODO, no precision real (objetivo demo_sintetico)"
+log_caudal_max,0.00181,0.00065,0.28361,real,demo_sintetico,"DEMOSTRACION DEL METODO, no precision real (objetivo demo_sintetico)"
+log_lluvia_mes,0.00022,0.00025,0.0841,real,demo_sintetico,"DEMOSTRACION DEL METODO, no precision real (objetivo demo_sintetico)"
+iv_loc,4e-05,3e-05,0.01626,demo_sintetico,demo_sintetico,"DEMOSTRACION DEL METODO, no precision real (objetivo demo_sintetico)"

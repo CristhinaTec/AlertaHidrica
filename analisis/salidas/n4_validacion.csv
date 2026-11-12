@@ -1,0 +1,7 @@
+prueba,metodo,n,eventos,brier,auc,POD,FAR,origen_objetivo
+2017,logistica,72,20,0.114,0.787,0.7,0.263,demo_sintetico
+2017,regla_feb_mar,72,20,0.139,0.765,0.55,0.083,demo_sintetico
+2017,lightgbm,72,20,0.112,0.786,0.65,0.235,demo_sintetico
+2023,logistica,72,16,0.085,0.848,0.75,0.25,demo_sintetico
+2023,regla_feb_mar,72,16,0.25,0.594,0.312,0.583,demo_sintetico
+2023,lightgbm,72,16,0.091,0.836,0.688,0.389,demo_sintetico
