@@ -1,0 +1,168 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "@fontsource-variable/geist";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+    --color-brand: var(--brand);
+    --color-brand-ink: var(--brand-ink);
+    --color-brand-lima: var(--brand-lima);
+    --color-brand-soft: var(--brand-soft);
+    --color-sem-verde: var(--sem-verde);
+    --color-sem-amarillo: var(--sem-amarillo);
+    --color-sem-naranja: var(--sem-naranja);
+    --color-sem-rojo: var(--sem-rojo);
+    --color-brand-lila: var(--brand-lila);
+    --color-brand-rosa: var(--brand-rosa);
+    --color-ink-navy: var(--ink-navy);
+    --color-ink-gris: var(--ink-gris);
+    --font-mono: 'JetBrains Mono', 'Cascadia Code', ui-monospace, monospace;
+    --font-heading: var(--font-sans);
+    --font-sans: 'Geist Variable', sans-serif;
+    --color-sidebar-ring: var(--sidebar-ring);
+    --color-sidebar-border: var(--sidebar-border);
+    --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+    --color-sidebar-accent: var(--sidebar-accent);
+    --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+    --color-sidebar-primary: var(--sidebar-primary);
+    --color-sidebar-foreground: var(--sidebar-foreground);
+    --color-sidebar: var(--sidebar);
+    --color-chart-5: var(--chart-5);
+    --color-chart-4: var(--chart-4);
+    --color-chart-3: var(--chart-3);
+    --color-chart-2: var(--chart-2);
+    --color-chart-1: var(--chart-1);
+    --color-ring: var(--ring);
+    --color-input: var(--input);
+    --color-border: var(--border);
+    --color-destructive: var(--destructive);
+    --color-accent-foreground: var(--accent-foreground);
+    --color-accent: var(--accent);
+    --color-muted-foreground: var(--muted-foreground);
+    --color-muted: var(--muted);
+    --color-secondary-foreground: var(--secondary-foreground);
+    --color-secondary: var(--secondary);
+    --color-primary-foreground: var(--primary-foreground);
+    --color-primary: var(--primary);
+    --color-popover-foreground: var(--popover-foreground);
+    --color-popover: var(--popover);
+    --color-card-foreground: var(--card-foreground);
+    --color-card: var(--card);
+    --color-foreground: var(--foreground);
+    --color-background: var(--background);
+    --radius-sm: calc(var(--radius) * 0.6);
+    --radius-md: calc(var(--radius) * 0.8);
+    --radius-lg: var(--radius);
+    --radius-xl: calc(var(--radius) * 1.4);
+    --radius-2xl: calc(var(--radius) * 1.8);
+    --radius-3xl: calc(var(--radius) * 2.2);
+    --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+    /* Marca: paleta de la hackathon Sunass "Lideresas por el Agua" (extraída de las bases). Cambiar aquí si se usa la institucional. */
+    --brand: #6d61eb;
+    --brand-ink: #46437e;
+    --brand-lima: #cbee79;
+    --brand-soft: #f5e9f0;
+    --brand-lila: #bdadc2;
+    --brand-rosa: #f5e9f0;
+    --ink-navy: #1d1b3a;
+    --ink-gris: #656162;
+    /* Semáforo: reservado SOLO para estados */
+    --sem-verde: #1e8e4f;
+    --sem-amarillo: #f2c230;
+    --sem-naranja: #e06c0b;
+    --sem-rojo: #c93030;
+    --background: #fbf7fa;
+    --foreground: #1d1b3a;
+    --card: #ffffff;
+    --card-foreground: #1d1b3a;
+    --popover: #ffffff;
+    --popover-foreground: #1d1b3a;
+    --primary: var(--brand);
+    --primary-foreground: #ffffff;
+    --secondary: var(--brand-soft);
+    --secondary-foreground: var(--brand-ink);
+    --muted: #f5e9f0;
+    --muted-foreground: #5c585a;
+    --accent: var(--brand-soft);
+    --accent-foreground: var(--brand-ink);
+    --destructive: #c93030;
+    --border: #e4e1ef;
+    --input: #d9d5ea;
+    --ring: var(--brand);
+    --chart-1: #6d61eb; --chart-2: #bdadc2; --chart-3: #46437e; --chart-4: #cbee79; --chart-5: #656162;
+    --radius: 0.75rem;
+    --sidebar: #ffffff; --sidebar-foreground: #1d1b3a; --sidebar-primary: var(--brand); --sidebar-primary-foreground: #fff;
+    --sidebar-accent: var(--brand-soft); --sidebar-accent-foreground: var(--brand-ink); --sidebar-border: #e4e1ef; --sidebar-ring: var(--brand);
+}
+
+.dark {
+    --background: oklch(0.145 0 0);
+    --foreground: oklch(0.985 0 0);
+    --card: oklch(0.205 0 0);
+    --card-foreground: oklch(0.985 0 0);
+    --popover: oklch(0.205 0 0);
+    --popover-foreground: oklch(0.985 0 0);
+    --primary: oklch(0.922 0 0);
+    --primary-foreground: oklch(0.205 0 0);
+    --secondary: oklch(0.269 0 0);
+    --secondary-foreground: oklch(0.985 0 0);
+    --muted: oklch(0.269 0 0);
+    --muted-foreground: oklch(0.708 0 0);
+    --accent: oklch(0.269 0 0);
+    --accent-foreground: oklch(0.985 0 0);
+    --destructive: oklch(0.704 0.191 22.216);
+    --border: oklch(1 0 0 / 10%);
+    --input: oklch(1 0 0 / 15%);
+    --ring: oklch(0.556 0 0);
+    --chart-1: oklch(0.87 0 0);
+    --chart-2: oklch(0.556 0 0);
+    --chart-3: oklch(0.439 0 0);
+    --chart-4: oklch(0.371 0 0);
+    --chart-5: oklch(0.269 0 0);
+    --sidebar: oklch(0.205 0 0);
+    --sidebar-foreground: oklch(0.985 0 0);
+    --sidebar-primary: oklch(0.488 0.243 264.376);
+    --sidebar-primary-foreground: oklch(0.985 0 0);
+    --sidebar-accent: oklch(0.269 0 0);
+    --sidebar-accent-foreground: oklch(0.985 0 0);
+    --sidebar-border: oklch(1 0 0 / 10%);
+    --sidebar-ring: oklch(0.556 0 0);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+    }
+  body {
+    @apply bg-background text-foreground;
+    }
+  html {
+    @apply font-sans;
+    }
+}
+.leaflet-container { font: inherit; border-radius: var(--radius); }
+
+/* ---- Motivos visuales de la hackathon ---- */
+.mono-label { font-family: var(--font-mono); font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--brand-ink); }
+.font-mono, .mono { font-family: var(--font-mono); }
+.titulo-lima { display: inline; background: linear-gradient(transparent 72%, var(--brand-lima) 72%, var(--brand-lima) 94%, transparent 94%); }
+.hero-grid {
+  background-color: var(--brand-rosa);
+  background-image: linear-gradient(rgba(109,97,235,.09) 1px, transparent 1px), linear-gradient(90deg, rgba(109,97,235,.09) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+.wordmark { font-weight: 900; letter-spacing: -.01em; color: #fff; text-shadow: 3px 3px 0 var(--ink-navy); }
+.ventana { position: relative; padding-top: 1.6rem !important; border: 1px solid var(--brand-lila); }
+.ventana::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 1.1rem; background: var(--brand-rosa); border-bottom: 1px solid var(--brand-lila); }
+.ventana::after { content: ""; position: absolute; top: .38rem; left: .6rem; width: .38rem; height: .38rem; border-radius: 9999px;
+  background: var(--brand); box-shadow: .6rem 0 0 var(--brand-lila), 1.2rem 0 0 var(--brand-lima); }
+.tabla-marca thead th { background: var(--ink-navy); color: #fff; }
+.chip { display: inline-flex; align-items: center; gap: .3rem; border-radius: 9999px; border: 1px solid var(--ink-navy); background: var(--brand-lima); color: var(--ink-navy);
+  padding: .1rem .55rem; font-family: var(--font-mono); font-size: .68rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; }
+.chip-lila { background: var(--brand-rosa); border-color: var(--brand-lila); color: var(--brand-ink); }
+.chip-borde { background: #fff; border-style: dashed; color: var(--ink-gris); }
