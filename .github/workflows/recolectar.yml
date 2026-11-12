@@ -1,0 +1,26 @@
+# Recolecta las fuentes públicas y recalcula el pronóstico cada 6 horas.
+name: Recolectar y pronosticar
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  recolectar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r recolector/requirements.txt
+      - run: python pronostico.py
+        working-directory: recolector
+      - name: Guardar el pronóstico en el repositorio
+        run: |
+          git config user.name "alertahidrica-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add web/public/data/pronostico.json
+          git diff --cached --quiet || git commit -m "Pronóstico automático $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
